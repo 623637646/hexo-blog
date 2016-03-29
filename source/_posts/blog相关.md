@@ -1,10 +1,7 @@
 ---
 title: blog相关
 tags:
-  - jekyll
-  - Liquid
-  - markdown
-  - Blog
+  - blog
 date: 2016-03-29 08:00:00
 ---
 

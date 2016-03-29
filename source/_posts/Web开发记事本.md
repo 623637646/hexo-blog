@@ -1,7 +1,7 @@
 ---
 title: Web开发记事本
 tags:
-  - Web
+  - web
 date: 2015-11-23 08:00:00
 ---
 

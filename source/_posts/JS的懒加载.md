@@ -1,8 +1,7 @@
 ---
 title: JS的懒加载
 tags:
-  - JS Github 开源
-  - JS
+  - js 
 date: 2015-11-21 08:00:00
 ---
 

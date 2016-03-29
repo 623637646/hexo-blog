@@ -1,7 +1,6 @@
 ---
 title: 有关cocoapods的一些小东西
 tags:
-  - cocoapods
   - iOS
 date: 2016-03-28 08:00:00
 ---
