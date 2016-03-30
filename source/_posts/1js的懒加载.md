@@ -1,5 +1,5 @@
 ---
-title: JS的懒加载
+title: js的懒加载
 tags:
   - js 
 date: 2015-11-21 08:00:00
