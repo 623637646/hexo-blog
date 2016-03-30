@@ -1,5 +1,7 @@
 ---
 title: blog相关
+categories:
+  - blog
 tags:
   - blog
 date: 2016-03-29 08:00:00
@@ -38,4 +40,4 @@ hexo，比jekyll更快！
 - [hexo-theme-yilia主题](https://github.com/litten/hexo-theme-yilia)
 
 
-## [Liquid教程](http://blog.csdn.net/dont27/article/details/38097581)
+## [liquid教程](http://blog.csdn.net/dont27/article/details/38097581)

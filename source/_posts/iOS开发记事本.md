@@ -1,7 +1,10 @@
 ---
 title: iOS开发记事本
+categories:
+  - iOS
 tags:
   - iOS
+  - 记事本
 date: 2016-03-14 08:00:00
 ---
 

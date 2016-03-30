@@ -1,7 +1,10 @@
 ---
 title: web开发记事本
+categories:
+  - web
 tags:
   - web
+  - 记事本
 date: 2015-11-23 08:00:00
 ---
 

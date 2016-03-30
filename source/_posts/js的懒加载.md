@@ -1,7 +1,11 @@
 ---
 title: js的懒加载
+categories:
+  - web
+  - js
 tags:
   - js 
+  - 懒加载
 date: 2015-11-21 08:00:00
 ---
 

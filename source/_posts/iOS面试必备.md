@@ -1,7 +1,10 @@
 ---
 title: iOS面试必备
+categories:
+  - iOS
 tags:
   - iOS
+  - 面试
 date: 2015-11-28 08:00:00
 ---
 
