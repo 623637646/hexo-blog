@@ -1,5 +1,5 @@
 ---
-title: IOS面试必备
+title: iOS面试必备
 tags:
   - iOS
 date: 2015-11-28 08:00:00
@@ -39,7 +39,7 @@ delegate通过protocol来实现
 - \_\_block对象可以在block中被重新赋值, \_\_weak不可以。
 - \_\_weak 和assign 的区别在于，对象销毁 ，\_\_weak置为nil，而assign为野指针，\_\_weak更安全
 
-## __IOS layer__
+## __iOS layer__
 CALayer(层)是屏幕上的一个矩形区域，在每一个UIView中都包含一个根CALayer，在UIView上的所有视觉效果都是在这个Layer上进行的。  
 他和UIView的区别是，只管绘制渲染。UIView是它的容器，UIView负责监听事件。 形象的比喻view是画板，layer是画布
 
@@ -163,7 +163,7 @@ get put post delete。
 需求分析，架构设计，编码，测试，维护
 
 ## __你需要问面试官的问题__
-- 公司IOS人员架构
+- 公司iOS人员架构
 - 公司文化，加班文化
 - 此次面试不足
 - 薪水，其他福利，五险一金怎么缴纳
