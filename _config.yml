@@ -7,8 +7,10 @@ title: 工匠氩
 subtitle: 追求工匠精神,不只是互联网
 description: 描述什么的最讨厌了
 author: 王氩
-language: zh-CN
+# language: zh-CN
+language: zh-Hans
 timezone:
+avatar: /images/avatar.jpg
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -63,7 +65,8 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+# theme: landscape
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
