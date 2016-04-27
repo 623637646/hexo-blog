@@ -250,6 +250,14 @@ data_github: [
 					"https://camo.githubusercontent.com/9f35f542e9f5cbc1494dd8d7c1cbf98c803ee822/68747470733a2f2f7261772e6769746875622e636f6d2f726e797374726f6d2f524e46726f737465644d656e752f6d61737465722f696d616765732f636c69636b2e676966",
 				]
 			},
+			{
+				user: "Yalantis",
+				repo: "GuillotineMenu",
+				description: "代替抽屉",
+				imgs: [
+					"https://camo.githubusercontent.com/10639e803a90fadd751d3683c497c449e2a48339/68747470733a2f2f6431337961637572716a676172612e636c6f756466726f6e742e6e65742f75736572732f3439353739322f73637265656e73686f74732f323031383234392f64726166745f30362e676966",
+				]
+			},
 		]
 	},
      {
@@ -695,6 +703,15 @@ data_github: [
 				]
 			},
 			{
+				user: "Yalantis",
+				repo: "Koloda",
+				description: "卡片切换",
+				imgs: [
+					"https://github.com/Yalantis/Koloda/raw/master/Koloda_v2_example_animation.gif",
+					"https://github.com/Yalantis/Koloda/raw/master/Koloda_v1_example_animation.gif",
+				]
+			},
+			{
 				user: "andreamazz",
 				repo: "AMWaveTransition",
 				description: "用于tableview,collectionview,scrollview",
@@ -922,6 +939,13 @@ data_github: [
                 description: "swift，可拖动，拖拽",
                 imgs: [
                     "https://github.com/ra1028/RAReorderableLayout/raw/master/Assets/screenshot1.png",
+                ]
+            },
+            {
+                user: "Yalantis",
+                repo: "DisplaySwitcher",
+                imgs: [
+                    "https://camo.githubusercontent.com/5ca0dbe3d8c4d8cb5e658bca6964565eda970019/68747470733a2f2f6431337961637572716a676172612e636c6f756466726f6e742e6e65742f75736572732f3131363639332f73637265656e73686f74732f323237363036382f6f70656e2d75726932303135313030352d332d77616c633539",
                 ]
             },
 			{
