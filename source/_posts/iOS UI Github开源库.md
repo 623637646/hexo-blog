@@ -212,6 +212,13 @@ data_github: [
 				]
 			},
 			{
+				user: "Yalantis",
+				repo: "Side-Menu.iOS",
+				imgs: [
+					"https://camo.githubusercontent.com/cb6caa7a392d01d46bca9d9485c01fc173f55fac/68747470733a2f2f6431337961637572716a676172612e636c6f756466726f6e742e6e65742f75736572732f3132353035362f73637265656e73686f74732f313638393932322f6576656e74732d6d656e755f312d312d362e676966",
+				]
+			},
+			{
 				user: "GnosisHub",
 				repo: "GHContextMenu",
 				imgs: [
@@ -826,6 +833,14 @@ data_github: [
 				description: "tabbarController左右滑动切换",
 				imgs: [
 					"https://github.com/leichunfeng/WXTabBarController/raw/master/GIF/WXTabBarController.gif",
+				]
+			},
+			{
+				user: "Yalantis",
+				repo: "FoldingTabBar.iOS",
+				description: "新颖的tabbarcontroller",
+				imgs: [
+					"https://camo.githubusercontent.com/e09bb8fc50adba318c9f22174d1751c566f69530/68747470733a2f2f6431337961637572716a676172612e636c6f756466726f6e742e6e65742f75736572732f3439353739322f73637265656e73686f74732f323030333337362f7461625f6261725f616e696d6174696f6e5f66696e2d30322e676966",
 				]
 			},
 		]
@@ -1678,6 +1693,14 @@ data_github: [
 				description: "pop一个封装，方便使用pop",
 			},
 			{
+				user: "schneiderandre",
+				repo: "popping",
+				description: "pop demo",
+				imgs:[
+						"https://camo.githubusercontent.com/a7a98afd238fd3e51d50af8389e6c2dfc3577d45/68747470733a2f2f646c2e64726f70626f7875736572636f6e74656e742e636f6d2f752f31393135303330302f4769746875622f506f7070696e672f706f7070696e672e676966"
+				]
+			},
+			{
 				user: "hfossli",
 				repo: "AGGeometryKit-POP",
 				description: "图片动画，基于pop",
@@ -1685,6 +1708,23 @@ data_github: [
 					"https://github.com/hfossli/AGGeometryKit-POP/raw/master/logo.png?raw=true",
 					"https://github.com/hfossli/AGGeometryKit-POP/raw/master/drag-around.gif",
 					"https://github.com/hfossli/AGGeometryKit-POP/raw/master/video-aggeometrykit-pop.png",
+				]
+			},
+			{
+				user: "MengTo",
+				repo: "Spring",
+				description: "swift,动画丰富",
+				imgs: [
+					"https://camo.githubusercontent.com/4b086bf363f44f96e9384c06fbfc36610a98f9d3/687474703a2f2f636c2e6c792f696d6167652f3031325230443352337832672f646f776e6c6f61642f737072696e677377696674322e6a7067",
+					"https://camo.githubusercontent.com/301f360304b089f40989a870ff3c04572054e288/687474703a2f2f636c2e6c792f696d6167652f316e3145326a3357337932342f737072696e6773637265656e2e6a7067",
+				]
+			},
+			{
+				user: "jhurray",
+				repo: "JHChainableAnimations",
+				description: "方便的使用连续动画（chainable animations）",
+				imgs: [
+					"https://github.com/jhurray/JHChainableAnimations/raw/master/Gifs/JHChainableAnimationsExample3.gif",
 				]
 			},
 			{
