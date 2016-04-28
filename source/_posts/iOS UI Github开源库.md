@@ -418,6 +418,20 @@ data_github: [
  "https://camo.githubusercontent.com/d406ac5a03a2b1fa5cf41fadc8d2408cb8709bdc/68747470733a2f2f6431337961637572716a676172612e636c6f756466726f6e742e6e65742f75736572732f3132353035362f73637265656e73686f74732f313635303331372f7265616c6573746174652d70756c6c5f312d322d332e676966",
                               ]
                          },
+                         {
+                              user: "Yalantis",
+                              repo: "PullToMakeSoup",
+                              imgs: [
+ 								"https://raw.githubusercontent.com/Yalantis/PullToMakeSoup/master/PullToMakeSoupDemo/Resouces/recipe-finder.gif",
+                              ]
+                         },
+                         {
+                              user: "Yalantis",
+                              repo: "PullToMakeFlight",
+                              imgs: [
+ 								"https://raw.githubusercontent.com/Yalantis/PullToMakeFlight/master/PullToMakeFlightDemo/Resources/tours-pull-airplane.gif",
+                              ]
+                         },
 						 {
 							user: "samvermette",
 							repo: "SVPullToRefresh",
@@ -485,6 +499,15 @@ data_github: [
 				  repo: "TOMSMorphingLabel",
 				  imgs: [
 "https://github.com/tomknig/TOMSMorphingLabel/raw/master/demo.gif",
+				  ]
+			 },
+			 {
+				  user: "Yalantis",
+				  repo: "Preloader.Ophiuchus",
+				  imgs: [
+					"https://raw.githubusercontent.com/Yalantis/Ophiuchus/master/Example/Ophiuchus/Resources/yalantistwodirections.gif",
+					"https://raw.githubusercontent.com/Yalantis/Ophiuchus/master/Example/Ophiuchus/Resources/animation.gif",
+					"https://raw.githubusercontent.com/Yalantis/Ophiuchus/master/Example/Ophiuchus/Resources/thegreenhorse.gif",
 				  ]
 			 },
             {
@@ -737,6 +760,13 @@ data_github: [
 				]
 			},
 			{
+				user: "Yalantis",
+				repo: "StarWars.iOS",
+				imgs: [
+					"https://camo.githubusercontent.com/012ac6305c18bc9484d859343d027d3edb762669/68747470733a2f2f79616c616e7469732d636f6d2e73332e616d617a6f6e6177732e636f6d2f75706c6f6164732f636b656469746f722f70696374757265732f34392f636f6e74656e745f737461725f776172732d73686f745f5f315f2e676966",
+				]
+			},
+			{
 				user: "shu223",
 				repo: "AnimatedTransitionGallery",
 				description: "基于IOS7:Transitions",
@@ -825,6 +855,13 @@ data_github: [
 				description: "tab，Segmented，分段选择器",
 				imgs: [
 					"https://raw.githubusercontent.com/HeshamMegid/HMSegmentedControl/master/Screenshot.png",
+				]
+			},
+			{
+				user: "Yalantis",
+				repo: "Persei",
+				imgs: [
+					"https://github.com/Yalantis/Persei/raw/master/Assets/animation.gif",
 				]
 			},
 			{
