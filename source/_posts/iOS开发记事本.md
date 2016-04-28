@@ -23,3 +23,5 @@ date: 2016-03-14 00:00:00
 [iOS 保持界面流畅的技巧](http://blog.ibireme.com/2015/11/12/smooth_user_interfaces_for_ios/)  YYKit的作者所写，太凶残了!
 
 [iOS动画：iOS-Core-Animation-Advanced-Techniques](https://github.com/AttackOnDobby/iOS-Core-Animation-Advanced-Techniques)  iOS动画，很详细!
+
+[iOS动画库：awesome-ios-animation](https://github.com/sxyx2008/awesome-ios-animation)  收集整理了下iOS平台下比较主流炫酷的几款动画框架

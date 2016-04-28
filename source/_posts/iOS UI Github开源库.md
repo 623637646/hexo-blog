@@ -174,6 +174,13 @@ data_github: [
 				]
 			},
 			{
+				user: "andreamazz",
+				repo: "AMPopTip",
+				imgs: [
+					"https://raw.githubusercontent.com/andreamazz/AMPopTip/master/assets/screenshot.gif",
+				]
+			},
+			{
 				user: "romaonthego",
 				repo: "REMenu",
 				imgs: [
@@ -430,6 +437,13 @@ data_github: [
                               repo: "PullToMakeFlight",
                               imgs: [
  								"https://raw.githubusercontent.com/Yalantis/PullToMakeFlight/master/PullToMakeFlightDemo/Resources/tours-pull-airplane.gif",
+                              ]
+                         },
+                         {
+                              user: "andreamazz",
+                              repo: "GearRefreshControl",
+                              imgs: [
+ 								"https://raw.githubusercontent.com/andreamazz/GearRefreshControl/master/assets/screenshot.gif",
                               ]
                          },
 						 {
@@ -793,6 +807,13 @@ data_github: [
 				description: "基于IOS7:Transitions",
 				imgs: [
 					"https://camo.githubusercontent.com/85800d3c1b66b7c71ab43023001d52d1e8696c7f/687474703a2f2f7261772e6769746875622e636f6d2f5261697a6c6162732f525a5472616e736974696f6e732f6d61737465722f5765622f525a5472616e736974696f6e7344656d6f2e676966",
+				]
+			},
+			{
+				user: "andreamazz",
+				repo: "BubbleTransition",
+				imgs: [
+					"https://raw.githubusercontent.com/andreamazz/BubbleTransition/master/assets/screenshot.gif",
 				]
 			},
 			{
@@ -1993,6 +2014,14 @@ data_github: [
 				description: "三个黄点缓冲ui，导航栏的隐藏显示",
 				imgs: [
 					"https://raw.githubusercontent.com/KMindeguia/movies/master/Gif%20Demo/demo.gif",
+				]
+			},
+			{
+				user: "andreamazz",
+				repo: "SubtleVolume",
+				description: "代替系统原生声音设置UI",
+				imgs: [
+					"https://github.com/andreamazz/SubtleVolume/raw/master/assets/screenshot.png",
 				]
 			},
         ]
