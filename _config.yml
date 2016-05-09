@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 工匠氩
+title: 码猴王
 subtitle: 追求工匠精神,不只是互联网
 description: 描述什么的最讨厌了
 author: 王氩
@@ -75,4 +75,4 @@ deploy:
   repo: https://github.com/623637646/623637646.github.io.git
 
 # 评论
-disqus_shortname: 623637646
+disqus_shortname: mahouwang
