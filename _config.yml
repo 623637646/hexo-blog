@@ -76,3 +76,6 @@ deploy:
 
 # 评论
 disqus_shortname: mahouwang
+
+# google分析
+google_analytics: UA-77478406-1
