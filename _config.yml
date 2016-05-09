@@ -73,3 +73,6 @@ theme: next
 deploy:
   type: git
   repo: https://github.com/623637646/623637646.github.io.git
+
+# 评论
+disqus_shortname: 623637646
