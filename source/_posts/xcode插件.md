@@ -224,6 +224,7 @@ data_github: [
 		{% for img in project.imgs %}
 			<img data-src="{{ img }}" class="lazyload" />
 		{% endfor %}
+		<!-- more -->
 		<div class="post-eof"></div>
 	{% endfor %}
 {% endfor %}

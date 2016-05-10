@@ -15,6 +15,8 @@ date: 2015-11-28 00:00:00
 *   MagicalRecor	数据持久化
 *   其他开源库的使用：CocoaPods，CocoaLumberjack，Masonry，TMCache，pop，SDWebImage，GPUImage，FLEX
 
+<!-- more -->
+
 ## **多线程**
 
 *   GCD基于硬件的多核编程，抽象度低，接口简单，用于简单的多线程
