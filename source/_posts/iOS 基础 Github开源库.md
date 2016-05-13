@@ -7,7 +7,7 @@ tags:
   - github
   - 开源
 date: 2015-11-28 00:00:00
-
+layout: github_post
 data_github: [
 	{
 		keywords: [响应式编程],
@@ -1004,19 +1004,3 @@ data_github: [
 	},
 ]
 ---
-<script src="//cdn.bootcss.com/lazysizes/1.4.0/lazysizes.min.js"></script>
-{% for data_item in data_github %}
-	<h2 id="{{ data_item.keywords }}" style="text-align: center;">{{ data_item.keywords }}</h2>
-	{% for project in data_item.projects %}
-		<h3 id="{{ project.repo }}">
-		<a href="//github.com/{{ project.user }}/{{ project.repo }}" target="_blank">{{ project.repo }}</a>
-		<iframe data-src="https://ghbtns.com/github-btn.html?user={{ project.user }}&repo={{ project.repo }}&type=star&count=true" frameborder="0" scrolling="0" width="120px" height="20px" class="lazyload"></iframe>
-		</h3>
-		{{ project.description }}
-		{% for img in project.imgs %}
-			<img data-src="{{ img }}" class="lazyload" />
-		{% endfor %}
-		<!-- more -->
-		<div class="post-eof"></div>
-	{% endfor %}
-{% endfor %}
