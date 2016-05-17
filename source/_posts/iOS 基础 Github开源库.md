@@ -15,26 +15,51 @@ data_github: [
 			{
 				user: "ReactiveCocoa",
 				repo: "ReactiveCocoa",
-				description: "教程：
-				<br/>
-				limboy的博客:http://limboy.me/
-				<br/>
-				NSHipster:http://nshipster.cn/reactivecocoa/
-                <br/>
-                这样好用的ReactiveCocoa，根本停不下来:http://www.cocoachina.com/ios/20150817/13071.html
-				<br/>
-                最快让你上手ReactiveCocoa之基础篇:http://www.jianshu.com/p/87ef6720a096
-                <br/>
-                RAC/MVVM个人学习资源汇总:http://www.jianshu.com/p/2cfed74789db
-                <br/>
-                MVVM核心概念:http://liuduo.me/2015/10/26/MVVM%E6%A0%B8%E5%BF%83%E6%A6%82%E5%BF%B5/
-				<br/>
-				ReactiveCocoa v2.5 源码解析之架构总览:http://blog.leichunfeng.com/blog/2015/12/25/reactivecocoa-v2-dot-5-yuan-ma-jie-xi-zhi-jia-gou-zong-lan/",
+				description: "简直是神器!",
+				wiki: [
+					{
+						title: "limboy的博客",
+						link: "http://limboy.me/"
+					},
+					{
+						title: "NSHipster",
+						link: "http://nshipster.cn/reactivecocoa/"
+					},
+					{
+						title: "这样好用的ReactiveCocoa，根本停不下来",
+						link: "http://www.cocoachina.com/ios/20150817/13071.html"
+					},
+					{
+						title: "最快让你上手ReactiveCocoa之基础篇",
+						link: "http://www.jianshu.com/p/87ef6720a096"
+					},
+					{
+						title: "RAC/MVVM个人学习资源汇总",
+						link: "http://www.jianshu.com/p/2cfed74789db"
+					},
+					{
+						title: "MVVM核心概念",
+						link: "http://liuduo.me/2015/10/26/MVVM%E6%A0%B8%E5%BF%83%E6%A6%82%E5%BF%B5/"
+					},
+					{
+						title: "ReactiveCocoa v2.5 源码解析之架构总览",
+						link: "http://blog.leichunfeng.com/blog/2015/12/25/reactivecocoa-v2-dot-5-yuan-ma-jie-xi-zhi-jia-gou-zong-lan/"
+					}
+				],
+				imgs: [
+					"https://github.com/ReactiveCocoa/ReactiveCocoa/raw/master/Logo/header.png",
+				]
 			},
 			{
 				user: "leichunfeng",
 				repo: "MVVMReactiveCocoa",
-				description: "GitBucket(Github客户端)，教程：http://blog.leichunfeng.com/blog/2016/02/27/mvvm-with-reactivecocoa/",
+				description: "GitBucket(Github客户端)",
+				wiki: [
+					{
+						title: "MVVM With ReactiveCocoa",
+						link: "http://blog.leichunfeng.com/blog/2016/02/27/mvvm-with-reactivecocoa/"
+					}
+				],
 			},
 			{
 				user: "ashfurrow",
@@ -82,10 +107,13 @@ data_github: [
 			{
 				user: "ReactiveCocoa",
 				repo: "ReactiveViewModel",
-				description: "ReactiveCocoa的扩展：MVVM。教程：
-				<br/>
-				http://www.cnblogs.com/tinkl/p/3678810.html
-				",
+				description: "ReactiveCocoa的扩展：MVVM",
+				wiki: [
+					{
+						title: "ios ReactiveViewModel",
+						link: "http://www.cnblogs.com/tinkl/p/3678810.html"
+					}
+				],
 				imgs: [
 					"https://camo.githubusercontent.com/3999b9fdff783edb6cee9117a08524f3b2e7c653/68747470733a2f2f662e636c6f75642e6769746875622e636f6d2f6173736574732f3433323533362f3836373938342f32393165643338302d663736302d313165322d393130362d6433313538333230616633392e706e67",
 				]
@@ -216,23 +244,32 @@ data_github: [
 			{
 				user: "magicalpanda",
 				repo: "MagicalRecord",
-				description: "教程:
-				<br/>
-				深入浅出MagicalRecord : http://childhood.logdown.com/posts/208957/easy-magicalrecord-01
-				<br/>
-				<br/>
-				IOS MagicRecord 详解 : http://blog.csdn.net/dongtaochen2039/article/details/40376197
-				<br/>
-				<br/>
-				json转MagicalRecord对象 : https://github.com/magicalpanda/MagicalRecord/wiki/Importing-Data
-                <br/>
-                <br/>
-                数据迁移 : http://jcggg.me/2015/10/18/CoreData-MagicalRecord%E6%95%B0%E6%8D%AE%E5%BA%93%E8%BF%81%E7%A7%BB%EF%BC%88%E4%B8%80%EF%BC%89/
-                <br/>
-                http://objccn.io/issue-4-7/
-                <br>
-                http://chun.tips/blog/2014/11/28/core-data-ban-ben-qian-yi-jing-yan-zong-jie/
-				",
+				wiki: [
+					{
+						title: "深入浅出MagicalRecord",
+						link: "http://childhood.logdown.com/posts/208957/easy-magicalrecord-01"
+					},
+					{
+						title: "IOS MagicRecord 详解",
+						link: "http://blog.csdn.net/dongtaochen2039/article/details/40376197"
+					},
+					{
+						title: "json转MagicalRecord对象",
+						link: "https://github.com/magicalpanda/MagicalRecord/wiki/Importing-Data"
+					},
+					{
+						title: "数据迁移",
+						link: "http://jcggg.me/2015/10/18/CoreData-MagicalRecord%E6%95%B0%E6%8D%AE%E5%BA%93%E8%BF%81%E7%A7%BB%EF%BC%88%E4%B8%80%EF%BC%89/"
+					},
+					{
+						title: "自定义 Core Data 迁移",
+						link: "http://objccn.io/issue-4-7/"
+					},
+					{
+						title: "Core Data 版本迁移经验总结",
+						link: "http://chun.tips/blog/2014/11/28/core-data-ban-ben-qian-yi-jing-yan-zong-jie/"
+					}
+				],
 				imgs: [
 					"https://github.com/magicalpanda/magicalpanda.github.com/raw/master/images/awesome_logo_small.png?raw=true",
 				]
@@ -285,32 +322,39 @@ data_github: [
 			{
 				user: "Mantle",
 				repo: "Mantle",
-				description: "字典和模型互转,教程：
-				<br/>
-				http://segmentfault.com/a/1190000002431354
-				<br/>
-				<br/>
-				http://ourui.github.io/blog/2014/01/22/mantle-use/
-				",
+				description: "字典和模型互转",
+				wiki: [
+					{
+						title: "Mantle是什么？",
+						link: "https://segmentfault.com/a/1190000002431354"
+					}
+				],
 			},
 			{
 				user: "Mantle",
 				repo: "MTLManagedObjectAdapter",
-                description: "MagicalRecord 和 Mantle 结合使用，教程:
-                <br/>
-                http://segmentfault.com/a/1190000002431365
-                <br/>
-                <br/>
-                http://blog.csdn.net/chengweipeng123/article/details/18452229
-                ",
+                description: "MagicalRecord 和 Mantle 结合使用",
+                wiki: [
+					{
+						title: "MagicalRecord配合Mantle",
+						link: "https://segmentfault.com/a/1190000002431365"
+					},
+					{
+						title: "Core Data with Mantle",
+						link: "http://blog.csdn.net/chengweipeng123/article/details/18452229"
+					}
+				],
 			},
 			{
 				user: "icanzilb",
 				repo: "JSONModel",
-				description: "字典和模型互转,教程：
-				<br/>
-				http://blog.csdn.net/smking/article/details/40432287
-				",
+				description: "字典和模型互转",
+				wiki: [
+					{
+						title: "JSONModel解析数据成Model",
+						link: "http://blog.csdn.net/smking/article/details/40432287"
+					}
+				],
 			},
             {
                 user: "CoderMJLee",
@@ -420,12 +464,17 @@ data_github: [
 			{
 				user: "facebook",
 				repo: "AsyncDisplayKit",
-				description: "极速UI绘制,教程（内附图片梯度和模糊）：
-				<br/>
-				http://www.tuicool.com/articles/jyuyEn
-				<br/>
-				http://blog.ibireme.com/2015/11/12/smooth_user_interfaces_for_ios/
-				",
+				description: "极速UI绘制",
+				wiki: [
+					{
+						title: "AsyncDisplayKit 教程：达到 60 FPS 的滚动帧率（内附图片梯度和模糊）",
+						link: "http://www.tuicool.com/articles/jyuyEn"
+					},
+					{
+						title: "iOS 保持界面流畅的技巧",
+						link: "http://blog.ibireme.com/2015/11/12/smooth_user_interfaces_for_ios/"
+					},
+				],
 				imgs: [
 					"https://github.com/facebook/AsyncDisplayKit/raw/master/docs/assets/logo.png",
 					"https://github.com/facebook/AsyncDisplayKit/raw/master/docs/assets/node-view-layer.png",
@@ -434,10 +483,13 @@ data_github: [
             {
                 user: "facebook",
                 repo: "componentkit",
-                description: "高效的列表,教程:
-                <br/>
-                http://segmentfault.com/a/1190000002706612
-                ",
+                description: "高效的列表",
+                wiki: [
+					{
+						title: "iOS：ComponentKit 使用总结",
+						link: "https://segmentfault.com/a/1190000002706612"
+					}
+				],
                 },
 			{
 				user: "path",
@@ -461,10 +513,13 @@ data_github: [
 			{
 				user: "Flipboard",
 				repo: "FLEX",
-				description: "强大的调试工具，教程：
-				<br/>
-				http://www.cocoachina.com/industry/20140728/9259.html
-				",
+				description: "强大的调试工具",
+				wiki: [
+					{
+						title: "Flipboard开源应用内调试工具FLEX",
+						link: "http://www.cocoachina.com/industry/20140728/9259.html"
+					}
+				],
 				imgs: [
 					"https://camo.githubusercontent.com/9986601c5e4306f7935032465911c0f70596e046/687474703a2f2f656e67696e656572696e672e666c6970626f6172642e636f6d2f6173736574732f666c65782f62617369632d766965772d6578706c6f726174696f6e2e676966",
 					"https://camo.githubusercontent.com/950a2612b1dc796bc5cc3fd9909ed465166afc5b/687474703a2f2f656e67696e656572696e672e666c6970626f6172642e636f6d2f6173736574732f666c65782f616476616e6365642d766965772d65646974696e672e676966",
@@ -536,7 +591,13 @@ data_github: [
             {
                 user: "erikdoe",
                 repo: "ocmock",
-                description: "单元测试，模拟对象，教程：http://www.cocoachina.com/ios/20150508/11769.html"
+                description: "单元测试，模拟对象",
+                wiki: [
+					{
+						title: "OCMock常见使用方式",
+						link: "http://www.cocoachina.com/ios/20150508/11769.html"
+					}
+				]
             },
             {
                 user: "google",
@@ -555,10 +616,12 @@ data_github: [
 			{
 				user: "Carthage",
 				repo: "Carthage",
-				description: "教程：
-				<br/>
-				http://www.isaced.com/post-265.html
-				",
+				wiki: [
+					{
+						title: "Cocoa 新的依赖管理工具：Carthage",
+						link: "http://www.isaced.com/post-265.html"
+					}
+				],
 			},
 		]
 	},
@@ -573,7 +636,13 @@ data_github: [
 			{
 				user: "orta",
 				repo: "ARAnalytics",
-				description: "aop，拦截器，面向切面编程，钩子，hook，动态修改对象和类，教程：http://www.jianshu.com/p/c9ef82b3d91c",
+				description: "aop，拦截器，面向切面编程，钩子，hook，动态修改对象和类",
+				wiki: [
+					{
+						title: "iOS统计服务的集大成者--ARAnalytics",
+						link: "http://www.jianshu.com/p/c9ef82b3d91c"
+					}
+				],
 			},
             {
                 user: "mikeash",
@@ -867,7 +936,13 @@ data_github: [
 			{
 				user: "facebook",
 				repo: "react-native",
-				description: "facebook出品,教程：http://reactjs.cn/react/index.html",
+				description: "facebook出品",
+				wiki: [
+					{
+						title: "React",
+						link: "http://reactjs.cn/react/index.html"
+					}
+				],
 			},
 			{
 				user: "ele828",
@@ -909,10 +984,13 @@ data_github: [
 			{
 				user: "bendytree",
 				repo: "Objective-C-RegEx-Categories",
-				description: "正则表达式，教程：
-				<br/>
-				http://www.cnblogs.com/YouXianMing/p/3591588.html
-				",
+				description: "正则表达式",
+				wiki: [
+					{
+						title: "使用开源库 Objective-C RegEx Categories 处理正则表达式",
+						link: "http://www.cnblogs.com/YouXianMing/p/3591588.html"
+					}
+				],
 				imgs: [
 					"https://camo.githubusercontent.com/18b0d5e372107539561eaa1ca7edf2891b07da93/68747470733a2f2f7261772e6769746875622e636f6d2f62656e6479747265652f4f626a6563746976652d432d52656745782d43617465676f726965732f6d61737465722f5465737450726f6a6563742f4f626a6563746976652d432d52656765782d43617465676f726965732f496d616765732f69636f6e2e706e67",
 				]
@@ -961,10 +1039,13 @@ data_github: [
 			{
 				user: "BoltsFramework",
 				repo: "Bolts-iOS",
-				description: "NSOperation，任务，队列，task，AppLink，URL解析。教程
-				<br/>
-				http://humanhighway.logdown.com/posts/179270-study-on-the-bolts
-				",
+				description: "NSOperation，任务，队列，task，AppLink，URL解析",
+				wiki: [
+					{
+						title: "Bolts framework iOS 筆記",
+						link: "http://humanhighway.logdown.com/posts/179270-study-on-the-bolts"
+					}
+				],
 			},
 			{
 				user: "mxcl",
@@ -977,13 +1058,17 @@ data_github: [
 			{
 				user: "atomicobject",
 				repo: "objection",
-				description: "依赖注入，控制反转，教程：
-				<br/>
-				http://limboy.me/ios/2014/04/15/use-objection-to-decouple-ios-project.html
-				<br/>
-				<br/>
-				demo : https://github.com/lzyy/bizhi
-				",
+				description: "依赖注入，控制反转",
+				wiki: [
+					{
+						title: "使用objection来模块化开发iOS项目",
+						link: "http://limboy.me/ios/2014/04/15/use-objection-to-decouple-ios-project.html"
+					},
+					{
+						title: "bizhi(demo)",
+						link: "https://github.com/lzyy/bizhi"
+					}
+				],
 			},
 			{
                 user: "Huohua",

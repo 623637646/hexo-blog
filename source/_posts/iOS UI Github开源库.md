@@ -1688,18 +1688,23 @@ data_github: [
 			{
 				user: "SnapKit",
 				repo: "Masonry",
-				description: "教程：
-				<br/>
-				http://www.cocoachina.com/ios/20141219/10702.html
-				",
+				wiki: [
+					{
+						title: "Masonry介绍与使用实践：快速上手Autolayout",
+						link: "http://www.cocoachina.com/ios/20141219/10702.html"
+					}
+				],
 			},
 			{
 				user: "forkingdog",
 				repo: "UITableView-FDTemplateLayoutCell",
-				description: "TableCell自动计算高度,教程：
-				<br/>
-				http://blog.sunnyxx.com/2015/05/17/cell-height-calculation/
-				",
+				description: "TableCell自动计算高度",
+				wiki: [
+					{
+						title: "优化UITableViewCell高度计算的那些事",
+						link: "http://blog.sunnyxx.com/2015/05/17/cell-height-calculation/"
+					}
+				],
 			},
 			{
 				user: "forkingdog",
@@ -1758,13 +1763,16 @@ data_github: [
 			{
 				user: "facebook",
 				repo: "pop",
-				description: "教程：
-				<br/>
-				http://geeklu.com/2014/05/facebook-pop-usage/
-				<br/>
-				<br/>
-				http://adad184.com/2015/03/11/intro-to-pop/
-				",
+				wiki: [
+					{
+						title: "Facebook Pop 使用指南",
+						link: "http://geeklu.com/2014/05/facebook-pop-usage/"
+					},
+					{
+						title: "POP介绍与使用实践(快速上手动画)",
+						link: "http://adad184.com/2015/03/11/intro-to-pop/"
+					}
+				],
 				imgs: [
 					"https://github.com/facebook/pop/raw/master/Images/pop.gif?raw=true",
 				]
