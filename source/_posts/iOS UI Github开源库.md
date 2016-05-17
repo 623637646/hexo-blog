@@ -1622,9 +1622,17 @@ data_github: [
 			{
 				user: "ibireme",
 				repo: "YYImage",
-				description: "GIF,APNG,WebP播放，图片编码，图片解码（各种解码方式）。
-				<br/>移动端图片格式调研：http://blog.ibireme.com/2015/11/02/mobile_image_benchmark/
-				<br/>iOS 处理图片的一些小 Tip：http://blog.ibireme.com/2015/11/02/ios_image_tips/",
+				description: "GIF,APNG,WebP播放，图片编码，图片解码（各种解码方式）",
+				wiki: [
+					{
+						title: "移动端图片格式调研",
+						link: "http://blog.ibireme.com/2015/11/02/mobile_image_benchmark/"
+					},
+					{
+						title: "iOS 处理图片的一些小 Tip",
+						link: "http://blog.ibireme.com/2015/11/02/ios_image_tips/"
+					}
+				],
 				imgs: [
 					"https://camo.githubusercontent.com/6f3c0c83dab2077c8cbc71e6b82f6aa0a5a30d11/68747470733a2f2f7261772e6769746875622e636f6d2f69626972656d652f5959496d6167652f6d61737465722f44656d6f2f5959496d61676544656d6f2f6e69636f6e69636f6e694032782e676966",
 				]

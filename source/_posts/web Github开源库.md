@@ -15,10 +15,12 @@ data_github: [
 			{
 				user: "twbs",
 				repo: "bootstrap",
-				description: "bootstrap中文网
-				<br/>
-				http://www.bootcss.com/
-				",
+				wiki: [
+					{
+						title: "bootstrap中文网",
+						link: "http://www.bootcss.com/"
+					}
+				],
 			},
 			{
 				user: "FezVrasta",

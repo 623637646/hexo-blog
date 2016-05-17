@@ -131,12 +131,17 @@ data_github: [
 			{
 				user: "ReactiveX",
 				repo: "RxSwift",
-				description: "swift版的ReactiveCocoa。
-				<br/>
-				基础概念 : http://blog.callmewhy.com/2015/09/21/rxswift-getting-started-0/
-				<br/>
-				示例实战 : http://blog.callmewhy.com/2015/09/23/rxswift-getting-started-1/
-				",
+				description: "swift版的ReactiveCocoa",
+				wiki: [
+					{
+						title: "基础概念",
+						link: "http://blog.callmewhy.com/2015/09/21/rxswift-getting-started-0/"
+					},
+					{
+						title: "示例实战",
+						link: "http://blog.callmewhy.com/2015/09/23/rxswift-getting-started-1/"
+					}
+				],
 			},
 		]
 	},
@@ -235,6 +240,28 @@ data_github: [
 				user: "octokit",
 				repo: "octokit.objc",
 				description: "OctoKit 是用于和 Github API 交互的 Cocoa 和 Cocoa Touch 框架，它由 AFNetworking、Mantle、和ReactiveCocoa 建立。",
+			},
+			{
+				user: "tonymillion",
+				repo: "Reachability",
+				description: "测试网络连通性，不过好像没办法真正的起作用~~",
+				wiki: [
+					{
+						title: "为啥说没办法真正起作用？点这里",
+						link: "http://blog.csdn.net/openglnewbee/article/details/50705146"
+					}
+				],
+			},
+			{
+				user: "dustturtle",
+				repo: "RealReachability",
+				description: "测试网络连通性，真正管用的哦，比Reachability强",
+				wiki: [
+					{
+						title: "iOS下的实际网络连接状态检测:RealReachability",
+						link: "http://blog.csdn.net/openglnewbee/article/details/50705146"
+					}
+				],
 			},
 		]
 	},
@@ -683,9 +710,13 @@ data_github: [
 			{
 				user: "jspahrsummers",
 				repo: "libextobjc",
-				description: "带提醒功能的宏
-                    <br/>
-                    http://www.cocoachina.com/ios/20141218/10688.html",
+				description: "带提醒功能的宏",
+                wiki: [
+					{
+						title: "说说 Objective-C 里的 @()",
+						link: "http://www.cocoachina.com/ios/20141218/10688.html"
+					}
+				],
 			},
 		]
 	},
