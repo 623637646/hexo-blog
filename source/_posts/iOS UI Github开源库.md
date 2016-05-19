@@ -45,6 +45,21 @@ data_github: [
 				  ]
 			 },
 			 {
+				  user: "ninjaprox",
+				  repo: "NVActivityIndicatorView",
+				  imgs: [
+							"https://raw.githubusercontent.com/ninjaprox/NVActivityIndicatorView/master/Demo.gif",
+				  ]
+			 },
+			 {
+				  user: "yoavlt",
+				  repo: "LiquidLoader",
+				  imgs: [
+							"https://github.com/yoavlt/LiquidLoader/raw/master/Demo/grow-circle.gif?raw=true",
+							"https://github.com/yoavlt/LiquidLoader/raw/master/Demo/grow-line.gif?raw=true",
+				  ]
+			 },
+			 {
 				user: "kishikawakatsumi",
 				repo: "UCZProgressView",
 				description: "图片浏览，菊花，背景模糊，进度条，扩散动画",
@@ -226,6 +241,13 @@ data_github: [
 				]
 			},
 			{
+				user: "yoavlt",
+				repo: "LiquidFloatingActionButton",
+				imgs: [
+					"https://github.com/yoavlt/LiquidFloatingActionButton/raw/master/Demo/top.gif?raw=true",
+				]
+			},
+			{
 				user: "GnosisHub",
 				repo: "GHContextMenu",
 				imgs: [
@@ -246,6 +268,13 @@ data_github: [
 				repo: "CNPGridMenu",
 				imgs: [
 					"https://camo.githubusercontent.com/76b3fb35a48bd779a8ce0359ebc9a072132f431c/687474703a2f2f692e696d6775722e636f6d2f4b6876774e55342e676966",
+				]
+			},
+			{
+				user: "xhzengAIB",
+				repo: "PopMenu",
+				imgs: [
+					"https://github.com/xhzengAIB/LearnEnglish/raw/master/Screenshots/XHSinaMenuViewExample.gif",
 				]
 			},
 			{
@@ -408,6 +437,14 @@ data_github: [
                               repo: "CBStoreHouseRefreshControl",
                               imgs: [
  "https://camo.githubusercontent.com/a0ff4643665482e588bbf9f951069251604dd118/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f737579752e746573742f434253746f7265486f75736552656672657368436f6e74726f6c322e676966",
+                              ]
+                         },
+                         {
+                              user: "gontovnik",
+                              repo: "DGElasticPullToRefresh",
+                              imgs: [
+ "https://raw.githubusercontent.com/gontovnik/DGElasticPullToRefresh/master/DGElasticPullToRefreshPreview1.gif",
+ "https://raw.githubusercontent.com/gontovnik/DGElasticPullToRefresh/master/DGElasticPullToRefreshPreview2.gif",
                               ]
                          },
                         {
@@ -639,6 +676,30 @@ data_github: [
  "https://github.com/IFTTT/JazzHands/raw/master/Example/Docs/if-intro.gif",
                               ]
                          },
+                         {
+                              user: "IFTTT",
+                              repo: "RazzleDazzle",
+                              description: "基于手势动画",
+                              imgs: [
+ "https://github.com/IFTTT/RazzleDazzle/raw/master/Example/Docs/razzledazzle-demo.gif",
+                              ]
+                         },
+                         {
+                              user: "hyperoslo",
+                              repo: "Presentation",
+                              description: "基于手势动画",
+                              imgs: [
+ "https://raw.githubusercontent.com/hyperoslo/Presentation/master/Example/Parallax/Images/Parallax-v2.gif",
+                              ]
+                         },
+                         {
+                              user: "likedan",
+                              repo: "KDIntroView",
+                              description: "基于手势动画",
+                              imgs: [
+ "https://github.com/likedan/KDIntroView/raw/master/Imgs/showup.gif",
+                              ]
+                         },
                         {
                               user: "ealeksandrov",
                               repo: "EAIntroView",
@@ -652,6 +713,13 @@ data_github: [
                               imgs: [
  "https://github.com/callumboddy/CBZSplashView/raw/master/Images/CBZLogo.png",
  "https://github.com/callumboddy/CBZSplashView/raw/master/Images/twitter-gif.gif",
+                              ]
+                         },
+                         {
+                              user: "rounak",
+                              repo: "TwitterBirdAnimation",
+                              imgs: [
+ "https://camo.githubusercontent.com/c9c8ca10925ad0c041c3cb801d212775eb89dcf3/687474703a2f2f6d656469612e74756d626c722e636f6d2f31306363306261393233373761326362613966623335633939343366643263612f74756d626c725f696e6c696e655f6e367a706f6b4e787043317168396377372e676966",
                               ]
                          },
           ]
@@ -749,6 +817,15 @@ data_github: [
 				]
 			},
 			{
+				user: "zhxnlai",
+				repo: "ZLSwipeableViewSwift",
+				description: "卡片切换",
+				imgs: [
+					"https://github.com/zhxnlai/ZLSwipeableViewSwift/raw/master/Previews/animation.gif",
+					"https://github.com/zhxnlai/ZLSwipeableViewSwift/raw/master/Previews/swipe.gif",
+				]
+			},
+			{
 				user: "andreamazz",
 				repo: "AMWaveTransition",
 				description: "用于tableview,collectionview,scrollview",
@@ -810,10 +887,31 @@ data_github: [
 				]
 			},
 			{
+				user: "CezaryKopacz",
+				repo: "CKWaveCollectionViewTransition",
+				imgs: [
+					"https://raw.githubusercontent.com/CezaryKopacz/CKWaveCollectionViewTransition/master/anim.gif",
+				]
+			},
+			{
 				user: "andreamazz",
 				repo: "BubbleTransition",
 				imgs: [
 					"https://raw.githubusercontent.com/andreamazz/BubbleTransition/master/assets/screenshot.gif",
+				]
+			},
+			{
+				user: "entotsu",
+				repo: "TKSubmitTransition",
+				imgs: [
+					"https://github.com/entotsu/TKSubmitTransition/raw/master/demo.gif",
+				]
+			},
+			{
+				user: "jonathantribouharet",
+				repo: "JTMaterialTransition",
+				imgs: [
+					"https://github.com/jonathantribouharet/JTMaterialTransition/raw/master/Screens/example.gif",
 				]
 			},
 			{
@@ -839,6 +937,13 @@ data_github: [
 				imgs: [
 					"https://raw.githubusercontent.com/forkingdog/FDFullscreenPopGesture/master/Snapshots/snapshot0.gif",
 					"https://raw.githubusercontent.com/forkingdog/FDFullscreenPopGesture/master/Snapshots/snapshot1.gif",
+				]
+			},
+			{
+				user: "mathcarignani",
+				repo: "MCMHeaderAnimated",
+				imgs: [
+					"https://github.com/mathcarignani/MCMHeaderAnimated/raw/master/demo.gif",
 				]
 			},
           ]
@@ -997,6 +1102,14 @@ data_github: [
                 description: "swift，可拖动，拖拽",
                 imgs: [
                     "https://github.com/ra1028/RAReorderableLayout/raw/master/Assets/screenshot1.png",
+                ]
+            },
+            {
+                user: "nshintio",
+                repo: "uicollectionview-reordering",
+                description: "swift，可拖动，拖拽",
+                imgs: [
+                    "https://camo.githubusercontent.com/ee5e5999dea79c81a09416a51b1e6cec5de3a193/687474703a2f2f6e7368696e742e696f2f696d616765732f7569636f6c6c656374696f6e766965772d72656f72646572696e672f342e676966",
                 ]
             },
             {
@@ -1202,6 +1315,14 @@ data_github: [
 				description: "高度自定义",
 				imgs: [
 					"https://camo.githubusercontent.com/f9be7495d67853c427c9de003699ac6c80098180/687474703a2f2f626f676f64616e69656c652e636f6d2f617070732f646576656c6f706d656e742f646263616d6572612f6769746875622f646263616d6572615f73706c6173682e706e67",
+				]
+			},
+			{
+				user: "IFTTT",
+				repo: "FASTTTcamera",
+				description: "IFTTT出品，自定义相机",
+				imgs: [
+					"https://github.com/IFTTT/FastttCamera/raw/master/Docs/fastttcamera-portrait.gif",
 				]
 			},
 			{
@@ -1498,6 +1619,13 @@ data_github: [
 					"https://camo.githubusercontent.com/3fc34b2bb4962a5db92da1473e29f86d0010df0e/687474703a2f2f616c736b6970702e6769746875622e696f2f415356616c7565547261636b696e67536c696465722f696d672f73637265656e73686f74322e706e67",
 					"https://camo.githubusercontent.com/f6af95d69c34e24a4db1ab22def234409524a23f/687474703a2f2f616c736b6970702e6769746875622e696f2f415356616c7565547261636b696e67536c696465722f696d672f73637265656e73686f74332e706e67",
 					"https://camo.githubusercontent.com/70b129cd6de2565b4aa1dd6fcee3c922ad8cf328/687474703a2f2f616c736b6970702e6769746875622e696f2f415356616c7565547261636b696e67536c696465722f696d672f73637265656e73686f74342e706e67",
+				]
+			},
+			{
+				user: "TBXark",
+				repo: "TKRubberIndicator",
+				imgs: [
+					"https://camo.githubusercontent.com/2ea6152b06aa5f9ca21ab7ff0a83830f73f48fbe/68747470733a2f2f6431337961637572716a676172612e636c6f756466726f6e742e6e65742f75736572732f3330333233342f73637265656e73686f74732f323039303830332f70616765696e64696361746f722e676966",
 				]
 			},
 			{
@@ -1826,6 +1954,21 @@ data_github: [
 				]
 			},
 			{
+				user: "Draveness",
+				repo: "DKChainableAnimationKit",
+				description: "方便的使用连续动画（chainable animations）",
+				imgs: [
+					"https://github.com/Draveness/DKChainableAnimationKit/raw/master/Gifs/Demo2.gif",
+				]
+			},
+			{
+				user: "icanzilb",
+				repo: "EasyAnimation",
+				imgs: [
+					"https://github.com/icanzilb/EasyAnimation/raw/master/etc/spring.gif",
+				]
+			},
+			{
 				user: "CanvasPod",
 				repo: "Canvas",
 				description: "无代码动画",
@@ -1858,6 +2001,14 @@ data_github: [
 					"https://raw.githubusercontent.com/adad184/MMTweenAnimation/master/Images/8.gif",
 					"https://raw.githubusercontent.com/adad184/MMTweenAnimation/master/Images/9.gif",
 					"https://raw.githubusercontent.com/adad184/MMTweenAnimation/master/Images/10.gif",
+				]
+			},
+			{
+				user: "haaakon",
+				repo: "SingleLineShakeAnimation",
+				description: "view 震动",
+				imgs: [
+					"https://raw.githubusercontent.com/haaakon/SingleLineShakeAnimation/master/example.gif",
 				]
 			},
 		]
@@ -1895,6 +2046,30 @@ data_github: [
 						 },
 		  ]
 	 },
+	{
+        keywords: [用户指引,聚光灯,提示,浮层,引导,mark],
+        projects: [
+			{
+				user: "ephread",
+				repo: "Instructions",
+				imgs: [
+					"https://camo.githubusercontent.com/072ef03302b2ba16605c71f8e5e7a19bb700e149/687474703a2f2f692e696d6775722e636f6d2f4a556c514839462e676966",
+				]
+			},
+			{
+				user: "workshirt",
+				repo: "WSCoachMarksView",
+				imgs: [
+					"https://camo.githubusercontent.com/c882eae1a8a7c5d8e8eda7fcf1e684c518e54f6b/68747470733a2f2f646c2e64726f70626f7875736572636f6e74656e742e636f6d2f752f32363138382f436f6163684d61726b732f636f6163684d61726b7353637265656e315f736d616c6c2e706e67",
+					"https://camo.githubusercontent.com/7f68a6526dca490d7d90f14bbe74c21a32dd2588/68747470733a2f2f646c2e64726f70626f7875736572636f6e74656e742e636f6d2f752f32363138382f436f6163684d61726b732f636f6163684d61726b7353637265656e325f736d616c6c2e706e67",
+					"https://camo.githubusercontent.com/8bfa5933403bf335b1367bea262b5a61bc194fb7/68747470733a2f2f646c2e64726f70626f7875736572636f6e74656e742e636f6d2f752f32363138382f436f6163684d61726b732f636f6163684d61726b7353637265656e335f736d616c6c2e706e67",
+					"https://camo.githubusercontent.com/9ef766eec7ae9f1b6db9d7dd802af42757ded6e3/68747470733a2f2f646c2e64726f70626f7875736572636f6e74656e742e636f6d2f752f32363138382f436f6163684d61726b732f636f6163684d61726b7353637265656e345f736d616c6c2e706e67",
+					"https://camo.githubusercontent.com/9b663dd074a148a7aaafd348ab7bf5b540843138/68747470733a2f2f646c2e64726f70626f7875736572636f6e74656e742e636f6d2f752f32363138382f436f6163684d61726b732f636f6163684d61726b7353637265656e355f736d616c6c2e706e67",
+					"https://camo.githubusercontent.com/ca7ffbfa8ab0a97470f25ec85afeabdf6c607f21/68747470733a2f2f646c2e64726f70626f7875736572636f6e74656e742e636f6d2f752f32363138382f436f6163684d61726b732f636f6163684d61726b7353637265656e365f736d616c6c2e706e67",
+				]
+			},
+        ]
+    },
     {
         keywords: [其他],
         projects: [
@@ -1939,19 +2114,6 @@ data_github: [
 				imgs: [
 					"https://raw.githubusercontent.com/dzenbot/UITableView-DataSet/master/Examples/Applications/Screenshots/Screenshots_row1.png",
 					"https://raw.githubusercontent.com/dzenbot/UITableView-DataSet/master/Examples/Applications/Screenshots/Screenshots_row2.png",
-				]
-			},
-			{
-				user: "workshirt",
-				repo: "WSCoachMarksView",
-				description: "用户指引，聚光灯，提示，浮层，引导，mark",
-				imgs: [
-					"https://camo.githubusercontent.com/c882eae1a8a7c5d8e8eda7fcf1e684c518e54f6b/68747470733a2f2f646c2e64726f70626f7875736572636f6e74656e742e636f6d2f752f32363138382f436f6163684d61726b732f636f6163684d61726b7353637265656e315f736d616c6c2e706e67",
-					"https://camo.githubusercontent.com/7f68a6526dca490d7d90f14bbe74c21a32dd2588/68747470733a2f2f646c2e64726f70626f7875736572636f6e74656e742e636f6d2f752f32363138382f436f6163684d61726b732f636f6163684d61726b7353637265656e325f736d616c6c2e706e67",
-					"https://camo.githubusercontent.com/8bfa5933403bf335b1367bea262b5a61bc194fb7/68747470733a2f2f646c2e64726f70626f7875736572636f6e74656e742e636f6d2f752f32363138382f436f6163684d61726b732f636f6163684d61726b7353637265656e335f736d616c6c2e706e67",
-					"https://camo.githubusercontent.com/9ef766eec7ae9f1b6db9d7dd802af42757ded6e3/68747470733a2f2f646c2e64726f70626f7875736572636f6e74656e742e636f6d2f752f32363138382f436f6163684d61726b732f636f6163684d61726b7353637265656e345f736d616c6c2e706e67",
-					"https://camo.githubusercontent.com/9b663dd074a148a7aaafd348ab7bf5b540843138/68747470733a2f2f646c2e64726f70626f7875736572636f6e74656e742e636f6d2f752f32363138382f436f6163684d61726b732f636f6163684d61726b7353637265656e355f736d616c6c2e706e67",
-					"https://camo.githubusercontent.com/ca7ffbfa8ab0a97470f25ec85afeabdf6c607f21/68747470733a2f2f646c2e64726f70626f7875736572636f6e74656e742e636f6d2f752f32363138382f436f6163684d61726b732f636f6163684d61726b7353637265656e365f736d616c6c2e706e67",
 				]
 			},
 			{
