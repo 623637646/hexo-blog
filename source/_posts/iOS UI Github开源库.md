@@ -447,6 +447,13 @@ data_github: [
  "https://raw.githubusercontent.com/gontovnik/DGElasticPullToRefresh/master/DGElasticPullToRefreshPreview2.gif",
                               ]
                          },
+                         {
+                              user: "entotsu",
+                              repo: "PullToBounce",
+                              imgs: [
+ "https://raw.githubusercontent.com/entotsu/PullToBounce/master/demo.gif",
+                              ]
+                         },
                         {
                               user: "uzysjung",
                               repo: "UzysAnimatedGifPullToRefresh",
@@ -928,6 +935,13 @@ data_github: [
 				imgs: [
 					"https://github.com/recruit-mp/RMPZoomTransitionAnimator/raw/master/docs/collectionview.gif",
 					"https://github.com/recruit-mp/RMPZoomTransitionAnimator/raw/master/docs/tableview.gif",
+				]
+			},
+			{
+				user: "nathanwhy",
+				repo: "HYAwesomeTransition",
+				imgs: [
+					"https://github.com/nathanwhy/HYAwesomeTransition/raw/master/screenshot/screenshot.gif",
 				]
 			},
 			{
@@ -1641,11 +1655,37 @@ data_github: [
                 repo: "FXPageControl",
                 description: "布丁动画用的分页效果",
             },
+            {
+                user: "fpt-software",
+                repo: "Material-Controls-For-iOS",
+                description: "一大波UIControl控件！",
+                imgs: [
+					"https://camo.githubusercontent.com/cce493eb299641efc9e78eef049ac8ebcb180b90/68747470733a2f2f646c2e64726f70626f7875736572636f6e74656e742e636f6d2f752f38303830323430302f4d6174657269616c44657369676e2f4d44427574746f6e2e676966",
+					"https://camo.githubusercontent.com/a5be28f11e6ff161a74f9fcedf216a9c256576c6/68747470733a2f2f646c2e64726f70626f7875736572636f6e74656e742e636f6d2f752f38303830323430302f4d6174657269616c44657369676e2f4d445461626c655669657743656c6c2e676966",
+					"https://camo.githubusercontent.com/864c536a4ee71b79b92e4c4a4c476409b37a399f/68747470733a2f2f646c2e64726f70626f7875736572636f6e74656e742e636f6d2f752f38303830323430302f4d6174657269616c44657369676e2f4d4450726f67726573732e676966",
+					"https://camo.githubusercontent.com/15c34e4d9fe672be0d4622aec522dfadcb4998d8/68747470733a2f2f646c2e64726f70626f7875736572636f6e74656e742e636f6d2f752f38303830323430302f4d6174657269616c44657369676e2f4d44536c696465722e676966",
+					"https://camo.githubusercontent.com/e2d6a56fceab71e4c3d6a9db0d47c7aa723ae375/68747470733a2f2f646c2e64726f70626f7875736572636f6e74656e742e636f6d2f752f38303830323430302f4d6174657269616c44657369676e2f4d445377697463682e676966",
+					"https://camo.githubusercontent.com/41eb653384b2b2b03dcb542b0db5cd9de5162f44/68747470733a2f2f646c2e64726f70626f7875736572636f6e74656e742e636f6d2f752f38303830323430302f4d6174657269616c44657369676e2f4d445461624261722e676966",
+					"https://camo.githubusercontent.com/3d1ce6c5a1399350b0eff3cea4832d5fabcb363a/68747470733a2f2f646c2e64726f70626f7875736572636f6e74656e742e636f6d2f752f38303830323430302f4d6174657269616c44657369676e2f4d4454616242617256696577436f6e74726f6c6c65722e676966",
+					"https://camo.githubusercontent.com/007d9404e446fe33cfb90ad77b78886632136372/68747470733a2f2f646c2e64726f70626f7875736572636f6e74656e742e636f6d2f752f38303830323430302f4d6174657269616c44657369676e2f4d44546578744669656c645f76322e676966",
+					"https://camo.githubusercontent.com/083690fe64f61b1066966b8b816a5debff7ae4f7/68747470733a2f2f646c2e64726f70626f7875736572636f6e74656e742e636f6d2f752f38303830323430302f4d6174657269616c44657369676e2f4d44536e61636b6261722e676966",
+					"https://camo.githubusercontent.com/ffa7dc6fbd6daa26e40645c9c617671516626687/68747470733a2f2f646c2e64726f70626f7875736572636f6e74656e742e636f6d2f752f38303830323430302f4d6174657269616c44657369676e2f4d44546f6173742e676966",
+					"https://camo.githubusercontent.com/5ac54750295d27c62c1275f8b4fc688e01d52908/68747470733a2f2f646c2e64726f70626f7875736572636f6e74656e742e636f6d2f752f38303830323430302f4d6174657269616c44657369676e2f4d44446174655069636b65722e676966",
+					"https://camo.githubusercontent.com/fd49fd2b54b23255bc5e099ab94bfcbb782505c9/68747470733a2f2f646c2e64726f70626f7875736572636f6e74656e742e636f6d2f752f38303830323430302f4d6174657269616c44657369676e2f4d4454696d655069636b65722e676966",
+				],
+            },
 		]
 	},
 	{
-		keywords: [徽章,badge],
+		keywords: [徽章,badge,通知],
 		projects: [
+			{
+				user: "cwRichardKim",
+				repo: "RKNotificationHub",
+				imgs: [
+					"https://camo.githubusercontent.com/e09d52d46624bc3e5809c5f071882cfc8d49a7bf/687474703a2f2f692e696d6775722e636f6d2f537045324251762e676966",
+				]
+			},
 			{
 				user: "tmdvs",
 				repo: "TDBadgedCell",
@@ -1793,6 +1833,14 @@ data_github: [
 					"https://github.com/dzenbot/DZNWebViewController/raw/master/Docs/DZNWebViewController_screenshot.png",
 				]
 			},
+			{
+				user: "Roxasora",
+				repo: "RxWebViewController",
+				description: "实现类似微信的 webView 导航效果，包括进度条，左滑返回上个网页或者直接关闭，就像 UINavigationController",
+				imgs: [
+					"https://camo.githubusercontent.com/fae485dda0dd0e050d862b04aee92f56c868a778/687474703a2f2f696d672e68622e616963646e2e636f6d2f633133643638323764666465343262613765643762613161363463353863306139313165666432663132366361332d7079733665545f6677363538",
+				]
+			},
 		]
 	},
 	{
@@ -1815,6 +1863,14 @@ data_github: [
                 user: "itsbonczek",
                 repo: "kingpin",
                 description: "地图，聚集，clustering",
+            },
+            {
+                user: "bigfish24",
+                repo: "ABFRealmMapView",
+                description: "地图，聚集，clustering",
+                imgs: [
+					"https://camo.githubusercontent.com/09ee44b1eea082b5a4cb37410699e8d460f2d211/687474703a2f2f6769616e742e6766796361742e636f6d2f436c65616e536d6172744261646765722e676966",
+				]
             },
 		]
 	},
@@ -2068,6 +2124,32 @@ data_github: [
 					"https://camo.githubusercontent.com/ca7ffbfa8ab0a97470f25ec85afeabdf6c607f21/68747470733a2f2f646c2e64726f70626f7875736572636f6e74656e742e636f6d2f752f32363138382f436f6163684d61726b732f636f6163684d61726b7353637265656e365f736d616c6c2e706e67",
 				]
 			},
+			{
+				user: "leverdeterre",
+				repo: "JMHoledView",
+				imgs: [
+					"https://github.com/leverdeterre/JMHoledView/raw/master/screenshots/demo1.png",
+				]
+			},
+        ]
+    },
+    {
+        keywords: [表单,form],
+        projects: [
+			{
+				user: "nicklockwood",
+				repo: "FXForms",
+				imgs: [
+					"https://camo.githubusercontent.com/2db288520cb0d9a044aaa7ccd977c91c9cd88c04/68747470733a2f2f7261772e6769746875622e636f6d2f6e69636b6c6f636b776f6f642f4658466f726d732f312e322e332f4578616d706c65732f42617369634578616d706c652f53637265656e73686f742e706e67",
+				]
+			},
+			{
+				user: "xmartlabs",
+				repo: "Eureka",
+				imgs: [
+					"https://github.com/xmartlabs/Eureka/raw/master/Example/Media/EurekaNavigation.gif",
+				]
+			},
         ]
     },
     {
@@ -2114,14 +2196,6 @@ data_github: [
 				imgs: [
 					"https://raw.githubusercontent.com/dzenbot/UITableView-DataSet/master/Examples/Applications/Screenshots/Screenshots_row1.png",
 					"https://raw.githubusercontent.com/dzenbot/UITableView-DataSet/master/Examples/Applications/Screenshots/Screenshots_row2.png",
-				]
-			},
-			{
-				user: "nicklockwood",
-				repo: "FXForms",
-				description: "表单，form",
-				imgs: [
-					"https://camo.githubusercontent.com/2db288520cb0d9a044aaa7ccd977c91c9cd88c04/68747470733a2f2f7261772e6769746875622e636f6d2f6e69636b6c6f636b776f6f642f4658466f726d732f312e322e332f4578616d706c65732f42617369634578616d706c652f53637265656e73686f742e706e67",
 				]
 			},
 			{
