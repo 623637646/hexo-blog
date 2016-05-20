@@ -8,7 +8,7 @@ tags:
   - 插件
   - plug
 date: 2015-11-28 00:00:00
-layout: github_post
+layout: post_github
 data_github: [
 	{
 		keywords: [插件],

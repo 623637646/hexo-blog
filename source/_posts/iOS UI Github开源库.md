@@ -8,7 +8,7 @@ tags:
   - 开源
   - UI
 date: 2015-11-28 00:00:00
-layout: github_post
+layout: post_github
 data_github: [
      {
           keywords: [菊花,进度条,加载,等待],

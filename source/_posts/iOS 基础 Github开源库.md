@@ -7,7 +7,7 @@ tags:
   - github
   - 开源
 date: 2015-11-28 00:00:00
-layout: github_post
+layout: post_github
 data_github: [
 	{
 		keywords: [响应式编程],
