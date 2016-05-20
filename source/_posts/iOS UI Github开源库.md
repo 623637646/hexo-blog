@@ -137,6 +137,13 @@ data_github: [
 				  ]
 			 },
 			 {
+				  user: "kevin0571",
+				  repo: "STPopup",
+				  imgs: [
+					"https://cloud.githubusercontent.com/assets/1491282/9857827/8fa0125e-5b4f-11e5-9c0d-ff955c007360.gif",
+				  ]
+			 },
+			 {
 				user: "Sumi-Interactive",
 				repo: "SIAlertView",
 				imgs: [
