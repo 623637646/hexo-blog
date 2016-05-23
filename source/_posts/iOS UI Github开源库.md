@@ -1308,6 +1308,14 @@ data_github: [
 					"https://raw.githubusercontent.com/uzysjung/UzysAssetsPickerController/master/UzysAssetsPickerController.gif",
 				]
 			},
+			{
+				user: "larcus94",
+				repo: "ImagePickerSheetController",
+				description: "仿iOS9原生",
+				imgs: [
+					"https://raw.githubusercontent.com/larcus94/ImagePickerSheetController/master/Screenshots/GoT.gif",
+				]
+			},
 		]
 	},
 	{
@@ -1794,6 +1802,14 @@ data_github: [
 					"https://github.com/liyong03/YLGIFImage/raw/master/YLGIFImageDemo/YLGIFImageDemo/joy.gif",
 				]
 			},
+			{
+                user: "kean",
+                repo: "Nuke",
+                description: "图片下载，处理，预处理，缓存，Gif支持",
+                imgs: [
+					"https://cloud.githubusercontent.com/assets/1567433/9952711/971ae2ea-5de1-11e5-8670-6853d3fe18cd.png"
+                ]
+            },
 			{
 				user: "ibireme",
 				repo: "YYImage",

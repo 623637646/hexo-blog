@@ -162,27 +162,6 @@ data_github: [
 				description: "猿题库维护的，基于AFNetworking，高级的api如：缓存网络请求，检查返回 JSON 内容的合法性等",
 			},
 			{
-				user: "rs",
-				repo: "SDWebImage",
-				description: "图片的请求和缓存",
-			},
-			{
-				user: "ibireme",
-				repo: "YYWebImage",
-				description: "图片的请求和缓存,渐变效果",
-				imgs: [
-					"https://camo.githubusercontent.com/e1ecbcae6ddaee26efd5fc29faa0ed6eae6488b0/68747470733a2f2f7261772e6769746875622e636f6d2f69626972656d652f5959576562496d6167652f6d61737465722f44656d6f2f44656d6f2e676966",
-				]
-			},
-			{
-				user: "pinterest",
-				repo: "PINRemoteImage",
-				description: "图片的请求和缓存,渐变效果",
-				imgs: [
-					"https://github.com/pinterest/PINRemoteImage/raw/master/progressive.gif",
-				]
-			},
-			{
 				user: "Alamofire",
 				repo: "Alamofire",
 				description: "swift,AFNetworking作者编写",
@@ -214,27 +193,9 @@ data_github: [
 				description: "XMPP协议",
 			},
 			{
-				user: "ohwutup",
-				repo: "OWUProximityManager",
-				description: "蓝牙，iBeacons",
-				imgs: [
-					"https://github.com/ohwutup/OWUProximityManager/raw/master/Screenshots/home.png",
-					"https://github.com/ohwutup/OWUProximityManager/raw/master/Screenshots/server.png",
-					"https://github.com/ohwutup/OWUProximityManager/raw/master/Screenshots/client.png",
-				]
-			},
-			{
 				user: "robbiehanson",
 				repo: "CocoaHTTPServer",
 				description: "内置服务器",
-			},
-			{
-				user: "thoughtbot",
-				repo: "argo",
-				description: "函数式 JSON 解析转换库，swift编写",
-				imgs: [
-					"https://raw.githubusercontent.com/thoughtbot/Argo/gh-pages/Argo.png",
-				]
 			},
 			{
 				user: "octokit",
@@ -262,6 +223,57 @@ data_github: [
 						link: "http://blog.csdn.net/openglnewbee/article/details/50705146"
 					}
 				],
+			},
+		]
+	},
+	{
+		keywords: [图片网络请求],
+		projects: [
+			{
+				user: "rs",
+				repo: "SDWebImage",
+				description: "图片的请求和缓存",
+			},
+			{
+				user: "ibireme",
+				repo: "YYWebImage",
+				description: "图片的请求和缓存,渐变效果",
+				imgs: [
+					"https://camo.githubusercontent.com/e1ecbcae6ddaee26efd5fc29faa0ed6eae6488b0/68747470733a2f2f7261772e6769746875622e636f6d2f69626972656d652f5959576562496d6167652f6d61737465722f44656d6f2f44656d6f2e676966",
+				]
+			},
+			{
+				user: "pinterest",
+				repo: "PINRemoteImage",
+				description: "图片的请求和缓存,渐变效果",
+				imgs: [
+					"https://github.com/pinterest/PINRemoteImage/raw/master/progressive.gif",
+				]
+			},
+		]
+	},
+	{
+		keywords: [蓝牙,Bluetooth],
+		projects: [
+			{
+				user: "ohwutup",
+				repo: "OWUProximityManager",
+				description: "蓝牙，iBeacons",
+				imgs: [
+					"https://github.com/ohwutup/OWUProximityManager/raw/master/Screenshots/home.png",
+					"https://github.com/ohwutup/OWUProximityManager/raw/master/Screenshots/server.png",
+					"https://github.com/ohwutup/OWUProximityManager/raw/master/Screenshots/client.png",
+				]
+			},
+			{
+				user: "rasmusth",
+				repo: "BluetoothKit",
+				description: "蓝牙",
+			},
+			{
+				user: "coolnameismy",
+				repo: "BabyBluetooth",
+				description: "一个非常容易使用的蓝牙库,适用于ios和os",
 			},
 		]
 	},
@@ -316,6 +328,11 @@ data_github: [
 				repo: "fmdb",
 				description: "底层数据库，使用sql",
 			},
+			{
+				user: "stephencelis",
+				repo: "SQLite.swift",
+				description: "A type-safe, Swift-language layer over SQLite3.",
+			},
             {
                 user: "yapstudios",
                 repo: "YapDatabase",
@@ -324,7 +341,12 @@ data_github: [
             {
                 user: "realm",
                 repo: "realm-cocoa",
-                description: "数据库：http://www.cocoachina.com/ios/20150505/11756.html",
+                wiki: [
+					{
+						title: "Realm数据库基础教程",
+						link: "http://www.cocoachina.com/ios/20150505/11756.html"
+					},
+                ],
             },
 			{
 				user: "soffes",
@@ -393,6 +415,14 @@ data_github: [
                 repo: "YYModel",
                 description: "轻量级，继承NSObject,iOS JSON 模型转换库评测：http://blog.ibireme.com/2015/10/23/ios_model_framework_benchmark/",
             },
+            {
+				user: "thoughtbot",
+				repo: "argo",
+				description: "函数式 JSON 解析转换库，swift编写",
+				imgs: [
+					"https://raw.githubusercontent.com/thoughtbot/Argo/gh-pages/Argo.png",
+				]
+			},
 		]
 	},
 	{
@@ -482,6 +512,22 @@ data_github: [
             {
                 user: "pinterest",
                 repo: "PINCache",
+            },
+            {
+                user: "kean",
+                repo: "Nuke",
+                description: "图片下载，处理，预处理，缓存，Gif支持",
+                imgs: [
+					"https://cloud.githubusercontent.com/assets/1567433/9952711/971ae2ea-5de1-11e5-8670-6853d3fe18cd.png"
+                ]
+            },
+            {
+                user: "kean",
+                repo: "DFImageManager",
+                description: "图片下载，处理，预处理，缓存",
+                imgs: [
+					"https://cloud.githubusercontent.com/assets/1567433/9706417/0352d3bc-54ed-11e5-94ff-cb8691800f78.png"
+                ]
             },
 		]
 	},
@@ -936,6 +982,14 @@ data_github: [
 				description: "完整视频播放器，支持多种字幕切换，str字幕",
 				imgs: [
 					"https://camo.githubusercontent.com/4258638f03f72effdd2e540b359bab11287fe289/687474703a2f2f656e67696e656572696e672e76696b692e636f6d2f696d616765732f626c6f672f766964656f5f706c617965725f72756e6e696e675f6d616e2e6a7067",
+				]
+			},
+			{
+				user: "kolyvan",
+				repo: "kxmovie",
+				description: "demo没运行成功",
+				imgs: [
+					"https://camo.githubusercontent.com/b3daac8704e7c95d7d1f4376841571ab0ede7a9a/68747470733a2f2f7261772e6769746875622e636f6d2f6174656c69657264756d6f62696c652f46466d706567506c617965722d694f532f6d61737465722f726561646d652d6d656469612f73637265656e73686f742d6d6f7669652e706e67",
 				]
 			},
 		]

@@ -10,7 +10,7 @@ date: 2015-11-28 00:00:00
 layout: post_github
 data_github: [
 	{
-		keywords: [bootstrap,UI层],
+		keywords: [bootstrap],
 		projects: [
 			{
 				user: "twbs",
@@ -35,6 +35,11 @@ data_github: [
 				repo: "Flat-UI",
 				description: "扁平化ui，bootstrap主题",
 			},
+		]
+	},
+	{
+		keywords: [CSS,样式],
+		projects: [
 			{
 				user: "FortAwesome",
 				repo: "Font-Awesome",
@@ -59,6 +64,16 @@ data_github: [
 				user: "aFarkas",
 				repo: "lazysizes",
 				description: "支持 img 和 iframe",
+			},
+		]
+	},
+	{
+		keywords: [布局],
+		projects: [
+			{
+				user: "desandro",
+				repo: "masonry",
+				description: "瀑布流等布局",
 			},
 		]
 	},
