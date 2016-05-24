@@ -34,6 +34,10 @@ swift：
 
 * [the-swift-programming-language-in-chinese](https://github.com/numbbbbb/the-swift-programming-language-in-chinese)  中文版 Apple 官方 Swift 教程《The Swift Programming Language》
 
+UI：
+
+* [awesome-ios-chart](https://github.com/sxyx2008/awesome-ios-chart)  表格开源库
+
 其他：
 
 * [证书问题](http://www.jianshu.com/p/b10680a32d35)  又是讨厌的证书

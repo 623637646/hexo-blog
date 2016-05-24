@@ -952,15 +952,6 @@ data_github: [
 				]
 			},
 			{
-				user: "forkingdog",
-				repo: "FDFullscreenPopGesture",
-				description: "导航栏全屏滑动返回，方便隐藏导航栏",
-				imgs: [
-					"https://raw.githubusercontent.com/forkingdog/FDFullscreenPopGesture/master/Snapshots/snapshot0.gif",
-					"https://raw.githubusercontent.com/forkingdog/FDFullscreenPopGesture/master/Snapshots/snapshot1.gif",
-				]
-			},
-			{
 				user: "mathcarignani",
 				repo: "MCMHeaderAnimated",
 				imgs: [
@@ -1080,6 +1071,23 @@ data_github: [
 				repo: "NJKScrollFullScreen",
 				imgs: [
 					"https://github.com/ninjinkun/NJKScrollFullScreen/raw/master/Screenshots/screencast.gif",
+				]
+			},
+			{
+				user: "forkingdog",
+				repo: "FDFullscreenPopGesture",
+				description: "导航栏全屏滑动返回，方便隐藏导航栏",
+				imgs: [
+					"https://raw.githubusercontent.com/forkingdog/FDFullscreenPopGesture/master/Snapshots/snapshot0.gif",
+					"https://raw.githubusercontent.com/forkingdog/FDFullscreenPopGesture/master/Snapshots/snapshot1.gif",
+				]
+			},
+			{
+				user: "JazysYu",
+				repo: "JZNavigationExtension",
+				description: "JZNavigationExtension为UINavigationController集成了许多方便的功能。",
+				imgs: [
+					"https://raw.githubusercontent.com/JazysYu/JZNavigationExtension/master/Snapshots/JZNavigationExtensionDemo.gif",
 				]
 			},
 		]
@@ -1425,6 +1433,13 @@ data_github: [
 					"https://camo.githubusercontent.com/cd7aefc21305aea7345e6a24b5066d60aff298bd/68747470733a2f2f646c2e64726f70626f7875736572636f6e74656e742e636f6d2f752f313539393636322f7069652e706e67",
 					"https://camo.githubusercontent.com/aca0d1763008ff07a4a52fb3c4a2aec24beb8a83/68747470733a2f2f646c2e64726f70626f7875736572636f6e74656e742e636f6d2f752f313539393636322f736361747465722e706e67",
 					"https://camo.githubusercontent.com/4d5e2514875305c3596b2546d4441371b210e056/68747470733a2f2f646c2e64726f70626f7875736572636f6e74656e742e636f6d2f752f343930343434372f706e63686172745f6c6567656e645f312e706e67",
+				]
+			},
+			{
+				user: "Jawbone",
+				repo: "JBChartView",
+				imgs: [
+					"https://camo.githubusercontent.com/b99d355e20c33ef95df3dedc4243955732563972/68747470733a2f2f7261772e6769746875622e636f6d2f4a6177626f6e652f4a424368617274566965772f6d61737465722f53637265656e73686f74732f6d61696e2e6a7067",
 				]
 			},
 			{
