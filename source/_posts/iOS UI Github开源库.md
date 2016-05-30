@@ -1910,6 +1910,15 @@ data_github: [
 					"https://camo.githubusercontent.com/09ee44b1eea082b5a4cb37410699e8d460f2d211/687474703a2f2f6769616e742e6766796361742e636f6d2f436c65616e536d6172744261646765722e676966",
 				]
             },
+            {
+                user: "ArthurGuibert",
+                repo: "FSInteractiveMap",
+                imgs: [
+					"https://github.com/ArthurGuibert/FSInteractiveMap/raw/master/Screenshots/screen00.png",
+					"https://github.com/ArthurGuibert/FSInteractiveMap/raw/master/Screenshots/screen01.png",
+					"https://github.com/ArthurGuibert/FSInteractiveMap/raw/master/Screenshots/screen02.png",
+				]
+            },
 		]
 	},
 	{
@@ -1939,7 +1948,13 @@ data_github: [
 			{
 				user: "forkingdog",
 				repo: "UIView-FDCollapsibleConstraints",
-				description: "view隐藏，布局自动变更:http://www.jianshu.com/p/d5553d0cc942",
+				description: "view隐藏，布局自动变更",
+				wiki: [
+					{
+						title: "由一次装那啥而引发的对AutoLayout探究",
+						link: "http://www.jianshu.com/p/d5553d0cc942"
+					}
+				],
 			},
 			{
 				user: "PureLayout",
