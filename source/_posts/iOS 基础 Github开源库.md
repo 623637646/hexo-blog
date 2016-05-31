@@ -235,6 +235,11 @@ data_github: [
 				description: "图片的请求和缓存",
 			},
 			{
+				user: "Alamofire",
+				repo: "AlamofireImage",
+				description: "swift版的SDWebImage,而且功能更多、灵活性更高，可以自己写 Image Filter",
+			},
+			{
 				user: "ibireme",
 				repo: "YYWebImage",
 				description: "图片的请求和缓存,渐变效果",
@@ -362,6 +367,11 @@ data_github: [
 				user: "granoff",
 				repo: "Lockbox",
 				description: "钥匙链，key，chain",
+			},
+			{
+				user: "square",
+				repo: "Valet",
+				description: "在 iOS 和 OS X 的 Keychain 中安全地存储数据，然而你无需知道 keychain 的具体工作细节。",
 			},
 		]
 	},
@@ -735,7 +745,12 @@ data_github: [
 			{
 				user: "bang590",
 				repo: "JSPatch",
-				description: "结合js和oc_runtime，动态修改程序，修复bug，动态更新iOS APP",
+				description: "结合js和oc_runtime，动态修改程序，修复bug，动态更新iOS APP，热修复",
+			},
+			{
+				user: "alibaba",
+				repo: "wax",
+				description: "Alibaba热修复",
 			},
 			{
 				user: "nst",
@@ -1012,6 +1027,11 @@ data_github: [
 				imgs: [
 					"https://raw.githubusercontent.com/card-io/card.io-iOS-source/master/Resources/cardio_logo_220.png",
 				]
+			},
+			{
+				user: "fukuchi",
+				repo: "libqrencode",
+				description: "生成二维码",
 			},
 		]
 	},

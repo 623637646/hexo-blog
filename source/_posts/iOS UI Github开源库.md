@@ -1118,6 +1118,14 @@ data_github: [
                 ]
             },
             {
+                user: "DeveloperLx",
+                repo: "LxGridView",
+                description: "仿iOS桌面",
+                imgs: [
+                    "https://github.com/DeveloperLx/LxGridView/raw/master/demo.gif",
+                ]
+            },
+            {
                 user: "norsez",
                 repo: "BDDynamicGridViewController",
                 description: "动画不错",
@@ -1567,6 +1575,14 @@ data_github: [
 					"https://github.com/jivesoftware/PDTSimpleCalendar/raw/master/Documentation/producteev.png",
 				]
 			},
+			{
+				user: "Mozharovsky",
+				repo: "CVCalendar",
+				imgs: [
+					"https://raw.githubusercontent.com/Mozharovsky/CVCalendar/master/Screenshots/CVCalendar_White.png",
+					"https://raw.githubusercontent.com/Mozharovsky/CVCalendar/master/Screenshots/Demo_grey.gif",
+				]
+			},
 		]
 	},
 	{
@@ -1969,6 +1985,13 @@ data_github: [
 				description: "swift",
 				imgs: [
 					"https://camo.githubusercontent.com/446acab40bc68602c8046deddbc60296906ce2d6/687474703a2f2f736e61706b69742e696f2f696d616765732f62616e6e65722e706e67",
+				]
+			},
+			{
+				user: "robb",
+				repo: "Cartography",
+				imgs: [
+					"https://github.com/robb/Cartography/raw/master/images/pirates2.png",
 				]
 			},
             {
