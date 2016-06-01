@@ -38,7 +38,22 @@ data_github: [
 		]
 	},
 	{
-		keywords: [CSS,样式],
+		keywords: [react],
+		projects: [
+			{
+				user: "facebook",
+				repo: "react",
+				wiki: [
+					{
+						title: "颠覆式前端UI开发框架：React",
+						link: "http://www.infoq.com/cn/articles/subversion-front-end-ui-development-framework-react/"
+					}
+				],
+			},
+		]
+	},
+	{
+		keywords: [样式],
 		projects: [
 			{
 				user: "FortAwesome",
