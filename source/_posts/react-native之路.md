@@ -46,11 +46,17 @@ facebook出品，必属精品。搞定了它，你就搞定了iOS+android。牛�
 
 # 教程
 
-我也是刚刚开始，跟着这个教程慢慢来吧。[react-native-guide](https://github.com/reactnativecn/react-native-guide)
+[官方文档](http://facebook.github.io/react-native/docs/getting-started.html)
 
-# 开发环境IDE
+[中文官方文档](http://reactnative.cn/docs/0.26/getting-started.html)，如果英文好，还是看原版英文的吧。这个中文文档更新慢，错误多。。。
+
+[react-native-guide](https://github.com/reactnativecn/react-native-guide)，大杂烩~~~
+
+# 开发环境
 
 google搜索“react native IDE”第一个就是他：[Deco](https://www.decosoftware.com/)，别问我为什么不用百度。
+目前Deco还没有正式版本，并且功能比较少，不过我没见过比他还好的IDE了，谁让react-native太年轻了呢。很看好它。
+具体安装和使用教程，点[这里](https://www.decosoftware.com/docs/getting-started)
 
 ------
 

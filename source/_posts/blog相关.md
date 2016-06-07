@@ -1,5 +1,5 @@
 ---
-title: blog博客相关
+title: blog相关
 categories:
   - blog
 tags:
