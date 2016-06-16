@@ -2229,6 +2229,57 @@ data_github: [
         ]
     },
     {
+        keywords: [全景,VR],
+        projects: [
+			{
+				user: "robbykraft",
+				repo: "Panorama",
+				description: "全景图片展示（可能存在bug和内存泄漏）",
+				imgs: [
+					"https://camo.githubusercontent.com/997478c9be94c3172e1975752e557b80181637e2/68747470733a2f2f7261772e6769746875622e636f6d2f726f6262796b726166742f50616e6f72616d612f6d61737465722f726561646d652f7061726b5f736d616c6c2e6a7067",
+				]
+			},
+			{
+				user: "zhudongyong",
+				repo: "Panorama",
+				description: "全景图片展示，六面图",
+				imgs: [
+					"https://github.com/zhudongyong/Panorama/raw/master/Panorama.gif",
+					"https://github.com/zhudongyong/Panorama/raw/master/%E5%BA%8F%E5%88%97%E5%B8%A7.gif",
+				]
+			},
+			{
+				user: "hanton",
+				repo: "HTY360Player",
+				description: "全景视频",
+				imgs: [
+					"https://github.com/hanton/HTY360Player/raw/master/Screenshot/PlayDemo.gif",
+					"https://github.com/hanton/HTY360Player/raw/master/Screenshot/PlayOnlineVideo.gif",
+					"https://github.com/hanton/HTY360Player/raw/master/Screenshot/PlayLocalVideo.gif",
+				]
+			},
+			{
+				user: "chroman",
+				repo: "CRMotionView",
+				description: "图片浏览，基于动作",
+				imgs: [
+					"https://camo.githubusercontent.com/e16bf69a36f0bbd4277978a266e8dfee407cdd53/687474703a2f2f6368726f6d616e2e6d652f77702d636f6e74656e742f75706c6f6164732f323031342f30322f6d61696e332e6a7067",
+					"https://camo.githubusercontent.com/5ddb025b6cccdd4a7afe1fddd4f8e355716bb2a9/687474703a2f2f6368726f6d616e2e6d652f77702d636f6e74656e742f75706c6f6164732f323031342f30322f6578616d706c65312e676966",
+					"https://camo.githubusercontent.com/ba488685a61103bf1fbbe4960947df421a35f7c3/687474703a2f2f6368726f6d616e2e6d652f77702d636f6e74656e742f75706c6f6164732f323031342f30322f6578616d706c65322e676966",
+					"https://camo.githubusercontent.com/13433451002b54b9561c5488f4160cb0f93097d9/687474703a2f2f6368726f6d616e2e6d652f77702d636f6e74656e742f75706c6f6164732f323031342f30322f6578616d706c65332e676966",
+				]
+			},
+			{
+				user: "subjc",
+				repo: "SubjectiveCPhotoPanner",
+				description: "图片浏览，基于动作",
+				imgs: [
+					"https://camo.githubusercontent.com/e90fa2ac94d16252427a8eced5f753123adef77d/68747470733a2f2f646c2e64726f70626f7875736572636f6e74656e742e636f6d2f752f3434343234392f7375626a6563746976656370617065722e6a7067",
+				]
+			},
+		]
+    },
+    {
         keywords: [其他],
         projects: [
 			{
@@ -2242,14 +2293,6 @@ data_github: [
 				description: "树，分类，选择",
 				imgs: [
 					"https://camo.githubusercontent.com/87d3db881cf57dba674a89a6e1460c00277245b3/68747470733a2f2f7261772e6769746875622e636f6d2f417567757374796e69616b2f524154726565566965772f6d61737465722f53637265656e732f616e696d6174696f6e2e676966",
-				]
-			},
-			{
-				user: "robbykraft",
-				repo: "Panorama",
-				description: "360，全景展示（可能存在bug和内存泄漏）",
-				imgs: [
-					"https://camo.githubusercontent.com/997478c9be94c3172e1975752e557b80181637e2/68747470733a2f2f7261772e6769746875622e636f6d2f726f6262796b726166742f50616e6f72616d612f6d61737465722f726561646d652f7061726b5f736d616c6c2e6a7067",
 				]
 			},
 			{
@@ -2272,25 +2315,6 @@ data_github: [
 				imgs: [
 					"https://raw.githubusercontent.com/dzenbot/UITableView-DataSet/master/Examples/Applications/Screenshots/Screenshots_row1.png",
 					"https://raw.githubusercontent.com/dzenbot/UITableView-DataSet/master/Examples/Applications/Screenshots/Screenshots_row2.png",
-				]
-			},
-			{
-				user: "chroman",
-				repo: "CRMotionView",
-				description: "图片浏览，基于动作",
-				imgs: [
-					"https://camo.githubusercontent.com/e16bf69a36f0bbd4277978a266e8dfee407cdd53/687474703a2f2f6368726f6d616e2e6d652f77702d636f6e74656e742f75706c6f6164732f323031342f30322f6d61696e332e6a7067",
-					"https://camo.githubusercontent.com/5ddb025b6cccdd4a7afe1fddd4f8e355716bb2a9/687474703a2f2f6368726f6d616e2e6d652f77702d636f6e74656e742f75706c6f6164732f323031342f30322f6578616d706c65312e676966",
-					"https://camo.githubusercontent.com/ba488685a61103bf1fbbe4960947df421a35f7c3/687474703a2f2f6368726f6d616e2e6d652f77702d636f6e74656e742f75706c6f6164732f323031342f30322f6578616d706c65322e676966",
-					"https://camo.githubusercontent.com/13433451002b54b9561c5488f4160cb0f93097d9/687474703a2f2f6368726f6d616e2e6d652f77702d636f6e74656e742f75706c6f6164732f323031342f30322f6578616d706c65332e676966",
-				]
-			},
-			{
-				user: "subjc",
-				repo: "SubjectiveCPhotoPanner",
-				description: "图片浏览，基于动作",
-				imgs: [
-					"https://camo.githubusercontent.com/e90fa2ac94d16252427a8eced5f753123adef77d/68747470733a2f2f646c2e64726f70626f7875736572636f6e74656e742e636f6d2f752f3434343234392f7375626a6563746976656370617065722e6a7067",
 				]
 			},
 			{
