@@ -93,6 +93,21 @@ data_github: [
 		]
 	},
 	{
+		keywords: [3D,全景],
+		projects: [
+			{
+				user: "mpetroff",
+				repo: "pannellum",
+				description: "全景浏览引擎",
+			},
+			{
+				user: "mrdoob",
+				repo: "three.js",
+				description: "3D引擎",
+			},
+		]
+	},
+	{
 		keywords: [其他],
 		projects: [
 			{
