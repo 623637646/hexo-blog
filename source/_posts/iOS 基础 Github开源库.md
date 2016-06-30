@@ -697,6 +697,11 @@ data_github: [
 				repo: "CocoaPods",
 			},
 			{
+				user: "CocoaPods",
+				repo: "cocoapods-deintegrate",
+				description: "清除cocoapods"
+			},
+			{
 				user: "Carthage",
 				repo: "Carthage",
 				wiki: [
