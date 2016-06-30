@@ -2249,6 +2249,15 @@ data_github: [
 				]
 			},
 			{
+				user: "ashqal",
+				repo: "MD360Player4iOS",
+				description: "全景图片展示，有android版本",
+				imgs: [
+					"https://raw.githubusercontent.com/ashqal/MD360Player4iOS/master/screenshot.png",
+					"https://raw.githubusercontent.com/ashqal/MD360Player4iOS/master/screenshot2.png",
+				]
+			},
+			{
 				user: "hanton",
 				repo: "HTY360Player",
 				description: "全景视频",
