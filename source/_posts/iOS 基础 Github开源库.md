@@ -664,6 +664,11 @@ data_github: [
 				description: "fps，帧数，debug，测试",
 			},
 			{
+				user: "RolandasRazma",
+				repo: "RRFPSBar",
+				description: "fps，帧数，debug，测试",
+			},
+			{
 				user: "johnno1962",
 				repo: "Xtrace",
 				description: "跟踪调试，代码运行顺序",
