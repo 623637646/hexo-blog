@@ -1,7 +1,7 @@
 ---
 title: xcode插件
 categories:
-  - xcode
+  - tools
 tags:
   - iOS
   - xcode

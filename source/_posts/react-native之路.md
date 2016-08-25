@@ -1,7 +1,7 @@
 ---
 title: react-native之路
 categories:
-  - react-native
+  - iOS
 tags:
   - react-native
   - iOS
