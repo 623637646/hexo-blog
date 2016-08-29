@@ -75,6 +75,10 @@ data_github: [
 						title: "为什么使用Sails？",
 						link: "https://cnodejs.org/topic/553c7b4a1a6e36a27780ee65"
 					},
+					{
+						title: "利用Sails.js+MongoDB开发博客系统",
+						link: "http://yoyoyohamapi.me/categories/%E5%88%A9%E7%94%A8Sails-js-MongoDB%E5%BC%80%E5%8F%91%E5%8D%9A%E5%AE%A2%E7%B3%BB%E7%BB%9F/"
+					},
 				],
 			},
 			{
