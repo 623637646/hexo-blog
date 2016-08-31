@@ -124,6 +124,20 @@ data_github: [
 				]
 			},
 			{
+				user: "gruntjs",
+				repo: "grunt",
+				description: "一句话：自动化。对于需要反复重复的任务，例如压缩（minification）、编译、单元测试、linting等，自动化工具可以减轻你的劳动，简化你的工作。当你在 Gruntfile 文件正确配置好了任务，任务运行器就会自动帮你或你的小组完成大部分无聊的工作。",
+				imgs: [
+					"https://camo.githubusercontent.com/39242419c60a53e1f3cecdeecb2460acce47366f/687474703a2f2f6772756e746a732e636f6d2f696d672f6772756e742d6c6f676f2d6e6f2d776f72646d61726b2e737667",
+				],
+				wiki: [
+					{
+						title: "中文官网",
+						link: "http://www.gruntjs.net/"
+					}
+				],
+			},
+			{
 				user: "i5ting",
 				repo: "i5ting_ztree_toc",
 				description: "markdown toc,markdown自动生成导航条",
