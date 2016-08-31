@@ -1,11 +1,10 @@
 ---
 title: sublimeText插件
 categories: 
-  - tools
+  - plugin
 tags:
-  - tools
-  - 插件
-  - plug
+  - plugin
+  - sublimeText
 date: 2016-08-25 00:00:00
 ---
 

@@ -1,12 +1,11 @@
 ---
 title: xcode插件
 categories:
-  - tools
+  - plugin
 tags:
   - iOS
   - xcode
-  - 插件
-  - plug
+  - plugin
 date: 2015-11-28 00:00:00
 layout: post_github
 data_github: [
