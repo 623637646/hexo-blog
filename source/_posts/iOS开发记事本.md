@@ -18,6 +18,8 @@ date: 2016-03-14 00:00:00
 
 * [Instruments工具](https://segmentfault.com/a/1190000000387082)  Instruments教程
 
+* [Reveal查看任意app的高级技巧](https://zhuanlan.zhihu.com/p/19646016) 查看UI元素
+
 动画：
 
 * [iOS 保持界面流畅的技巧](http://blog.ibireme.com/2015/11/12/smooth_user_interfaces_for_ios/)  YYKit的作者所写，太凶残了!
