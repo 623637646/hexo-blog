@@ -123,6 +123,11 @@ data_github: [
 				description: "代码改动时自动重启Node.js服务",
 			},
 			{
+				user: "foreverjs",
+				repo: "forever",
+				description: "代码改动时自动重启Node.js服务",
+			},
+			{
 				user: "bluesmoon",
 				repo: "node-geoip",
 				description: "根据IP地址库的地理位置定位",
