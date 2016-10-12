@@ -75,6 +75,47 @@ data_github: [
 					}
 				],
 			},
+			{
+				user: "hakimel",
+				repo: "reveal.js",
+				description: "reveal.js是一个能够帮助我们很轻易地使用HTML来创建漂亮的演示效果，也就是我们常见的PPT幻灯片。reveal.js不依赖其他任何javascript库，是一个独立的javascript插件库。它提供了多种幻灯片过渡效果，是一个非常棒的在线演示库。",
+				wiki: [
+					{
+						title: "演示Demo",
+						link: "http://www.helloweba.com/demo/2016/revealjs/#/s4"
+					},
+					{
+						title: "Reveal.js一个用来做WEB演示文稿的框架",
+						link: "http://www.helloweba.com/view-blog-378.html"
+					}
+				],
+			},
+			{
+				user: "impress",
+				repo: "impress.js",
+				description: "impress.js 是国外一位开发者受 Prezi 启发，采用 CSS3 与 JavaScript 语言完成的一个可供开发者使用的表现层框架(演示工具)",
+				wiki: [
+					{
+						title: "演示Demo",
+						link: "http://impress.github.io/impress.js/#/step-3"
+					},
+					{
+						title: "impress.js初体验 - 前端装X利器",
+						link: "http://www.cnblogs.com/Darren_code/archive/2013/01/04/impressjs.html"
+					},
+				],
+			},
+			{
+				user: "chartjs",
+				repo: "Chart.js",
+				description: "图表",
+				wiki: [
+					{
+						title: "官网",
+						link: "http://www.chartjs.org/"
+					},
+				],
+			},
 		]
 	},
 	{
@@ -230,6 +271,17 @@ data_github: [
 					{
 						title: "中文官网",
 						link: "http://www.gruntjs.net/"
+					}
+				],
+			},
+			{
+				user: "moment",
+				repo: "moment",
+				description: "JavaScript 日期处理类库",
+				wiki: [
+					{
+						title: "Moment.js 中文网",
+						link: "http://momentjs.cn/"
 					}
 				],
 			},
