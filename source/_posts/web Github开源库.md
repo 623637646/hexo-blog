@@ -10,7 +10,7 @@ date: 2015-11-28 00:00:00
 layout: post_github
 data_github: [
 	{
-		keywords: [bootstrap],
+		keywords: [UI],
 		projects: [
 			{
 				user: "twbs",
@@ -35,10 +35,35 @@ data_github: [
 				repo: "Flat-UI",
 				description: "扁平化ui，bootstrap主题",
 			},
+			{
+				user: "FortAwesome",
+				repo: "Font-Awesome",
+				description: "一套绝佳的图标字体库和CSS框架",
+			},
+			{
+				user: "d3",
+				repo: "d3",
+				description: "D3 是最流行的可视化库之一，它被很多其他的表格插件所使用。它允许绑定任意数据到DOM，然后将数据驱动转换应用到Document中。你可以使用它用一个数组创建基本的HTML表格，或是利用它的流体过度和交互，用相似的数据创建惊人的SVG条形图",
+				wiki: [
+					{
+						title: "API 中文手册",
+						link: "https://github.com/d3/d3/wiki/API--%E4%B8%AD%E6%96%87%E6%89%8B%E5%86%8C"
+					},
+					{
+						title: "Examples",
+						link: "http://christopheviau.com/d3list/"
+					}
+				],
+			},
+			{
+				user: "mdo",
+				repo: "github-buttons",
+				description: "github按钮，可显示关注数量",
+			},
 		]
 	},
 	{
-		keywords: [angular],
+		keywords: [架构],
 		projects: [
 			{
 				user: "angular",
@@ -63,11 +88,6 @@ data_github: [
 					},
 				],
 			},
-		]
-	},
-	{
-		keywords: [react],
-		projects: [
 			{
 				user: "facebook",
 				repo: "react",
@@ -129,31 +149,6 @@ data_github: [
 		]
 	},
 	{
-		keywords: [UI],
-		projects: [
-			{
-				user: "FortAwesome",
-				repo: "Font-Awesome",
-				description: "一套绝佳的图标字体库和CSS框架",
-			},
-			{
-				user: "d3",
-				repo: "d3",
-				description: "D3 是最流行的可视化库之一，它被很多其他的表格插件所使用。它允许绑定任意数据到DOM，然后将数据驱动转换应用到Document中。你可以使用它用一个数组创建基本的HTML表格，或是利用它的流体过度和交互，用相似的数据创建惊人的SVG条形图",
-				wiki: [
-					{
-						title: "API 中文手册",
-						link: "https://github.com/d3/d3/wiki/API--%E4%B8%AD%E6%96%87%E6%89%8B%E5%86%8C"
-					},
-					{
-						title: "Examples",
-						link: "http://christopheviau.com/d3list/"
-					}
-				],
-			},
-		]
-	},
-	{
 		keywords: [懒加载],
 		projects: [
 			{
@@ -201,11 +196,6 @@ data_github: [
 	{
 		keywords: [其他],
 		projects: [
-			{
-				user: "mdo",
-				repo: "github-buttons",
-				description: "github按钮，可显示关注数量",
-			},
 			{
 				user: "bower",
 				repo: "bower",
