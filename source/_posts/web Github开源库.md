@@ -63,13 +63,40 @@ data_github: [
 					{
 						title: "React 中文版",
 						link: "http://wiki.jikexueyuan.com/project/react/"
-					}
+					},
+					{
+						title: "React 技术栈系列教程",
+						link: "http://www.ruanyifeng.com/blog/2016/09/react-technology-stack.html"
+					},
 				],
 			},
 			{
 				user: "ruanyf",
 				repo: "react-demos",
 				description: "React 入门实例教程 demo",
+			},
+			{
+				user: "reactjs",
+				repo: "redux",
+				description: "将 React, Flux 与函数式编程结合一起，强大的前端框架",
+				wiki: [
+					{
+						title: "Flux 架构入门教程",
+						link: "http://www.ruanyifeng.com/blog/2016/01/flux.html"
+					},
+					{
+						title: "Redux 入门教程（一）：基本用法",
+						link: "http://www.ruanyifeng.com/blog/2016/09/redux_tutorial_part_one_basic_usages.html"
+					},
+					{
+						title: "Redux 入门教程（二）：中间件与异步操作",
+						link: "http://www.ruanyifeng.com/blog/2016/09/redux_tutorial_part_two_async_operations.html"
+					},
+					{
+						title: "Redux 入门教程（三）：React-Redux 的用法",
+						link: "http://www.ruanyifeng.com/blog/2016/09/redux_tutorial_part_three_react-redux.html"
+					},
+				],
 			},
 		]
 	},
@@ -157,14 +184,6 @@ data_github: [
 						link: "http://www.gruntjs.net/"
 					}
 				],
-			},
-			{
-				user: "i5ting",
-				repo: "i5ting_ztree_toc",
-				description: "markdown toc,markdown自动生成导航条",
-				imgs: [
-					"https://github.com/i5ting/i5ting_ztree_toc/raw/master/demo/3.png",
-				]
 			},
 		]
 	},
