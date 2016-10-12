@@ -1054,8 +1054,12 @@ data_github: [
 				description: "facebook出品",
 				wiki: [
 					{
-						title: "React",
-						link: "http://reactjs.cn/react/index.html"
+						title: "React Native 入门指南",
+						link: "http://wiki.jikexueyuan.com/project/react-native-lesson/"
+					},
+					{
+						title: "React Native 中文版",
+						link: "http://wiki.jikexueyuan.com/project/react-native/"
 					}
 				],
 			},

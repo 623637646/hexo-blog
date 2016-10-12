@@ -45,10 +45,31 @@ data_github: [
 				repo: "react",
 				wiki: [
 					{
+						title: "React",
+						link: "http://reactjs.cn/react/index.html"
+					},
+					{
 						title: "颠覆式前端UI开发框架：React",
 						link: "http://www.infoq.com/cn/articles/subversion-front-end-ui-development-framework-react/"
+					},
+					{
+						title: "React 入门实例教程-阮一峰",
+						link: "http://www.ruanyifeng.com/blog/2015/03/react.html"
+					},
+					{
+						title: "React 入门教程",
+						link: "http://wiki.jikexueyuan.com/project/react-tutorial/"
+					},
+					{
+						title: "React 中文版",
+						link: "http://wiki.jikexueyuan.com/project/react/"
 					}
 				],
+			},
+			{
+				user: "ruanyf",
+				repo: "react-demos",
+				description: "React 入门实例教程 demo",
 			},
 		]
 	},
