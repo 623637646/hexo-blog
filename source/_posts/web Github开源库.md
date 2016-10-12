@@ -60,6 +60,21 @@ data_github: [
 				repo: "github-buttons",
 				description: "github按钮，可显示关注数量",
 			},
+			{
+				user: "daneden",
+				repo: "animate.css",
+				description: "一款强大的预设css3动画库",
+				wiki: [
+					{
+						title: "Animate.css动画演示",
+						link: "http://www.dowebok.com/demo/2014/98/"
+					},
+					{
+						title: "animate.css – 齐全的CSS3动画库",
+						link: "http://www.dowebok.com/98.html"
+					}
+				],
+			},
 		]
 	},
 	{

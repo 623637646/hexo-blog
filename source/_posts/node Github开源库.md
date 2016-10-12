@@ -35,6 +35,21 @@ data_github: [
 				repo: "socket.io",
 				description: "node实现WebSockets",
 			},
+			{
+				user: "meteor",
+				repo: "meteor",
+				description: "Meteor 是一个构建在 Node.js 之上的平台，用来开发实时网页程序。Meteor 位于程序数据库和用户界面之间，保持二者之间的数据同步更新。",
+				wiki: [
+					{
+						title: "Discover Meteor 中文版",
+						link: "http://zh.discovermeteor.com/"
+					},
+					{
+						title: "Meteor 中文文档",
+						link: "http://docs.meteorhub.org/"
+					},
+				],
+			},
 		]
 	},
 	{
