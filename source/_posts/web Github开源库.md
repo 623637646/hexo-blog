@@ -38,6 +38,34 @@ data_github: [
 		]
 	},
 	{
+		keywords: [angular],
+		projects: [
+			{
+				user: "angular",
+				repo: "angular.js",
+				description: "AngularJS是一个新出现的强大客户端技术，提供给大家的一种开发强大应用的方式。这种方式利用并且扩展HTML，CSS和javascript，并且弥补了它们的一些非常明显的不足。本应该使用HTML来实现而现在由它开发的动态一些内容。（MVVM）",
+				wiki: [
+					{
+						title: "AngularJS的五个超酷特性",
+						link: "http://www.gbin1.com/technology/javascript/20120717-AugularJS-features/"
+					},
+					{
+						title: "现在就开始使用AngularJS的三个重要原因",
+						link: "http://developer.51cto.com/art/201302/380661.htm"
+					},
+					{
+						title: "AngularJS 教程 | 菜鸟教程",
+						link: "http://www.runoob.com/angularjs/angularjs-tutorial.html"
+					},
+					{
+						title: "AngularJS中文网",
+						link: "http://www.apjs.net/"
+					},
+				],
+			},
+		]
+	},
+	{
 		keywords: [react],
 		projects: [
 			{
@@ -101,12 +129,27 @@ data_github: [
 		]
 	},
 	{
-		keywords: [样式],
+		keywords: [UI],
 		projects: [
 			{
 				user: "FortAwesome",
 				repo: "Font-Awesome",
 				description: "一套绝佳的图标字体库和CSS框架",
+			},
+			{
+				user: "d3",
+				repo: "d3",
+				description: "D3 是最流行的可视化库之一，它被很多其他的表格插件所使用。它允许绑定任意数据到DOM，然后将数据驱动转换应用到Document中。你可以使用它用一个数组创建基本的HTML表格，或是利用它的流体过度和交互，用相似的数据创建惊人的SVG条形图",
+				wiki: [
+					{
+						title: "API 中文手册",
+						link: "https://github.com/d3/d3/wiki/API--%E4%B8%AD%E6%96%87%E6%89%8B%E5%86%8C"
+					},
+					{
+						title: "Examples",
+						link: "http://christopheviau.com/d3list/"
+					}
+				],
 			},
 		]
 	},
