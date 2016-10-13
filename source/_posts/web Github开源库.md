@@ -145,6 +145,11 @@ data_github: [
 				],
 			},
 			{
+				user: "angular",
+				repo: "angular-seed",
+				description: "angular-seed是github上面一个开源的项目，你只需要git clone一下，一个angular项目结构就有了，剩下来的事就是写控制器和视图，挺快捷的。",
+			},
+			{
 				user: "facebook",
 				repo: "react",
 				wiki: [
