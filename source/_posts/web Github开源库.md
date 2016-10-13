@@ -294,6 +294,21 @@ data_github: [
 					}
 				],
 			},
+			{
+				user: "requirejs",
+				repo: "requirejs",
+				description: "RequireJS 是一个JavaScript模块加载器。它非常适合在浏览器中使用, 它非常适合在浏览器中使用，但它也可以用在其他脚本环境, 就像 Rhino and Node. 使用RequireJS加载模块化脚本将提高代码的加载速度和质量",
+				wiki: [
+					{
+						title: "RequireJS 中文网",
+						link: "http://www.requirejs.cn/home.html"
+					},
+					{
+						title: "require.js的用法-阮一峰",
+						link: "http://www.ruanyifeng.com/blog/2012/11/require_js.html"
+					},
+				],
+			},
 		]
 	},
 ]
