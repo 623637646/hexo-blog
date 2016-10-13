@@ -104,6 +104,10 @@ data_github: [
 						title: "利用Sails.js+MongoDB开发博客系统",
 						link: "http://yoyoyohamapi.me/categories/%E5%88%A9%E7%94%A8Sails-js-MongoDB%E5%BC%80%E5%8F%91%E5%8D%9A%E5%AE%A2%E7%B3%BB%E7%BB%9F/"
 					},
+					{
+						title: "Demo",
+						link: "https://github.com/irlnathan/activityoverlord20"
+					},
 				],
 			},
 		]
