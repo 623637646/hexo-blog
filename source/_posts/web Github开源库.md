@@ -317,6 +317,10 @@ data_github: [
 						title: "require.js的用法-阮一峰",
 						link: "http://www.ruanyifeng.com/blog/2012/11/require_js.html"
 					},
+					{
+						title: "快速理解RequireJs",
+						link: "http://www.tuicool.com/articles/jam2Anv"
+					},
 				],
 			},
 		]
