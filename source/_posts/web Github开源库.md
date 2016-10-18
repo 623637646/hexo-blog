@@ -23,6 +23,17 @@ data_github: [
 				],
 			},
 			{
+				user: "angular-ui",
+				repo: "bootstrap",
+				description: "这是由Angular UI团队开发的，增加了许多Angular的扩展组件。UI Bootstrap不使用jQuery; 它为每个Bootstrap JS组件添加了内置指令（directives）",
+				wiki: [
+					{
+						title: "将BootstrapJS和AngularJS结合使用以及为什么不用jQuery",
+						link: "http://ourjs.com/detail/54e18c51232227083e000034"
+					},
+				],
+			},
+			{
 				user: "FezVrasta",
 				repo: "bootstrap-material-design",
 				description: "bootstrap主题",
