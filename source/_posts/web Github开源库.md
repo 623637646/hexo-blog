@@ -222,6 +222,52 @@ data_github: [
 					},
 				],
 			},
+			{
+				user: "requirejs",
+				repo: "requirejs",
+				description: "RequireJS 是一个JavaScript模块加载器。它非常适合在浏览器中使用, 它非常适合在浏览器中使用，但它也可以用在其他脚本环境, 就像 Rhino and Node. 使用RequireJS加载模块化脚本将提高代码的加载速度和质量",
+				wiki: [
+					{
+						title: "RequireJS 中文网",
+						link: "http://www.requirejs.cn/home.html"
+					},
+					{
+						title: "require.js的用法-阮一峰",
+						link: "http://www.ruanyifeng.com/blog/2012/11/require_js.html"
+					},
+					{
+						title: "快速理解RequireJs",
+						link: "http://www.tuicool.com/articles/jam2Anv"
+					},
+				],
+			},
+			{
+				user: "angular-ui",
+				repo: "ui-router",
+				description: "UI-Router被认为是AngularUI为开发者提供的最实用的一个模块，它是一个让开发者能够根据URL状态或者说是'机器状态'来组织和控制界面UI的渲染，而不是仅仅只改变路由（传统AngularJS应用实用的方式）。该模块为开发者提供了很多最视图（view）额外的控制。开发者可以创建嵌套分层的视图、在同一个页面使用多个视图、让多个视图控制某个视图等更多的功能。即使是非常复杂的web应用，UI-Router也可以极佳地驾驭。",
+				wiki: [
+					{
+						title: "UI-Router:为什么开发者都不喜欢Angular.js内置的路由",
+						link: "http://blog.csdn.net/wolifun_fry/article/details/52262426"
+					},
+					{
+						title: "深入理解ANGULARUI路由_UI-ROUTER",
+						link: "http://www.html5jq.com/fe/angular_node/20150417/133.html"
+					},
+					{
+						title: "AngularJS ui-router (嵌套路由)",
+						link: "http://www.open-open.com/lib/view/open1416878937309.html"
+					},
+					{
+						title: "路由 Route",
+						link: "http://www.cnblogs.com/youngdze/p/4025538.html?utm_source=tuicool&utm_medium=referral"
+					},
+					{
+						title: "AngularJS 使用 UI Router 实现表单向导",
+						link: "http://www.oschina.net/translate/angularjs-multi-step-form-using-ui-router"
+					},
+				],
+			},
 		]
 	},
 	{
@@ -324,25 +370,6 @@ data_github: [
 						title: "Moment.js 中文网",
 						link: "http://momentjs.cn/"
 					}
-				],
-			},
-			{
-				user: "requirejs",
-				repo: "requirejs",
-				description: "RequireJS 是一个JavaScript模块加载器。它非常适合在浏览器中使用, 它非常适合在浏览器中使用，但它也可以用在其他脚本环境, 就像 Rhino and Node. 使用RequireJS加载模块化脚本将提高代码的加载速度和质量",
-				wiki: [
-					{
-						title: "RequireJS 中文网",
-						link: "http://www.requirejs.cn/home.html"
-					},
-					{
-						title: "require.js的用法-阮一峰",
-						link: "http://www.ruanyifeng.com/blog/2012/11/require_js.html"
-					},
-					{
-						title: "快速理解RequireJs",
-						link: "http://www.tuicool.com/articles/jam2Anv"
-					},
 				],
 			},
 		]
