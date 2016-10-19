@@ -50,6 +50,20 @@ data_github: [
 				user: "FortAwesome",
 				repo: "Font-Awesome",
 				description: "一套绝佳的图标字体库和CSS框架",
+				wiki: [
+					{
+						title: "Font Awesome, 为 Bootstrap 而创造的图标字体",
+						link: "http://www.bootcss.com/p/font-awesome/"
+					},
+					{
+						title: "Font Awesome,一套绝佳的图标字体库和CSS框架",
+						link: "http://fontawesome.dashgame.com/"
+					},
+					{
+						title: "Font Awesome 中文网 – 又一个WordPress站点",
+						link: "http://www.fontawesome.com.cn/"
+					},
+				],
 			},
 			{
 				user: "d3",
