@@ -127,6 +127,14 @@ data_github: [
 					},
 				],
 			},
+			{
+				user: "Eonasdan",
+				repo: "bootstrap-datetimepicker",
+				description: "时间选择器,基于bootstrap",
+				imgs: [
+					"https://camo.githubusercontent.com/69577291ec6c04a94baffd87e15027d8a4298e12/687474703a2f2f692e696d6775722e636f6d2f6e666e766835672e706e67",
+				],
+			},
 		]
 	},
 	{
