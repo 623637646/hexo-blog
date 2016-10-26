@@ -319,6 +319,83 @@ data_github: [
 					},
 				],
 			},
+			{
+				user: "douglascrockford",
+				repo: "JSLint",
+				description: "JSLint是一个JavaScript验证工具（非开源），可以扫描JavaScript源代码来查找问题。",
+				wiki: [
+					{
+						title: "jslint.com",
+						link: "http://jslint.com/"
+					},
+				],
+			},
+			{
+				user: "jshint",
+				repo: "jshint",
+				description: "JSHint跟JSLint非常像，都是Javascript代码验证工具，这种工具可以检查你的代码并提供相关的代码改进意见。
+
+对于你的代码，你可以选择多种方式来进行检验：
+
+第一种方法：进入JSHint首页，粘贴你的代码，选择相关的选项，然后点击右下角的Lint按钮就可以了。
+
+第二种方法：使用Grunt整合的JSHint。",
+				wiki: [
+					{
+						title: "jshint.com",
+						link: "http://jshint.com/"
+					},
+					{
+						title: "JSHint介绍",
+						link: "https://my.oschina.net/Jeky/blog/93200"
+					},
+					{
+						title: "JSHint 配置浅析",
+						link: "http://www.tuicool.com/articles/AzIRviR"
+					},
+				],
+			},
+			{
+				user: "facebook",
+				repo: "flow",
+				description: "Flow是Facebook出品的一个JavaScript代码的静态类型检查工具",
+				wiki: [
+					{
+						title: "官网翻译",
+						link: "http://zhenyong.site/flowtype/"
+					},
+					{
+						title: "Flow: Facebook出品的JavaScript静态类型检查工具",
+						link: "http://www.infoq.com/cn/news/2014/11/flow-facebook-javascript"
+					},
+				],
+			},
+			{
+				user: "Microsoft",
+				repo: "TypeScript",
+				description: "TypeScript是一种由微软开发的自由和开源的编程语言。它是JavaScript的一个超集，而且本质上向这个语言添加了可选的静态类型和基于类的面向对象编程。",
+				wiki: [
+					{
+						title: "TypeScript中文网",
+						link: "http://www.tslang.cn/"
+					},
+				],
+			},
+			{
+				user: "jashkenas",
+				repo: "coffeescript",
+				description: "CoffeeScript是一门简洁的，构架于JavaScript之上的预处理器语言，可以静态编译成JavaScript，语法主要受ruby和python影响，目前已经为众多rails和node项目采用。",
+				wiki: [
+					{
+						title: "CoffeeScript 中文",
+						link: "http://coffee-script.org/"
+					},
+					{
+						title: "CoffeeScript 详解",
+						link: "https://ruby-china.org/topics/4789"
+					},
+				],
+			},
 		]
 	},
 	{
@@ -389,6 +466,24 @@ data_github: [
 						title: "中文官网",
 						link: "http://www.gruntjs.net/"
 					}
+				],
+			},
+			{
+				user: "webpack",
+				repo: "webpack",
+				description: "WebPack可以看做是模块打包机：它做的事情是，分析你的项目结构，找到JavaScript模块以及其它的一些浏览器不能直接运行的拓展语言（Scss，TypeScript等），并将其打包为合适的格式以供浏览器使用。",
+				imgs: [
+					"https://camo.githubusercontent.com/ebc085019011ababb0d35024824304831c7dc72a/68747470733a2f2f7765627061636b2e6769746875622e696f2f6173736574732f6c6f676f2e706e67",
+				],
+				wiki: [
+					{
+						title: "入门Webpack，看这篇就够了",
+						link: "http://www.jianshu.com/p/42e11515c10f#"
+					},
+					{
+						title: "一小时包教会 —— webpack 入门指南",
+						link: "http://www.w2bc.com/Article/50764"
+					},
 				],
 			},
 			{
