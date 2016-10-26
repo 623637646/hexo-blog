@@ -290,6 +290,14 @@ data_github: [
 					},
 				],
 			},
+			{
+				user: "ui-router",
+				repo: "visualizer",
+				description: "路由可视化",
+				imgs: [
+					"https://camo.githubusercontent.com/ff27140eca791fb153ecb87de938a8b118e0efed/68747470733a2f2f7062732e7477696d672e636f6d2f6d656469612f436e3765704a5f554d4141485771752e6a7067",
+				],
+			},
 		]
 	},
 	{
