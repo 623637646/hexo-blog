@@ -1096,6 +1096,14 @@ data_github: [
 		keywords: [列表,Collection,Table,grid],
 		projects: [
             {
+                user: "Instagram",
+                repo: "IGListKit",
+                imgs: [
+                    "https://raw.githubusercontent.com/Instagram/IGListKit/master/Resources/logo-animation.gif",
+                    "https://github.com/Instagram/IGListKit/raw/master/Resources/workingrange.png",
+                ]
+            },
+            {
                 user: "chiahsien",
                 repo: "CHTCollectionViewWaterfallLayout",
                 imgs: [
