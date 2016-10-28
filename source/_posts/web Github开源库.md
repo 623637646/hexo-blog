@@ -160,6 +160,10 @@ data_github: [
 				description: "AngularJS是一个新出现的强大客户端技术，提供给大家的一种开发强大应用的方式。这种方式利用并且扩展HTML，CSS和javascript，并且弥补了它们的一些非常明显的不足。本应该使用HTML来实现而现在由它开发的动态一些内容。（MVVM）",
 				wiki: [
 					{
+						title: "AngularJS中文官网",
+						link: "https://angular.cn"
+					},
+					{
 						title: "AngularJS的五个超酷特性",
 						link: "http://www.gbin1.com/technology/javascript/20120717-AugularJS-features/"
 					},
