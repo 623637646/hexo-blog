@@ -309,6 +309,16 @@ data_github: [
 				description: "Underscore 是一个 JavaScript 工具库，它提供了一整套函数式编程的实用功能，但是没有扩展任何 JavaScript 内置对象。 他解决了这个问题：“如果我面对一个空白的 HTML 页面，并希望立即开始工作，我需要什么？” 他弥补了 jQuery 没有实现的功能，同时又是 Backbone 必不可少的部分。Underscore 提供了100多个函数，包括常用的：map、filter、invoke — 当然还有更多专业的辅助函数，如：函数绑定、JavaScript 模板功能、创建快速索引、强类型相等测试等等。",
 			},
 			{
+				user: "petkaantonov",
+				repo: "bluebird",
+				description: "javascript Promise 的实现",
+			},
+			{
+				user: "kriskowal",
+				repo: "q",
+				description: "javascript Promise 的实现",
+			},
+			{
 				user: "Modernizr",
 				repo: "Modernizr",
 				description: "Modernizr是一个开源的JS库，它使得那些基于访客浏览器的不同（指对新标准支持性的差异）而开发不同级别体验的设计师的工作变得更为简单。它使得设计师可以在支持HTML5和CSS3的浏览器中充分利用HTML5和CSS3的特性进行开发，同时又不会牺牲其他不支持这些新技术的浏览器的控制。",
