@@ -676,22 +676,27 @@ data_github: [
 					"https://camo.githubusercontent.com/e48918f46c7e90257e3e2467e9c54ee14424b5f8/687474703a2f2f696e6a656374696f6e666f7278636f64652e6a6f686e686f6c6473776f7274682e636f6d2f73746574686f73636f70652e676966",
 				]
 			},
-            {
-                user: "erikdoe",
-                repo: "ocmock",
-                description: "单元测试，模拟对象",
-                wiki: [
-					{
-						title: "OCMock常见使用方式",
-						link: "http://www.cocoachina.com/ios/20150508/11769.html"
-					}
-				]
-            },
-            {
-                user: "google",
-                repo: "earlgrey",
-                description: "用户界面测试,google出品"
-            },
+      {
+          user: "erikdoe",
+          repo: "ocmock",
+          description: "单元测试，模拟对象",
+          wiki: [
+						{
+							title: "OCMock常见使用方式",
+							link: "http://www.cocoachina.com/ios/20150508/11769.html"
+						}
+					]
+      },
+      {
+          user: "google",
+          repo: "earlgrey",
+          description: "用户界面测试,google出品"
+      },
+      {
+          user: "kif-framework",
+          repo: "KIF",
+          description: "用户界面测试"
+      },
 		]
 	},
 	{
