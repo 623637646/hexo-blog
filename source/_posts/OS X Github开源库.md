@@ -20,6 +20,19 @@ data_github: [
                 description: "twitter的UI框架",
             },
             {
+                user: "github",
+                repo: "Rebel",
+                description: "Cocoa framework for improving AppKit",
+            },
+            {
+                user: "ButterKit",
+                repo: "Butter",
+                description: "Image-based customization of controls for various states<br/>
+Block-based action handlers<br/>
+Complete independence of cell-based controls<br/>
+Customizable properties that would otherwise be hard to change",
+            },
+            {
                 user: "Perspx",
                 repo: "PXSourceList",
                 description: "树形控件，基于NSOutlineView",
