@@ -2031,6 +2031,14 @@ data_github: [
                     "https://cloud.githubusercontent.com/assets/219689/7244961/4209de32-e816-11e4-87bc-b161c442d348.png",
                 ]
 			},
+      {
+        user: "tomvanzummeren",
+        repo: "TZStackView",
+        description: "UIStackView replica for iOS 7.x and iOS 8.x . for swift",
+        imgs: [
+                    "https://github.com/tomvanzummeren/TZStackView/raw/master/assets/layout-example.png",
+                ]
+      },
 		]
 	},
 	{
