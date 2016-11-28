@@ -48,6 +48,28 @@ Customizable properties that would otherwise be hard to change",
                     "https://github.com/indragiek/INAppStoreWindow/raw/master/images/screenshot.png",
                 ],
             },
+            {
+                user: "jwilling",
+                repo: "JNWCollectionView",
+                description: "NSCollectionView替代品",
+                wiki: [
+                    {
+                        title: "布局库：NSCollectionViewHelpers",
+                        link: "https://github.com/spilliams/NSCollectionViewHelpers"
+                    }
+                ],
+                imgs: [
+                    "https://camo.githubusercontent.com/e84993261d81d718c3632c6062c6cd0d0ab2c6e7/687474703a2f2f6a77696c6c696e672e636f6d2f73657276652f6769746875622f6a6e77636f6c6c656374696f6e766965772f7469746c652e706e67",
+                ],
+            },
+            {
+                user: "623637646",
+                repo: "CNGridView",
+                description: "NSCollectionView替代品",
+                imgs: [
+                    "https://camo.githubusercontent.com/7210e05434686d1bddcd387de506c8feed879302/68747470733a2f2f646c2e64726f70626f782e636f6d2f752f33343133333231362f576562496d616765732f4769746875622f434e47726964566965772d4578616d706c652e706e67",
+                ],
+            },
         ]
     },
     {
