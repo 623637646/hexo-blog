@@ -1,12 +1,15 @@
 ---
-title: iOS UI Github开源库
+title: iOS(含OS X) UI Github开源库
 categories:
   - iOS
 tags:
   - iOS
+  - OS X
   - github
   - 开源
   - UI
+  - object-c
+  - swift
 date: 2015-11-28 00:00:00
 layout: post_github
 data_github: [
@@ -520,7 +523,7 @@ data_github: [
 			{
 				  user: "Cocoanetics",
 				  repo: "DTCoreText",
-				  description: "富文本",
+				  description: "富文本,支持OS X",
 			 },
 			{
 				  user: "nnhubbard",
@@ -1410,7 +1413,7 @@ data_github: [
 			{
 				user: "ruslanskorb",
 				repo: "RSKImageCropper",
-				description: "图片裁剪",
+				description: "图片裁剪，支持OS X",
 				imgs: [
 					"https://github.com/ruslanskorb/RSKImageCropper/raw/master/Screenshot.png",
 				]
@@ -1606,11 +1609,6 @@ data_github: [
 				imgs: [
 					"https://camo.githubusercontent.com/1a3847644269c1e9706c31c6ea9525bd5fc385b4/68747470733a2f2f7261772e6769746875622e636f6d2f4a616743657361722f694f532d626c75722f6d61737465722f73637265656e73686f742e706e67",
 				]
-			},
-			{
-				user: "623637646",
-				repo: "UIImage-ImageEffects",
-				description: "苹果官方图片背景模糊，可取消渲染",
 			},
 		]
 	},
@@ -1844,7 +1842,7 @@ data_github: [
 			{
                 user: "kean",
                 repo: "Nuke",
-                description: "图片下载，处理，预处理，缓存，Gif支持",
+                description: "图片下载，处理，预处理，缓存，Gif支持，支持OS X",
                 imgs: [
 					"https://cloud.githubusercontent.com/assets/1567433/9952711/971ae2ea-5de1-11e5-8670-6853d3fe18cd.png"
                 ]
@@ -1953,7 +1951,7 @@ data_github: [
 				repo: "Masonry",
 				wiki: [
 					{
-						title: "Masonry介绍与使用实践：快速上手Autolayout",
+						title: "Masonry介绍与使用实践：快速上手Autolayout，支持OS X",
 						link: "http://www.cocoachina.com/ios/20141219/10702.html"
 					}
 				],
@@ -1983,6 +1981,7 @@ data_github: [
 			{
 				user: "PureLayout",
 				repo: "PureLayout",
+        description: "支持OS X",
 				imgs: [
 					"https://github.com/PureLayout/PureLayout/raw/master/Images/PureLayout.png?raw=true",
 				]
@@ -1998,6 +1997,7 @@ data_github: [
 			{
 				user: "robb",
 				repo: "Cartography",
+        description: "支持OS X",
 				imgs: [
 					"https://github.com/robb/Cartography/raw/master/images/pirates2.png",
 				]
@@ -2047,6 +2047,7 @@ data_github: [
 			{
 				user: "facebook",
 				repo: "pop",
+        description: "支持OS X",
 				wiki: [
 					{
 						title: "Facebook Pop 使用指南",
@@ -2104,7 +2105,7 @@ data_github: [
 			{
 				user: "Draveness",
 				repo: "DKChainableAnimationKit",
-				description: "方便的使用连续动画（chainable animations）",
+				description: "方便的使用连续动画（chainable animations），支持OS X",
 				imgs: [
 					"https://github.com/Draveness/DKChainableAnimationKit/raw/master/Gifs/Demo2.gif",
 				]
@@ -2190,7 +2191,7 @@ data_github: [
 						 {
 							  user: "bennyguitar",
 							  repo: "Colours",
-							  description: "flat，扁平化，颜色",
+							  description: "flat，扁平化，颜色，支持OS X",
 						 },
 		  ]
 	 },
@@ -2303,6 +2304,32 @@ data_github: [
 				]
 			},
 		]
+    },
+    {
+        keywords: [SVG],
+        projects: [
+      {
+        user: "exyte",
+        repo: "Macaw",
+        description: "支持OS X",
+        imgs: [
+          "https://github.com/exyte/Macaw/raw/master/logo.png",
+        ]
+      },
+      {
+        user: "SVGKit",
+        repo: "SVGKit",
+        description: "支持OS X",
+      },
+      {
+        user: "mchoe",
+        repo: "SwiftSVG",
+        description: "支持OS X",
+        imgs: [
+          "https://github.com/mchoe/SwiftSVG/raw/master/images/SwiftSVG-Logo.png",
+        ]
+      },
+    ]
     },
     {
         keywords: [其他],

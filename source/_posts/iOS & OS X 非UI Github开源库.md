@@ -1,11 +1,14 @@
 ---
-title: iOS 基础 Github开源库
+title: iOS & OS X 非UI Github开源库
 categories:
   - iOS
 tags:
   - iOS
+  - OS X
   - github
   - 开源
+  - object-c
+  - swift
 date: 2015-11-28 00:00:00
 layout: post_github
 data_github: [

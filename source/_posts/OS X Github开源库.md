@@ -4,10 +4,11 @@ categories:
   - OS X
 tags:
   - OS X
-  - Mac OS
   - github
   - 开源
   - UI
+  - object-c
+  - swift
 date: 2016-11-7 00:00:00
 layout: post_github
 data_github: [
@@ -48,6 +49,11 @@ Customizable properties that would otherwise be hard to change",
                     "https://github.com/indragiek/INAppStoreWindow/raw/master/images/screenshot.png",
                 ],
             },
+        ]
+    },
+    {
+        keywords: [列表],
+        projects: [
             {
                 user: "jwilling",
                 repo: "JNWCollectionView",
@@ -68,6 +74,50 @@ Customizable properties that would otherwise be hard to change",
                 description: "NSCollectionView替代品",
                 imgs: [
                     "https://camo.githubusercontent.com/7210e05434686d1bddcd387de506c8feed879302/68747470733a2f2f646c2e64726f70626f782e636f6d2f752f33343133333231362f576562496d616765732f4769746875622f434e47726964566965772d4578616d706c652e706e67",
+                ],
+            },
+            {
+                user: "iluuu1994",
+                repo: "ITPullToRefreshScrollView",
+                description: "NSScrollView 下拉刷新",
+                imgs: [
+                    "https://camo.githubusercontent.com/7210e05434686d1bddcd387de506c8feed879302/68747470733a2f2f646c2e64726f70626f782e636f6d2f752f33343133333231362f576562496d616765732f4769746875622f434e47726964566965772d4578616d706c652e706e67",
+                ],
+            },
+            {
+                user: "adib",
+                repo: "RefreshableScrollView",
+                description: "NSScrollView 下拉刷新",
+                imgs: [
+                    "https://camo.githubusercontent.com/7210e05434686d1bddcd387de506c8feed879302/68747470733a2f2f646c2e64726f70626f782e636f6d2f752f33343133333231362f576562496d616765732f4769746875622f434e47726964566965772d4578616d706c652e706e67",
+                ],
+            },
+        ]
+    },
+    {
+        keywords: [进度条,菊花],
+        projects: [
+            {
+                user: "danielmj",
+                repo: "DJProgressHUD_OSX",
+                imgs: [
+                    "https://camo.githubusercontent.com/24b00dcaae14804e15fbaab885daa4d62de4a513/687474703a2f2f7777772e64616e6a2e636f2f7374617469632f696d616765732f444a50726f67726573734855442e706e67",
+                ],
+            },
+            {
+                user: "iluuu1994",
+                repo: "ITProgressIndicator",
+                imgs: [
+                    "https://github.com/iluuu1994/ITProgressIndicator/raw/master/Demo.gif",
+                ],
+            },
+            {
+                user: "iluuu1994",
+                repo: "ITProgressBar",
+                imgs: [
+                    "https://github.com/iluuu1994/ITProgressBar/raw/master/demo1.png",
+                    "https://github.com/iluuu1994/ITProgressBar/raw/master/demo2.png",
+                    "https://github.com/iluuu1994/ITProgressBar/raw/master/demo3.png",
                 ],
             },
         ]
