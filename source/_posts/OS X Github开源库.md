@@ -102,6 +102,13 @@ Customizable properties that would otherwise be hard to change",
                 ],
             },
             {
+                user: "Foxnolds",
+                repo: "MBProgressHUD-OSX",
+                imgs: [
+                    "https://camo.githubusercontent.com/4c8d5fd6c6b9cb572c74a3687eabc579f815ac17/687474703a2f2f646c2e64726f70626f782e636f6d2f752f3137363330352f4d4250726f67726573734855442d4f53582f4f53585f315f7468756d622e706e67",
+                ],
+            },
+            {
                 user: "iluuu1994",
                 repo: "ITProgressIndicator",
                 imgs: [
