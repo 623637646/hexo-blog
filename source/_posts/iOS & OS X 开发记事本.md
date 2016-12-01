@@ -13,6 +13,8 @@ date: 2016-03-14 00:00:00
 
 * [- ( ゜- ゜)つロ Github-iOS备忘](http://github.ibireme.com/github/list/ios)  好多开源代码推荐
 
+* [cocoa controls](https://www.cocoacontrols.com/)  有很多iOS，OS X，watchOS，tvOS相关的开源库视图总结。
+
 调试，debug：
 
 * [Xcode watchpoint 调试方法](http://www.jianshu.com/p/e89af3e9a8d7)  强大的调试教程
