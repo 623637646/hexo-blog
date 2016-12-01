@@ -81,16 +81,13 @@ Customizable properties that would otherwise be hard to change",
                 repo: "ITPullToRefreshScrollView",
                 description: "NSScrollView 下拉刷新",
                 imgs: [
-                    "https://camo.githubusercontent.com/7210e05434686d1bddcd387de506c8feed879302/68747470733a2f2f646c2e64726f70626f782e636f6d2f752f33343133333231362f576562496d616765732f4769746875622f434e47726964566965772d4578616d706c652e706e67",
+                    "https://github.com/iluuu1994/ITPullToRefreshScrollView/raw/master/demo.gif",
                 ],
             },
             {
                 user: "adib",
                 repo: "RefreshableScrollView",
                 description: "NSScrollView 下拉刷新",
-                imgs: [
-                    "https://camo.githubusercontent.com/7210e05434686d1bddcd387de506c8feed879302/68747470733a2f2f646c2e64726f70626f782e636f6d2f752f33343133333231362f576562496d616765732f4769746875622f434e47726964566965772d4578616d706c652e706e67",
-                ],
             },
         ]
     },
