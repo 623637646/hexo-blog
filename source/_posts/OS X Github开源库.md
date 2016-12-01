@@ -100,6 +100,22 @@ Customizable properties that would otherwise be hard to change",
         keywords: [进度条,菊花],
         projects: [
             {
+                user: "kaunteya",
+                repo: "ProgressKit",
+                imgs: [
+                    "https://github.com/kaunteya/ProgressKit/raw/master/Images/banner.gif",
+                    "https://github.com/kaunteya/ProgressKit/raw/master/Images/indeterminate.gif",
+                    "https://github.com/kaunteya/ProgressKit/raw/master/Images/CircularSnail.gif",
+                    "https://github.com/kaunteya/ProgressKit/raw/master/Images/Rainbow.gif",
+                    "https://github.com/kaunteya/ProgressKit/raw/master/Images/Crawler.gif",
+                    "https://github.com/kaunteya/ProgressKit/raw/master/Images/Spinner.gif",
+                    "https://github.com/kaunteya/ProgressKit/raw/master/Images/ShootingStars.gif",
+                    "https://github.com/kaunteya/ProgressKit/raw/master/Images/RotatingArc.gif",
+                    "https://github.com/kaunteya/ProgressKit/raw/master/Images/CircularProgress.png",
+                    "https://github.com/kaunteya/ProgressKit/raw/master/Images/ProgressBar.png",
+                ],
+            },
+            {
                 user: "danielmj",
                 repo: "DJProgressHUD_OSX",
                 imgs: [
