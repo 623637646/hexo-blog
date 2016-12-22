@@ -153,7 +153,7 @@ glClear (GLbitfieldmask)
 ## 完善UIView，运行
 
 ```objc
-@interface HWView (){
+@interface OpenGLView (){
     EAGLContext* _context;
     CAEAGLLayer* _eaglLayer;
     GLuint _colorRenderBuffer;
@@ -424,7 +424,7 @@ void main()
 在 OpenGLView.h 的 OpenGLView 类声明中添加两个成员 _programHandle _positionSlot：
 
 ```objc
-@interface SDView (){
+@interface OpenGLView (){
     EAGLContext* _context;
     CAEAGLLayer* _eaglLayer;
     GLuint _colorRenderBuffer;
