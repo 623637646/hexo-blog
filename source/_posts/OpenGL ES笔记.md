@@ -153,7 +153,8 @@ glClear (GLbitfieldmask)
 ## 完善UIView，运行
 
 ```objc
-@interface OEView (){
+@interface HWView (){
+    EAGLContext* _context;
     CAEAGLLayer* _eaglLayer;
     GLuint _colorRenderBuffer;
     GLuint _frameBuffer;
