@@ -9,8 +9,6 @@ tags:
 date: 2016-12-21 00:00:00
 ---
 
-[源码点这里](https://github.com/623637646/OpenGL-ES-Example)
-
 参考
 * [罗朝辉（飘飘白云）](http://blog.csdn.net/kesalin/article/category/1288827)
 
@@ -187,6 +185,10 @@ glClear (GLbitfieldmask)
 
 ## 效果
 {% asset_img hello-word.png %}
+
+## 源码
+
+[源码OpenGL-ES-Example/HelloWord](https://github.com/623637646/OpenGL-ES-Example)
 
 # OpenGL ES渲染管线与着色器
 
@@ -551,5 +553,9 @@ void main()
 编译运行，将看到一个红色的三角形显示在屏幕中央。知道为什么是红色的么？那是因为 program 也链接了片元着色器，在片元着色脚本文件中，我们指定 gl_FragColor 的值为红色 vec4(1.0, 0.0, 0.0, 1.0)。
 
 {% asset_img shader-4.png %}
+
+## 源码
+
+[源码OpenGL-ES-Example/Shader](https://github.com/623637646/OpenGL-ES-Example)
 
 
