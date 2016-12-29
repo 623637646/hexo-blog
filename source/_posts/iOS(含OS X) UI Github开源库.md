@@ -1319,6 +1319,15 @@ data_github: [
 	{
 		keywords: [相册选择],
 		projects: [
+      {
+        user: "banchichen",
+        repo: "TZImagePickerController",
+        description: "图片视频多选",
+        imgs: [
+          "https://github.com/banchichen/TZImagePickerController/raw/master/TZImagePickerController/ScreenShots/photoPickerVc.PNG",
+          "https://github.com/banchichen/TZImagePickerController/raw/master/TZImagePickerController/ScreenShots/videoPlayerVc.PNG",
+        ]
+      },
 			{
 				user: "chiunam",
 				repo: "CTAssetsPickerController",
