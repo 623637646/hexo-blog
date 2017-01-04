@@ -773,6 +773,14 @@ data_github: [
 		"https://raw.githubusercontent.com/jaredsinclair/JTSImageViewController/master/jts-image-viewer-screenshot.png",
 						  ]
 					 },
+           {
+              user: "DroidsOnRoids",
+              repo: "MPParallaxView",
+              description: "视差",
+              imgs: [
+    "https://github.com/DroidsOnRoids/MPParallaxView/raw/master/Resources/demo.gif",
+              ]
+           },
 					  {
 						  user: "u10int",
 						  repo: "URBMediaFocusViewController",
