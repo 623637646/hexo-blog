@@ -1129,6 +1129,14 @@ data_github: [
                 ]
             },
             {
+                user: "lxcid",
+                repo: "LXReorderableCollectionViewFlowLayout",
+                description: "可拖动,拖拽",
+                imgs: [
+                    "https://camo.githubusercontent.com/e245a5be4853f913a5c5f48465c96d7a8b8eed04/68747470733a2f2f7261772e6769746875622e636f6d2f6c786369642f4c5852656f7264657261626c65436f6c6c656374696f6e56696577466c6f774c61796f75742f6d61737465722f436f6e74656e742f53637265656e73686f74732f73637265656e73686f74312e706e67",
+                ]
+            },
+            {
                 user: "ra1028",
                 repo: "RACollectionViewReorderableTripletLayout",
                 description: "可拖动,拖拽",
@@ -1240,6 +1248,14 @@ data_github: [
 					"https://raw.githubusercontent.com/mayuur/MJParallaxCollectionView/master/Screenshot.png",
 				]
 			},
+      {
+        user: "fdzsergio",
+        repo: "SFFocusViewLayout",
+        description: "视差",
+        imgs: [
+          "https://github.com/fdzsergio/SFFocusViewLayout/raw/master/Screenshots/SFFocusViewLayout.gif",
+        ]
+      },
 			{
 				user: "RobotsAndPencils",
 				repo: "RPSlidingMenu",
