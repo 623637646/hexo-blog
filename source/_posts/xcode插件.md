@@ -192,6 +192,15 @@ data_github: [
 					"https://camo.githubusercontent.com/a544a54d43b6e26c75d56889b7a6a4df8a90b4a5/68747470733a2f2f646c2e64726f70626f7875736572636f6e74656e742e636f6d2f752f31323734383230312f534358636f6465537769746368457870616e6465722f534358636f6465537769746368457870616e646572322e676966",
 				]
 			},
+      {
+        user: "johnno1962",
+        repo: "injectionforxcode",
+        description: "不用重新编译运行，就能看到代码变更后的效果",
+        imgs: [
+          "https://github.com/johnno1962/injectionforxcode/raw/master/documentation/images/injected.gif",
+          "https://github.com/johnno1962/injectionforxcode/raw/master/documentation/images/injection_tunable.gif",
+        ]
+      },
 		]
 	},
 	{
