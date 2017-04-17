@@ -2466,7 +2466,7 @@ data_github: [
         repo: "DKNightVersion",
         description: "成熟的夜间模式解决方案",
         imgs: [
-          "https://github.com/Draveness/DKNightVersion/blob/master/images/DKNightVersion.gif",
+          "https://github.com/Draveness/DKNightVersion/raw/master/images/DKNightVersion.gif",
         ],
         wiki: [
           {
