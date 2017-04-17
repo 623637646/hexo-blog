@@ -2461,6 +2461,20 @@ data_github: [
 					"https://github.com/andreamazz/SubtleVolume/raw/master/assets/screenshot.png",
 				]
 			},
+      {
+        user: "Draveness",
+        repo: "DKNightVersion",
+        description: "成熟的夜间模式解决方案",
+        imgs: [
+          "https://github.com/Draveness/DKNightVersion/blob/master/images/DKNightVersion.gif",
+        ],
+        wiki: [
+          {
+            title: "成熟的夜间模式解决方案",
+            link: "https://github.com/Draveness/Analyze/blob/master/contents/DKNightVersion/%E6%88%90%E7%86%9F%E7%9A%84%E5%A4%9C%E9%97%B4%E6%A8%A1%E5%BC%8F%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88.md"
+          },
+        ],
+      },
         ]
     },
 ]
