@@ -2475,6 +2475,14 @@ data_github: [
           },
         ],
       },
+      {
+        user: "unash",
+        repo: "BarrageRenderer",
+        description: "弹幕",
+        imgs: [
+          "https://github.com/unash/BarrageRenderer/raw/master/BarrageRendererDemo.gif",
+        ],
+      },
         ]
     },
 ]
