@@ -1684,6 +1684,11 @@ data_github: [
 					"https://raw.githubusercontent.com/bfeher/BFPaperButton/master/BFPaperButtonDemoGif2.gif",
 				]
 			},
+      {
+        user: "ole",
+        repo: "OBShapedButton",
+        description: "不规则形状的按钮",
+      },
 			{
 				user: "nealyoung",
 				repo: "NYSegmentedControl",
