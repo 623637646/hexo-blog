@@ -1109,9 +1109,19 @@ data_github: [
             {
                 user: "Instagram",
                 repo: "IGListKit",
+                description: "支持OS X",
                 imgs: [
                     "https://raw.githubusercontent.com/Instagram/IGListKit/master/Resources/logo-animation.gif",
                     "https://github.com/Instagram/IGListKit/raw/master/Resources/workingrange.png",
+                ]
+            },
+            {
+                user: "KelvinJin",
+                repo: "AnimatedCollectionViewLayout",
+                imgs: [
+                    "https://camo.githubusercontent.com/fb900c67839bb7e04632d99bf9ef9e6c2b6c4028/687474703a2f2f692e696d6775722e636f6d2f76384a7552596a2e676966",
+                    "https://camo.githubusercontent.com/61cca12f8e55966e3c4aa94de8e98d83a9adb645/687474703a2f2f692e696d6775722e636f6d2f6c434e68356d672e676966",
+                    "https://camo.githubusercontent.com/b95bf8b8a932f1148921046dbf9f8e76bcd6f703/687474703a2f2f692e696d6775722e636f6d2f3839376d63646d2e676966",
                 ]
             },
             {
