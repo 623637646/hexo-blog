@@ -641,6 +641,26 @@ data_github: [
 				]
 			},
 			{
+				user: "Zepo",
+				repo: "MLeaksFinder",
+				description: "检测内存泄漏",
+				wiki: [
+						{
+							title: "MLeaksFinder 新特性",
+							link: "https://wereadteam.github.io/2016/07/20/MLeaksFinder2/"
+						},
+						{
+							title: "MLeaksFinder：精准 iOS 内存泄露检测工具",
+							link: "https://wereadteam.github.io/2016/02/22/MLeaksFinder/"
+						}
+					]
+			},
+			{
+				user: "facebook",
+				repo: "FBRetainCycleDetector",
+				description: "检测内存泄漏"
+			},
+			{
 				user: "square",
 				repo: "PonyDebugger",
 				description: "视图层级，网络请求监听，Core Data 数据浏览",
