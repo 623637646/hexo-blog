@@ -91,8 +91,16 @@ google_analytics: UA-77478406-1
 # 分享
 add_this_id: ra-573146f813c6ded4
 
-# Swiftype 站内搜索
-swiftype_key: -q-zktZajWyZ7M56rvWJ
+# Swiftype 站内搜索(服务到期了)
+#swiftype_key: -q-zktZajWyZ7M56rvWJ
+
+# algolia 搜索
+algolia:
+  applicationID: 'HL67VDQWJE'
+  apiKey: '06a4ad84aaf64e751488760fcd892840'
+  adminApiKey: '31f0d408771c6e806085648fdeb4ac25'
+  indexName: 'defult'
+  chunkSize: 5000
 
 # Local Search
 search:
