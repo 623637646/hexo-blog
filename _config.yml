@@ -93,3 +93,10 @@ add_this_id: ra-573146f813c6ded4
 
 # Swiftype 站内搜索
 swiftype_key: -q-zktZajWyZ7M56rvWJ
+
+# Local Search
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
