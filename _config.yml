@@ -78,9 +78,11 @@ theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
+
 deploy:
   type: git
   repo: https://github.com/623637646/623637646.github.io.git
+  branch: master
 
 # 评论
 disqus_shortname: mahouwang
