@@ -301,114 +301,6 @@ data_github: [
 		]
 	},
 	{
-		keywords: [js],
-		projects: [
-			{
-				user: "jashkenas",
-				repo: "underscore",
-				description: "Underscore 是一个 JavaScript 工具库，它提供了一整套函数式编程的实用功能，但是没有扩展任何 JavaScript 内置对象。 他解决了这个问题：“如果我面对一个空白的 HTML 页面，并希望立即开始工作，我需要什么？” 他弥补了 jQuery 没有实现的功能，同时又是 Backbone 必不可少的部分。Underscore 提供了100多个函数，包括常用的：map、filter、invoke — 当然还有更多专业的辅助函数，如：函数绑定、JavaScript 模板功能、创建快速索引、强类型相等测试等等。",
-			},
-			{
-				user: "petkaantonov",
-				repo: "bluebird",
-				description: "javascript Promise 的实现",
-			},
-			{
-				user: "kriskowal",
-				repo: "q",
-				description: "javascript Promise 的实现",
-			},
-			{
-				user: "Modernizr",
-				repo: "Modernizr",
-				description: "Modernizr是一个开源的JS库，它使得那些基于访客浏览器的不同（指对新标准支持性的差异）而开发不同级别体验的设计师的工作变得更为简单。它使得设计师可以在支持HTML5和CSS3的浏览器中充分利用HTML5和CSS3的特性进行开发，同时又不会牺牲其他不支持这些新技术的浏览器的控制。",
-				wiki: [
-					{
-						title: "Modernizr——为HTML5和CSS3而生！",
-						link: "http://www.osmn00.com/translation/221.html"
-					},
-				],
-			},
-			{
-				user: "douglascrockford",
-				repo: "JSLint",
-				description: "JSLint是一个JavaScript验证工具（非开源），可以扫描JavaScript源代码来查找问题。",
-				wiki: [
-					{
-						title: "jslint.com",
-						link: "http://jslint.com/"
-					},
-				],
-			},
-			{
-				user: "jshint",
-				repo: "jshint",
-				description: "JSHint跟JSLint非常像，都是Javascript代码验证工具，这种工具可以检查你的代码并提供相关的代码改进意见。
-
-对于你的代码，你可以选择多种方式来进行检验：
-
-第一种方法：进入JSHint首页，粘贴你的代码，选择相关的选项，然后点击右下角的Lint按钮就可以了。
-
-第二种方法：使用Grunt整合的JSHint。",
-				wiki: [
-					{
-						title: "jshint.com",
-						link: "http://jshint.com/"
-					},
-					{
-						title: "JSHint介绍",
-						link: "https://my.oschina.net/Jeky/blog/93200"
-					},
-					{
-						title: "JSHint 配置浅析",
-						link: "http://www.tuicool.com/articles/AzIRviR"
-					},
-				],
-			},
-			{
-				user: "facebook",
-				repo: "flow",
-				description: "Flow是Facebook出品的一个JavaScript代码的静态类型检查工具",
-				wiki: [
-					{
-						title: "官网翻译",
-						link: "http://zhenyong.site/flowtype/"
-					},
-					{
-						title: "Flow: Facebook出品的JavaScript静态类型检查工具",
-						link: "http://www.infoq.com/cn/news/2014/11/flow-facebook-javascript"
-					},
-				],
-			},
-			{
-				user: "Microsoft",
-				repo: "TypeScript",
-				description: "TypeScript是一种由微软开发的自由和开源的编程语言。它是JavaScript的一个超集，而且本质上向这个语言添加了可选的静态类型和基于类的面向对象编程。",
-				wiki: [
-					{
-						title: "TypeScript中文网",
-						link: "http://www.tslang.cn/"
-					},
-				],
-			},
-			{
-				user: "jashkenas",
-				repo: "coffeescript",
-				description: "CoffeeScript是一门简洁的，构架于JavaScript之上的预处理器语言，可以静态编译成JavaScript，语法主要受ruby和python影响，目前已经为众多rails和node项目采用。",
-				wiki: [
-					{
-						title: "CoffeeScript 中文",
-						link: "http://coffee-script.org/"
-					},
-					{
-						title: "CoffeeScript 详解",
-						link: "https://ruby-china.org/topics/4789"
-					},
-				],
-			},
-		]
-	},
-	{
 		keywords: [懒加载],
 		projects: [
 			{
@@ -457,56 +349,16 @@ data_github: [
 		keywords: [其他],
 		projects: [
 			{
-				user: "bower",
-				repo: "bower",
-				description: "包,代码管理工具",
-				imgs: [
-					"https://camo.githubusercontent.com/8a2024183152023c85dc7124365c1afb721450a4/687474703a2f2f626f7765722e696f2f696d672f626f7765722d6c6f676f2e706e67",
-				]
-			},
-			{
-				user: "gruntjs",
-				repo: "grunt",
-				description: "一句话：自动化。对于需要反复重复的任务，例如压缩（minification）、编译、单元测试、linting等，自动化工具可以减轻你的劳动，简化你的工作。当你在 Gruntfile 文件正确配置好了任务，任务运行器就会自动帮你或你的小组完成大部分无聊的工作。",
-				imgs: [
-					"https://camo.githubusercontent.com/39242419c60a53e1f3cecdeecb2460acce47366f/687474703a2f2f6772756e746a732e636f6d2f696d672f6772756e742d6c6f676f2d6e6f2d776f72646d61726b2e737667",
-				],
-				wiki: [
-					{
-						title: "中文官网",
-						link: "http://www.gruntjs.net/"
-					}
-				],
-			},
-			{
-				user: "webpack",
-				repo: "webpack",
-				description: "WebPack可以看做是模块打包机：它做的事情是，分析你的项目结构，找到JavaScript模块以及其它的一些浏览器不能直接运行的拓展语言（Scss，TypeScript等），并将其打包为合适的格式以供浏览器使用。",
-				imgs: [
-					"https://camo.githubusercontent.com/ebc085019011ababb0d35024824304831c7dc72a/68747470733a2f2f7765627061636b2e6769746875622e696f2f6173736574732f6c6f676f2e706e67",
-				],
-				wiki: [
-					{
-						title: "入门Webpack，看这篇就够了",
-						link: "http://www.jianshu.com/p/42e11515c10f#"
-					},
-					{
-						title: "一小时包教会 —— webpack 入门指南",
-						link: "http://www.w2bc.com/Article/50764"
-					},
-				],
-			},
-			{
-				user: "moment",
-				repo: "moment",
-				description: "JavaScript 日期处理类库",
-				wiki: [
-					{
-						title: "Moment.js 中文网",
-						link: "http://momentjs.cn/"
-					}
-				],
-			},
+        user: "Modernizr",
+        repo: "Modernizr",
+        description: "Modernizr是一个开源的JS库，它使得那些基于访客浏览器的不同（指对新标准支持性的差异）而开发不同级别体验的设计师的工作变得更为简单。它使得设计师可以在支持HTML5和CSS3的浏览器中充分利用HTML5和CSS3的特性进行开发，同时又不会牺牲其他不支持这些新技术的浏览器的控制。",
+        wiki: [
+          {
+            title: "Modernizr——为HTML5和CSS3而生！",
+            link: "http://www.osmn00.com/translation/221.html"
+          },
+        ],
+      }
 		]
 	},
 ]

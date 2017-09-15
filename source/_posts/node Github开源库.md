@@ -38,12 +38,7 @@ data_github: [
 				user: "socketio",
 				repo: "socket.io",
 				description: "node实现WebSockets",
-			},
-      {
-        user: "caolan",
-        repo: "async",
-        description: "Async是一个流程控制工具包，提供了直接而强大的异步功能。基于Javascript为Node.js设计，同时也可以直接在浏览器中使用。Async提供了大约20个函数，包括常用的 map, reduce, filter, forEach 等，异步流程控制模式包括，串行(series)，并行(parallel)，瀑布(waterfall)等。",
-      },
+			}
 		]
 	},
 	{
@@ -177,20 +172,75 @@ data_github: [
 			},
 		]
 	},
+  {
+    keywords: [工具],
+    projects: [
+      {
+        user: "bower",
+        repo: "bower",
+        description: "包,代码管理工具",
+        imgs: [
+          "https://camo.githubusercontent.com/8a2024183152023c85dc7124365c1afb721450a4/687474703a2f2f626f7765722e696f2f696d672f626f7765722d6c6f676f2e706e67",
+        ]
+      },
+      {
+        user: "gruntjs",
+        repo: "grunt",
+        description: "一句话：自动化。对于需要反复重复的任务，例如压缩（minification）、编译、单元测试、linting等，自动化工具可以减轻你的劳动，简化你的工作。当你在 Gruntfile 文件正确配置好了任务，任务运行器就会自动帮你或你的小组完成大部分无聊的工作。",
+        imgs: [
+          "https://camo.githubusercontent.com/39242419c60a53e1f3cecdeecb2460acce47366f/687474703a2f2f6772756e746a732e636f6d2f696d672f6772756e742d6c6f676f2d6e6f2d776f72646d61726b2e737667",
+        ],
+        wiki: [
+          {
+            title: "中文官网",
+            link: "http://www.gruntjs.net/"
+          }
+        ],
+      },
+      {
+        user: "webpack",
+        repo: "webpack",
+        description: "WebPack可以看做是模块打包机：它做的事情是，分析你的项目结构，找到JavaScript模块以及其它的一些浏览器不能直接运行的拓展语言（Scss，TypeScript等），并将其打包为合适的格式以供浏览器使用。",
+        imgs: [
+          "https://camo.githubusercontent.com/ebc085019011ababb0d35024824304831c7dc72a/68747470733a2f2f7765627061636b2e6769746875622e696f2f6173736574732f6c6f676f2e706e67",
+        ],
+        wiki: [
+          {
+            title: "入门Webpack，看这篇就够了",
+            link: "http://www.jianshu.com/p/42e11515c10f#"
+          },
+          {
+            title: "一小时包教会 —— webpack 入门指南",
+            link: "http://www.w2bc.com/Article/50764"
+          },
+        ],
+      }
+    ]
+  },
+  {
+    keywords: [桌面应用],
+    projects: [
+      {
+        user: "nwjs",
+        repo: "nw.js",
+        description: "使用Node.js开发桌面级跨平台应用",
+      },
+      {
+        user: "electron",
+        repo: "electron",
+        description: "搭建跨平台桌面应用，仅仅使用JavaScript,HTML以及CSS",
+      },
+    ]
+  },
 	{
 		keywords: [其他],
 		projects: [
 			{
-				user: "nwjs",
-				repo: "nw.js",
-				description: "使用Node.js开发桌面级跨平台应用",
-			},
-			{
 				user: "bluesmoon",
 				repo: "node-geoip",
 				description: "根据IP地址库的地理位置定位",
-			},
+			}
 		]
-	},
+	}
 ]
 ---
