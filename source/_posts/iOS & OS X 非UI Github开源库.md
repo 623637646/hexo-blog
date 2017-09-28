@@ -1120,6 +1120,39 @@ data_github: [
 			},
 		]
 	},
+  {
+    keywords: [资源文件],
+    projects: [
+      {
+        user: "mac-cain13",
+        repo: "R.swift",
+        description: "资源文件，友好健壮使用"
+      },
+      {
+        user: "SwiftGen",
+        repo: "SwiftGen",
+        description: "资源文件，友好健壮使用"
+      }
+    ]
+  },
+  {
+    keywords: [国际化],
+    projects: [
+      {
+        user: "marmelroy",
+        repo: "Localize-Swift",
+        description: "切换语言，不用重启app",
+        imgs: [
+          "https://camo.githubusercontent.com/68670b270ff0f916c5cb2dfe0d158a5cb4245681/687474703a2f2f692e696d6775722e636f6d2f767372707142742e676966",
+        ]
+      },
+      {
+        user: "AlexanderZaytsev",
+        repo: "react-native-i18n",
+        description: "reac-native i18n 解决方案"
+      },
+    ]
+  },
 	{
 		keywords: [其他],
 		projects: [
