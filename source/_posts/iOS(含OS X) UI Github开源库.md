@@ -88,6 +88,16 @@ data_github: [
                               ]
                          },
                          {
+                              user: "Orderella",
+                              repo: "PopupDialog",
+                              imgs: [
+ "https://github.com/Orderella/PopupDialog/raw/master/Assets/PopupDialog01.gif?raw=true",
+ "https://github.com/Orderella/PopupDialog/raw/master/Assets/PopupDialog02.gif?raw=true",
+ "https://github.com/Orderella/PopupDialog/raw/master/Assets/PopupDialog03.gif?raw=true",
+ "https://github.com/Orderella/PopupDialog/raw/master/Assets/PopupDialogDark01.png?raw=true"
+                              ]
+                         },
+                         {
                               user: "cruffenach",
                               repo: "CRToast",
                               imgs: [

@@ -149,6 +149,27 @@ data_github: [
 		]
 	},
 	{
+		keywords: [架构],
+		projects: [
+			{
+				user: "Swinject",
+				repo: "Swinject",
+				description: "swift，依赖注入，控制反转，ICO容器，AOP"
+			},
+			{
+				user: "appsquickly",
+				repo: "Typhoon",
+				description: "依赖注入，控制反转，ICO容器，AOP",
+				wiki: [
+					{
+						title: "iOS 面向切面编程(AOP)--typhoon框架",
+						link: "http://www.jianshu.com/p/d40fcee4d4e5"
+					}
+				]
+			}
+		]
+	},
+	{
 		keywords: [通信,网络],
 		projects: [
 			{
@@ -168,6 +189,14 @@ data_github: [
 				user: "Alamofire",
 				repo: "Alamofire",
 				description: "swift,AFNetworking作者编写",
+				imgs: [
+					"https://raw.githubusercontent.com/Alamofire/Alamofire/assets/alamofire.png",
+				]
+			},
+			{
+				user: "RxSwiftCommunity",
+				repo: "RxAlamofire",
+				description: "Alamofire with RxSwift",
 				imgs: [
 					"https://raw.githubusercontent.com/Alamofire/Alamofire/assets/alamofire.png",
 				]
@@ -215,6 +244,11 @@ data_github: [
 						link: "http://blog.csdn.net/openglnewbee/article/details/50705146"
 					}
 				],
+			},
+			{
+				user: "ashleymills",
+				repo: "Reachability.swift",
+				description: "swift Reachability"
 			},
 			{
 				user: "dustturtle",
@@ -376,6 +410,11 @@ data_github: [
 				repo: "Valet",
 				description: "在 iOS 和 OS X 的 Keychain 中安全地存储数据，然而你无需知道 keychain 的具体工作细节。",
 			},
+			{
+				user: "kishikawakatsumi",
+				repo: "KeychainAccess",
+				description: "Simple Swift wrapper for Keychain that works on iOS, watchOS, tvOS and macOS.",
+			}
 		]
 	},
 	{
