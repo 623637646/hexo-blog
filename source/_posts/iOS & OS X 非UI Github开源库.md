@@ -1135,6 +1135,16 @@ data_github: [
 				repo: "react-native-guide",
 				description: "react-native学习指南",
 			},
+      {
+        user: "NativeScript",
+        repo: "NativeScript",
+        wiki: [
+          {
+            title: "Angular2， NativeScript 和 React Native比较[翻译]",
+            link: "https://segmentfault.com/a/1190000008376263"
+          }
+        ],
+      },
 			{
 				user: "driftyco",
 				repo: "ionic",
