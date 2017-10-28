@@ -655,6 +655,22 @@ data_github: [
 				]
 			},
 			{
+				user: "zixun",
+				repo: "GodEye",
+				description: "swift",
+				imgs: [
+					"https://github.com/zixun/GodEye/raw/master/design/image/preview_meitu_1.jpg"
+				]
+			},
+			{
+				user: "dani-gavrilov",
+				repo: "GDPerformanceView-Swift",
+				description: "swift",
+				imgs: [
+					"https://github.com/dani-gavrilov/GDPerformanceView/raw/master/performance_view_4.PNG?raw=true"
+				]
+			},
+			{
 				user: "glock45",
 				repo: "iOS-Hierarchy-Viewer",
 				description: "视图层级工具",
