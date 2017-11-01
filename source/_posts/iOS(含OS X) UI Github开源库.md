@@ -2218,6 +2218,15 @@ data_github: [
 					"https://raw.githubusercontent.com/haaakon/SingleLineShakeAnimation/master/example.gif",
 				]
 			},
+      {
+        user: "marcosgriselli",
+        repo: "ViewAnimator",
+        description: "ViewAnimator brings your UI to life with just one line",
+        imgs: [
+          "https://camo.githubusercontent.com/ee29f89474449314d852f586c0c375c748ec1955/68747470733a2f2f63646e2e7261776769742e636f6d2f6d6172636f7367726973656c6c692f56696577416e696d61746f722f63663036356539362f5265736f75726365732f656e74697265566965772e737667",
+          "https://camo.githubusercontent.com/4688fdf7ebe5fa122aed346587b4322ad7c2dd43/68747470733a2f2f63646e2e6472696262626c652e636f6d2f75736572732f3730323738392f73637265656e73686f74732f333831363038372f707265766965772d6d657373616b692e676966",
+        ]
+      },
 		]
 	},
 	{
