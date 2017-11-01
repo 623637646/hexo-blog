@@ -13,7 +13,7 @@ date: 2015-11-28 00:00:00
 layout: post_github
 data_github: [
 	{
-		keywords: [响应式编程],
+		keywords: [响应式编程&Promise&异步],
 		projects: [
 			{
 				user: "ReactiveCocoa",
@@ -146,6 +146,30 @@ data_github: [
 					}
 				],
 			},
+			{
+				user: "BoltsFramework",
+				repo: "Bolts-iOS",
+				description: "NSOperation，任务，队列，task，AppLink，URL解析",
+				wiki: [
+					{
+						title: "Bolts framework iOS 筆記",
+						link: "http://humanhighway.logdown.com/posts/179270-study-on-the-bolts"
+					}
+				],
+			},
+			{
+				user: "mxcl",
+				repo: "PromiseKit",
+				description: "Promises for Swift & ObjC",
+				imgs: [
+					"https://camo.githubusercontent.com/b1a5ea2423d344b3281c123a122f6f8e9a916dd6/687474703a2f2f70726f6d6973656b69742e6f72672f7075626c69632f696d672f6c6f676f2d74696768742e706e67",
+				]
+			},
+			{
+				user: "zwaldowski",
+				repo: "BlocksKit",
+				description: "简化的block",
+			}
 		]
 	},
 	{
@@ -166,6 +190,21 @@ data_github: [
 						link: "http://www.jianshu.com/p/d40fcee4d4e5"
 					}
 				]
+			},
+			{
+				user: "atomicobject",
+				repo: "objection",
+				description: "依赖注入，控制反转",
+				wiki: [
+					{
+						title: "使用objection来模块化开发iOS项目",
+						link: "http://limboy.me/ios/2014/04/15/use-objection-to-decouple-ios-project.html"
+					},
+					{
+						title: "bizhi(demo)",
+						link: "https://github.com/lzyy/bizhi"
+					}
+				],
 			}
 		]
 	},
@@ -291,6 +330,10 @@ data_github: [
 				imgs: [
 					"https://github.com/pinterest/PINRemoteImage/raw/master/progressive.gif",
 				]
+			},
+			{
+				user: "onevcat",
+				repo: "Kingfisher"
 			},
 		]
 	},
@@ -457,17 +500,17 @@ data_github: [
 					}
 				],
 			},
-            {
-                user: "CoderMJLee",
-                repo: "MJExtension",
-                description: "轻量级，继承NSObject",
-            },
-            {
-                user: "ibireme",
-                repo: "YYModel",
-                description: "轻量级，继承NSObject,iOS JSON 模型转换库评测：http://blog.ibireme.com/2015/10/23/ios_model_framework_benchmark/",
-            },
-            {
+      {
+          user: "CoderMJLee",
+          repo: "MJExtension",
+          description: "轻量级，继承NSObject",
+      },
+      {
+          user: "ibireme",
+          repo: "YYModel",
+          description: "轻量级，继承NSObject,iOS JSON 模型转换库评测：http://blog.ibireme.com/2015/10/23/ios_model_framework_benchmark/",
+      },
+      {
 				user: "thoughtbot",
 				repo: "argo",
 				description: "函数式 JSON 解析转换库，swift编写",
@@ -475,6 +518,10 @@ data_github: [
 					"https://raw.githubusercontent.com/thoughtbot/Argo/gh-pages/Argo.png",
 				]
 			},
+			{
+				user: "SwiftyJSON",
+				repo: "SwiftyJSON"
+			}
 		]
 	},
 	{
@@ -634,6 +681,11 @@ data_github: [
 				user: "AliSoftware",
 				repo: "OHHTTPStubs",
 				description: "模拟网络延迟&延时，伪造网络数据，基于NSURLProtocol",
+			},
+			{
+				user: "netguru",
+				repo: "ResponseDetective",
+				description: "ResponseDetective 是一个非嵌入式框架，用于拦截应用程序和服务器之间的任何传出请求和传入响应以用于调试目的。",
 			},
 			{
 				user: "Flipboard",
@@ -878,6 +930,11 @@ data_github: [
 		keywords: [设备信息],
 		projects: [
 			{
+				user: "dennisweissmann",
+				repo: "DeviceKit",
+				description: "DeviceKit 是 UIDevice 的值类型替换。轻松获取设备信息和电池电量"
+			},
+			{
 				user: "intuit",
 				repo: "LocationManager",
 				description: "地理位置，Location，获取经纬度，位置",
@@ -941,6 +998,11 @@ data_github: [
 				description: "程序内购买",
 			},
 			{
+				user: "bizz84",
+				repo: "SwiftyStoreKit",
+				description: "内购，App Purchases",
+			},
+			{
 				user: "intentkit",
 				repo: "IntentKit",
 				description: "URL schemes，应用跳转",
@@ -964,6 +1026,11 @@ data_github: [
 				imgs: [
 					"https://camo.githubusercontent.com/7eef0b117818b9da198cfc850ce21171e4b9d204/687474703a2f2f662e636c2e6c792f6974656d732f32493156315233623371334133483379337531382f6e65772d312e6a7067",
 				]
+			},
+			{
+				user: "nickoneill",
+				repo: "PermissionScope",
+				description: "权限申请，在系统申请前提示用户"
 			},
 			{
 				user: "danielebogo",
@@ -1020,6 +1087,11 @@ data_github: [
 				repo: "NSDate-Extensions",
 				description: "日期一天的最后时间",
 			},
+			{
+				user: "naoty",
+				repo: "Timepiece",
+				description: "Swift 里直观的日期处理。",
+			}
 		]
 	},
 	{
@@ -1218,6 +1290,46 @@ data_github: [
       },
     ]
   },
+  {
+		keywords: [加密],
+		projects: [
+			{
+				user: "kelp404",
+				repo: "CocoaSecurity",
+				description: "加密，md5等",
+			},
+			{
+				user: "RNCryptor",
+				repo: "RNCryptor",
+				description: "AES加密解密",
+			},
+			{
+				user: "krzyzanowskim",
+				repo: "CryptoSwift",
+				description: "Swift 里加密相关的帮助函数实现。",
+			}
+		]
+	},
+	{
+		keywords: [路由],
+		projects: [
+			{
+          user: "Huohua",
+          repo: "HHRouter",
+          description: "controller用url跳转，布丁动画，刘白光作品",
+      },
+			{
+          user: "joeldev",
+          repo: "JLRoutes",
+          description: "controller用url跳转",
+      },
+			{
+          user: "button",
+          repo: "DeepLinkKit",
+          description: "controller用url跳转",
+      }
+		]
+	},
 	{
 		keywords: [其他],
 		projects: [
@@ -1257,24 +1369,9 @@ data_github: [
 				]
 			},
 			{
-				user: "kelp404",
-				repo: "CocoaSecurity",
-				description: "加密，md5等",
-			},
-			{
-				user: "RNCryptor",
-				repo: "RNCryptor",
-				description: "AES加密解密",
-			},
-			{
 				user: "ibireme",
 				repo: "YYKit",
 				description: "综合框架,国人写的",
-			},
-			{
-				user: "zwaldowski",
-				repo: "BlocksKit",
-				description: "简化的block",
 			},
 			{
 				user: "facebook",
@@ -1282,54 +1379,10 @@ data_github: [
 				description: "KVO，键值观察，facebook，可用ReactiveCocoa代替",
 			},
 			{
-				user: "BoltsFramework",
-				repo: "Bolts-iOS",
-				description: "NSOperation，任务，队列，task，AppLink，URL解析",
-				wiki: [
-					{
-						title: "Bolts framework iOS 筆記",
-						link: "http://humanhighway.logdown.com/posts/179270-study-on-the-bolts"
-					}
-				],
-			},
-			{
-				user: "mxcl",
-				repo: "PromiseKit",
-				description: "同Bolts-iOS",
-				imgs: [
-					"https://camo.githubusercontent.com/8bc51dac4b4d676635ef5ffbb3cc811abe14c6ce/687474703a2f2f6d657468796c626c75652e636f6d2f6a756e6b2f504d4b42616e6e65722e706e67",
-				]
-			},
-			{
-				user: "atomicobject",
-				repo: "objection",
-				description: "依赖注入，控制反转",
-				wiki: [
-					{
-						title: "使用objection来模块化开发iOS项目",
-						link: "http://limboy.me/ios/2014/04/15/use-objection-to-decouple-ios-project.html"
-					},
-					{
-						title: "bizhi(demo)",
-						link: "https://github.com/lzyy/bizhi"
-					}
-				],
-			},
-			{
-                user: "Huohua",
-                repo: "HHRouter",
-                description: "controller用url跳转，布丁动画，刘白光作品",
-            },
-			{
-                user: "joeldev",
-                repo: "JLRoutes",
-                description: "controller用url跳转",
-            },
-			{
-                user: "button",
-                repo: "DeepLinkKit",
-                description: "controller用url跳转",
-            },
+				user: "nvzqz",
+				repo: "RandomKit",
+				description: "简单易用的随机数据生成。",
+			}
 		]
 	},
 ]

@@ -439,6 +439,13 @@ data_github: [
 								"https://github.com/ZhipingYang/DataResource/raw/master/UUChat/IMG_0054.jpg",
 							]
 						},
+            {
+              user: "slackhq",
+              repo: "SlackTextViewController",
+              imgs: [
+                "https://github.com/slackhq/SlackTextViewController/blob/master/Screenshots/slacktextviewcontroller_demo.gif?raw=true",
+              ]
+            }
           ]
      },
     {
@@ -640,6 +647,11 @@ data_github: [
 					"https://github.com/michaeljbishop/NGAParallaxMotion/raw/master/img/off.png",
 				]
 			},
+      {
+        user: "PrideChung",
+        repo: "FontAwesomeKit",
+        description: "Font Awesome很酷，用这个库你可以轻松地添加字体到你的项目里，并且在多种方式里使用它。"
+      }
           ]
      },
 	 {
@@ -732,6 +744,13 @@ data_github: [
                               repo: "EAIntroView",
                               imgs: [
  "https://raw.githubusercontent.com/ealeksandrov/EAIntroView/master/Screenshot01.png",
+                              ]
+                         },
+                         {
+                              user: "mamaral",
+                              repo: "Onboard",
+                              imgs: [
+ "https://github.com/mamaral/Onboard/raw/master/Screenshots/city.gif",
                               ]
                          },
                         {
@@ -1585,6 +1604,13 @@ data_github: [
 	{
 		keywords: [日历],
 		projects: [
+      {
+        user: "WenchaoD",
+        repo: "FSCalendar",
+        imgs: [
+          "https://cloud.githubusercontent.com/assets/5186464/10262249/4fabae40-69f2-11e5-97ab-afbacd0a3da2.jpg",
+        ]
+      },
 			{
 				user: "jonathantribouharet",
 				repo: "JTCalendar",
@@ -2143,6 +2169,15 @@ data_github: [
 					"https://github.com/hfossli/AGGeometryKit-POP/raw/master/video-aggeometrykit-pop.png",
 				]
 			},
+      {
+        user: "lkzhao",
+        repo: "Hero",
+        imgs: [
+          "https://camo.githubusercontent.com/ad3b44a1f8c9ad51ba120b6281b03335bd78bb22/68747470733a2f2f63646e2e7261776769742e636f6d2f6c6b7a68616f2f4865726f2f656262336632632f5265736f75726365732f66656174757265732e737667",
+          "https://camo.githubusercontent.com/f5211ae92678aa22b6edf2d18e08b0dce63bcaa4/68747470733a2f2f63646e2e7261776769742e636f6d2f6c6b7a68616f2f4865726f2f656262336632632f5265736f75726365732f6665617475726573322e737667",
+          "https://camo.githubusercontent.com/737194a3442f67b2066bd1be40d0ced772c158a1/68747470733a2f2f63646e2e7261776769742e636f6d2f6c6b7a68616f2f4865726f2f656262336632632f5265736f75726365732f64656661756c74416e696d6174696f6e732e737667"
+        ]
+      },
 			{
 				user: "MengTo",
 				repo: "Spring",
