@@ -2086,14 +2086,19 @@ data_github: [
 					"https://github.com/robb/Cartography/raw/master/images/pirates2.png",
 				]
 			},
-            {
-                user: "gsdios",
-                repo: "SDAutoLayout",
-                description: "国人写的，高度自适应",
-                imgs: [
-                    "https://camo.githubusercontent.com/f6b66d77990b92bc6c5ef85a0cb91a9a7a966d81/687474703a2f2f7777322e73696e61696d672e636e2f626d6964646c652f3962383134366564677731657961316a763935316967323038633065747176352e676966",
-                ]
-            },
+      {
+          user: "gsdios",
+          repo: "SDAutoLayout",
+          description: "国人写的，高度自适应",
+          imgs: [
+              "https://camo.githubusercontent.com/f6b66d77990b92bc6c5ef85a0cb91a9a7a966d81/687474703a2f2f7777322e73696e61696d672e636e2f626d6964646c652f3962383134366564677731657961316a763935316967323038633065747176352e676966",
+          ]
+      },
+      {
+          user: "youngsoft",
+          repo: "MyLinearLayout",
+          description: "国人写的"
+      }
 		]
 	},
 	{
