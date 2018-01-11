@@ -2051,6 +2051,11 @@ data_github: [
 					}
 				],
 			},
+      {
+        user: "AugustRush",
+        repo: "UICollectionView-ARDynamicHeightLayoutCell",
+        description: "UICollectionView自动计算高度"
+      },
 			{
 				user: "forkingdog",
 				repo: "UIView-FDCollapsibleConstraints",
