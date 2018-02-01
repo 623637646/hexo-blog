@@ -924,6 +924,11 @@ data_github: [
 					}
 				],
 			},
+      {
+        user: "Tricertops",
+        repo: "Typed",
+        description: "想写swift一样写objective C"
+      }
 		]
 	},
 	{
