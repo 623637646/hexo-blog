@@ -22,7 +22,7 @@ data_github: [
 				wiki: [
           {
             title: "图解ReactiveCocoa基本函数",
-            link: "https://blog.csdn.net/foxsofter/article/details/52780340"
+            link: "https://www.jianshu.com/p/38d39923ee81"
           },
 					{
 						title: "limboy的博客",
