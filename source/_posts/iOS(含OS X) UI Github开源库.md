@@ -2040,6 +2040,15 @@ data_github: [
 					}
 				],
 			},
+      {
+        user: "facebook",
+        repo: "yoga",
+        description: "Flexbox"
+      },
+      {
+        user: "linkedin",
+        repo: "LayoutKit"
+      },
 			{
 				user: "forkingdog",
 				repo: "UITableView-FDTemplateLayoutCell",
