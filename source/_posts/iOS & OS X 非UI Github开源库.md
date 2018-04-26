@@ -726,6 +726,13 @@ data_github: [
 					"https://github.com/dani-gavrilov/GDPerformanceView/raw/master/performance_view_4.PNG?raw=true"
 				]
 			},
+      {
+        user: "dani-gavrilov",
+        repo: "GDPerformanceView",
+        imgs: [
+          "https://github.com/dani-gavrilov/GDPerformanceView/raw/master/performance_view_3.PNG?raw=true"
+        ]
+      },
 			{
 				user: "glock45",
 				repo: "iOS-Hierarchy-Viewer",
