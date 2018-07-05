@@ -2046,6 +2046,11 @@ data_github: [
         description: "Flexbox"
       },
       {
+        user: "layoutBox",
+        repo: "FlexLayout",
+        description: "FlexLayout adds a nice Swift interface to the highly optimized facebook/yoga flexbox implementation. Concise, intuitive & chainable syntax."
+      },
+      {
         user: "linkedin",
         repo: "LayoutKit"
       },
