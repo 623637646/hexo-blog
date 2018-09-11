@@ -943,6 +943,41 @@ data_github: [
 		]
 	},
 	{
+		keywords: [crash保护, runtime],
+		projects: [
+			{
+				user: "chenfanfang",
+				repo: "AvoidCrash",
+				description: "This framework can effective avoid crash by potential error code. For example : If you insert a nil into a mutable array, this framework can avoid crash and note you that where cause crash.",
+			},
+			{
+				user: "ValiantCat",
+				repo: "XXShield",
+				description: "It's a library can avoid some crash in iOS project written by Objective-C. https://www.valiantcat.cn/index.php/2…",
+			},
+			{
+				user: "JJMM",
+				repo: "SafeKit",
+				description: "An open source SafeKit for iOS . Never never crash.",
+			},
+			{
+				user: "jasenhuang",
+				repo: "NSObjectSafe",
+				description: "Swizzle commonly used function of Foundation container to prevent nil crash",
+			},
+			{
+				user: "lsmakethebest",
+				repo: "LSSafeProtector",
+				description: "强大的防止crash框架，不改变原代码支持KVO自释放，可以检测到dealloc时未释放的kvo，等11种crash",
+			},
+			{
+				user: "qiyer",
+				repo: "QYCrashProtector",
+				description: "iOS crash保护，unrecognized selector、NSTimer、Container 、NSNotification、NSString 、KVO、KVC等crash保护。",
+			},
+		]
+	},
+	{
 		keywords: [设备信息],
 		projects: [
 			{
