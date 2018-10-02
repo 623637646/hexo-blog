@@ -1036,6 +1036,14 @@ data_github: [
 				]
 			},
 			{
+				user: "pujiaxin33",
+				repo: "JXCategoryView",
+				description: "tab，Segmented，分段选择器",
+				imgs: [
+					"https://github.com/pujiaxin33/JXCategoryView/raw/master/JXCategoryView/Images/JDLineStyle.gif",
+				]
+			},
+			{
 				user: "Yalantis",
 				repo: "Persei",
 				imgs: [
