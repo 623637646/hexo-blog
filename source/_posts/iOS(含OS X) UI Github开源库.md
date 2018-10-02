@@ -2539,6 +2539,11 @@ data_github: [
 				]
 			},
 			{
+				user: "NJHu",
+				repo: "iOSProject",
+				description: "A project of collected some demos for iOS App. oc综合项目,ios综合项目,iosdemo,ocdemo,demo,iosproject,📝,滚动播放,拖拽播放,离线下载,即时通讯,打印 ios 日志,主流视频播放器,视频播放,图片浏览器,photoBrowser,通用链接配置,通用链接,各类知识点总结,运行时,贝塞尔曲线,水纹,粒子发射器,核心动画,二维码,照片上传,照片上传有进度,列表倒计时,H5和原生交互,自定义各种弹框,常见表单类型,列表加载图片,列表拖拽,日历操作,导航条渐变,指纹解锁,物理仿真,控制器生命周期,流水布局,垂直流水布局,水平流水布局,非规则流水布局,键盘处理,文件下载,Masonry 案例,UIDynamic,碰…"
+			},
+			{
 				user: "KMindeguia",
 				repo: "movies",
 				description: "三个黄点缓冲ui，导航栏的隐藏显示",
