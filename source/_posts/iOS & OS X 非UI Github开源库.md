@@ -1382,6 +1382,20 @@ data_github: [
 		]
 	},
 	{
+		keywords: [Category,Categories],
+		projects: [
+			{
+				user: "shaojiankui",
+				repo: "JKCategories"
+			},
+			{
+				user: "ibireme",
+				repo: "YYCategories",
+				"description": "很多没有前缀，不推荐"
+			},
+		]
+	},
+	{
 		keywords: [其他],
 		projects: [
 			{
