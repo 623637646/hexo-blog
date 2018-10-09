@@ -9,7 +9,7 @@ date: 2018-10-05 00:00:00
 layout: post_github
 data_github: [
 {
-	keywords: [God],
+	keywords: [Money],
 	projects: [
 	{
 		user: "bitcoin",
@@ -61,6 +61,15 @@ data_github: [
 	{
 		user: "bither",
 		repo: "bither-ios"
+	}
+	]
+},
+{
+	keywords: [Others],
+	projects: [
+	{
+		user: "bitcoinjs",
+		repo: "bitcoinjs-lib"
 	}
 	]
 }
