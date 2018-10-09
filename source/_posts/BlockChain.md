@@ -83,6 +83,11 @@ data_github: [
 		description: "A javascript Bitcoin library for node.js and browsers"
 	},
 	{
+		user: "ethereum",
+		repo: "web3.js",
+		description: "Ethereum JavaScript API"
+	},
+	{
 		user: "bitpay",
 		repo: "bitcore",
 		description: "A full stack for bitcoin and blockchain-based applications https://bitcore.io/"
