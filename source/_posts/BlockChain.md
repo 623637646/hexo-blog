@@ -65,6 +65,16 @@ data_github: [
 	]
 },
 {
+	keywords: [Exchanges],
+	projects: [
+	{
+		user: "ccxt",
+		repo: "ccxt",
+		description: "A JavaScript / Python / PHP cryptocurrency trading library with support for more than 100 bitcoin/altcoin exchanges"
+	}
+	]
+},
+{
 	keywords: [Others],
 	projects: [
 	{
