@@ -25,6 +25,11 @@ data_github: [
 	keywords: [Documents],
 	projects: [
 	{
+		user: "bitcoin",
+		repo: "bips",
+		description: "Bitcoin Improvement Proposals http://bitcoin.org"
+	},
+	{
 		user: "chaozh",
 		repo: "awesome-blockchain-cn",
 		description: "收集所有区块链(BlockChain)技术开发相关资料，包括Fabric和Ethereum开发资料"
