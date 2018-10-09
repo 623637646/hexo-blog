@@ -69,7 +69,13 @@ data_github: [
 	projects: [
 	{
 		user: "bitcoinjs",
-		repo: "bitcoinjs-lib"
+		repo: "bitcoinjs-lib",
+		description: "A javascript Bitcoin library for node.js and browsers"
+	},
+	{
+		user: "bitpay",
+		repo: "bitcore",
+		description: "A full stack for bitcoin and blockchain-based applications https://bitcore.io/"
 	}
 	]
 }
