@@ -1270,6 +1270,11 @@ data_github: [
 				],
 			},
 			{
+				user: "necolas",
+				repo: "react-native-web",
+				description: "React Native for Web"
+			},
+			{
 				user: "ele828",
 				repo: "react-native-guide",
 				description: "react-native学习指南",
