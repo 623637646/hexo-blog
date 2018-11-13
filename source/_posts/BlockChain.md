@@ -88,6 +88,11 @@ data_github: [
 		description: "A javascript Bitcoin library for node.js and browsers"
 	},
 	{
+		user: "bcoin-org",
+		repo: "bcoin",
+		description: "Javascript bitcoin library for node.js and browsers"
+	},
+	{
 		user: "ethereum",
 		repo: "web3.js",
 		description: "Ethereum JavaScript API"
