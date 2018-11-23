@@ -1383,6 +1383,10 @@ data_github: [
 		user: "button",
 		repo: "DeepLinkKit",
 		description: "controller用url跳转",
+	},
+	{
+		user: "devxoul",
+		repo: "URLNavigator"
 	}
 	]
 },
