@@ -845,7 +845,15 @@ data_github: [
 	 {
           keywords: [过渡效果,视图切换],
           projects: [
-		  {
+			{
+				user: "lkzhao",
+				repo: "ElasticTransition",
+				description: "A UIKit custom transition that simulates an elastic drag. Written in Swift.",
+				imgs: [
+				"https://github.com/lkzhao/ElasticTransition/raw/master/imgs/demo.gif?raw=true",
+				]
+			},
+		  	{
 				user: "zhxnlai",
 				repo: "ZLSwipeableView",
 				description: "卡片切换",
