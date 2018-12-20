@@ -885,6 +885,16 @@ data_github: [
 	},
 	{
 		user: "mikeash",
+		repo: "MABlockClosure",
+		description: "ObjC block -> C function pointer using libffi",
+	},
+	{
+		user: "yulingtianxia",
+		repo: "BlockHook",
+		description: "Hook Objective-C blocks with libffi."
+	},
+	{
+		user: "mikeash",
 		repo: "MAObjCRuntime",
 		description: "runtime",
 	},
