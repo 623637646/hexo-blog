@@ -899,6 +899,33 @@ data_github: [
 		description: "Mach-O，Method Swizzle，runtime，运行时，hook，方法替换，函数替换，钩子",
 	},
 	{
+		user: "libffi",
+		repo: "libffi",
+		description: "A portable foreign-function interface library. http://sourceware.org/libffi. ",
+		wiki: [
+		{
+			title: "中文简介：外部函数接口 LibFFI",
+			link: "https://www.oschina.net/p/libffi"
+		},
+		{
+			title: "JSPatch 如何动态调用 C 函数",
+			link: "https://wereadteam.github.io/2016/07/05/CFunction/"
+		},
+		{
+			title: "libffi浅析",
+			link: "https://blog.csdn.net/ayu_ag/article/details/50706429"
+		},
+		{
+			title: "如何动态创建 block – JPBlock 扩展原理详解",
+			link: "http://blog.cnbang.net/tech/3332/"
+		},
+		{
+			title: "【libffi】动态调用&定义C函数",
+			link: "https://www.jianshu.com/p/92d4c06223e7"
+		},
+		],
+	},
+	{
 		user: "bang590",
 		repo: "JSPatch",
 		description: "结合js和oc_runtime，动态修改程序，修复bug，动态更新iOS APP，热修复",
