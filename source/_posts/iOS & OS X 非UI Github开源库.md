@@ -865,7 +865,7 @@ data_github: [
 	]
 },
 {
-	keywords: [runtime,object-c,宏],
+	keywords: [runtime,object-c,宏,逆向],
 	projects: [
 	{
 		user: "steipete",
@@ -981,7 +981,18 @@ data_github: [
 		user: "Tricertops",
 		repo: "Typed",
 		description: "想写swift一样写objective C"
-	}
+	},
+	{
+		user: "rentzsch",
+		repo: "mach_inject",
+		description: "interprocess code injection for Mac OS X",
+		wiki: [
+		{
+			title: "利用Mac OSX注入技术编写插件/外挂的实现",
+			link: "http://www.tanhao.me/code/1005.html/"
+		}
+		],
+	},
 	]
 },
 {
