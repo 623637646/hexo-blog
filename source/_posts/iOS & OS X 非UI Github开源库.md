@@ -954,6 +954,11 @@ data_github: [
 		]
 	},
 	{
+		user: "nygard",
+		repo: "class-dump",
+		description: "Generate Objective-C headers from Mach-O files"
+	},
+	{
 		user: "nst",
 		repo: "RuntimeBrowser",
 		description: "runtime的头文件浏览器",
@@ -979,6 +984,44 @@ data_github: [
 	}
 	]
 },
+{
+	keywords: [安全],
+	projects: [
+	{
+		user: "Polidea",
+		repo: "ios-class-guard",
+		description: "Simple Objective-C obfuscator for Mach-O executables",
+		wiki: [
+		{
+			title: "对 iOS app 进行安全加固",
+			link: "https://danleechina.github.io/ios-app-security-reinforce/"
+		}
+		],
+	},
+	{
+		user: "danleechina",
+		repo: "mixplaintext",
+		description: "可对 Xcode 项目工程所有的 objective-c 文件内包含的明文进行加密混淆，提高逆向分析难度。",
+		wiki: [
+		{
+			title: "对 iOS app 进行安全加固",
+			link: "https://danleechina.github.io/ios-app-security-reinforce/"
+		}
+		],
+	},
+	{
+		user: "UrbanApps",
+		repo: "UAObfuscatedString",
+		description: "A simple category to hide sensitive strings from appearing in your binary",
+		wiki: [
+		{
+			title: "对 iOS app 进行安全加固",
+			link: "https://danleechina.github.io/ios-app-security-reinforce/"
+		}
+		],
+	}
+	]
+}
 {
 	keywords: [crash保护, runtime],
 	projects: [
