@@ -1021,7 +1021,7 @@ data_github: [
 		],
 	}
 	]
-}
+},
 {
 	keywords: [crash保护, runtime],
 	projects: [
