@@ -926,6 +926,16 @@ data_github: [
 		],
 	},
 	{
+		user: "rentzsch",
+		repo: "mach_override",
+		description: "runtime function overriding for Mac OS X",
+	},
+	{
+		user: "richardjrossiii",
+		repo: "mach_override_example",
+		description: "An example using of mach_override on iOS to hook the Objective-C runtime.",
+	},
+	{
 		user: "bang590",
 		repo: "JSPatch",
 		description: "结合js和oc_runtime，动态修改程序，修复bug，动态更新iOS APP，热修复",
