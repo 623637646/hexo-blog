@@ -1973,6 +1973,11 @@ data_github: [
 					"https://camo.githubusercontent.com/6f3c0c83dab2077c8cbc71e6b82f6aa0a5a30d11/68747470733a2f2f7261772e6769746875622e636f6d2f69626972656d652f5959496d6167652f6d61737465722f44656d6f2f5959496d61676544656d6f2f6e69636f6e69636f6e694032782e676966",
 				]
 			},
+			{
+				user: "airbnb",
+				repo: "lottie-ios",
+				description: "An iOS library to natively render After Effects vector animations"
+			}
 		]
 	},
 	{

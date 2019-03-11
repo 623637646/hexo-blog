@@ -173,6 +173,11 @@ data_github: [
 		user: "zwaldowski",
 		repo: "BlocksKit",
 		description: "简化的block",
+	},
+	{
+		user: "google",
+		repo: "promises",
+		description: "Promises is a modern framework that provides a synchronization construct for Swift and Objective-C.",
 	}
 	]
 },
