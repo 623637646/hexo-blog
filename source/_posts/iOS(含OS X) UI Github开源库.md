@@ -1581,6 +1581,11 @@ data_github: [
 					"https://github.com/ZhipingYang/UUChartView/raw/master/UUChartViewTests/UUChartView.gif",
 				]
 			},
+			{
+				user: "AAChartModel",
+				repo: "AAChartKit",
+				description: "An elegant and friendly chart library for iOS . Powerful,supports line, spline, area, areaspline, column, bar, pie, scatter, angular gauges, arearange, areasplinerange, columnrange, bubble, box plot, error bars, funnel, waterfall and polar chart types.极其精美而又强大的 iOS 图表组件库,支持柱状图、条形图、折线图、曲线图、折线填充图、曲线填充图、气泡图、扇形图、环形图、散点图、雷达图、混合图等各种类型的多达几十种的信息图图…"
+			}
 		]
 	},
 	{
@@ -1981,7 +1986,7 @@ data_github: [
 		]
 	},
 	{
-		keywords: [浏览器,browser,web],
+		keywords: [浏览器,browser,web,UIWebView,WKWebView],
 		projects: [
 			{
 				user: "TransitApp",
@@ -2014,6 +2019,11 @@ data_github: [
 					"https://camo.githubusercontent.com/fae485dda0dd0e050d862b04aee92f56c868a778/687474703a2f2f696d672e68622e616963646e2e636f6d2f633133643638323764666465343262613765643762613161363463353863306139313165666432663132366361332d7079733665545f6677363538",
 				]
 			},
+			{
+				user: "ninjinkun",
+				repo: "NJKWebViewProgress",
+				description: "UIWebView progress interface"
+			}
 		]
 	},
 	{
