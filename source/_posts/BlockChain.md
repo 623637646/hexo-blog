@@ -88,6 +88,16 @@ data_github: [
 		description: "A javascript Bitcoin library for node.js and browsers"
 	},
 	{
+		user: "yenom",
+		repo: "BitcoinKit",
+		description: "Bitcoin protocol toolkit for Swift"
+	},
+	{
+		user: "consenlabs",
+		repo: "token-core-ios",
+		description: "a blockchain private key management library on iOS"
+	},
+	{
 		user: "bcoin-org",
 		repo: "bcoin",
 		description: "Javascript bitcoin library for node.js and browsers"
