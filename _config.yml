@@ -6,6 +6,7 @@
 title: 码猴王
 subtitle: 追求工匠精神,不只是互联网
 description: 这里没有描述，不要看了
+keywords:
 author: 王氩
 language: zh-Hans
 timezone:
@@ -81,7 +82,7 @@ theme: next
 
 deploy:
   type: git
-  repo: https://github.com/623637646/623637646.github.io.git
+  repo: git@github.com:623637646/623637646.github.io.git
   branch: master
 
 # 评论
