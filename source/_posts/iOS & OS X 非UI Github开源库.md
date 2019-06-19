@@ -1567,6 +1567,11 @@ data_github: [
 		user: "nvzqz",
 		repo: "RandomKit",
 		description: "简单易用的随机数据生成。",
+	},
+	{
+		user: "realm",
+		repo: "SwiftLint",
+		description: "A tool to enforce Swift style and conventions. https://realm.io",
 	}
 	]
 },
