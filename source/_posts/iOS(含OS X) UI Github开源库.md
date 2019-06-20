@@ -74,6 +74,14 @@ data_github: [
 					"https://github.com/KittenYang/KYElegantPhotoGallery/raw/master/demo.gif",
 				]
 			},
+			{
+				user: "Juanpe",
+				repo: "SkeletonView",
+				description: "An elegant way to show users that something is happening and also prepare them to which contents he is waiting",
+				imgs: [
+					"https://github.com/Juanpe/SkeletonView/raw/master/Assets/sliding_left_to_right.gif"
+				]
+			}
 
           ]
      },
