@@ -1401,6 +1401,14 @@ data_github: [
                     "https://camo.githubusercontent.com/e5c0f0255483caf06271df08982d078c5e2cc432/687474703a2f2f7777342e73696e61696d672e636e2f626d6964646c652f39623831343665646a7731657376797471376c777267323038703066636538322e676966",
                 ]
             },
+            {
+                user: "WenchaoD",
+                repo: "FSPagerView",
+                description: "FSPagerView is an elegant Screen Slide Library. It is extremely helpful for making Banner View、Product Show、Welcome/Guide Pages、Screen/ViewController Sliders.",
+                imgs: [
+                    "https://cloud.githubusercontent.com/assets/5186464/22688057/9003d880-ed65-11e6-882e-4587c97c8878.gif",
+                ]
+            }
 		]
 	},
 	{
