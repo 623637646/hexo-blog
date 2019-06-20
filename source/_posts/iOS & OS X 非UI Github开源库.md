@@ -1097,6 +1097,11 @@ data_github: [
 		description: "DeviceKit 是 UIDevice 的值类型替换。轻松获取设备信息和电池电量"
 	},
 	{
+		user: "Shmoopi",
+		repo: "iOS-System-Services",
+		description: "iOS System Services is a class to gather all available information about a device. http://www.shmoopi.net/"
+	},
+	{
 		user: "intuit",
 		repo: "LocationManager",
 		description: "地理位置，Location，获取经纬度，位置",
