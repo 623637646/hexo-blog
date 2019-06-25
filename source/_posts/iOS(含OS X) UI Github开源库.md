@@ -81,6 +81,14 @@ data_github: [
 				imgs: [
 					"https://github.com/Juanpe/SkeletonView/raw/master/Assets/sliding_left_to_right.gif"
 				]
+			},
+			{
+				user: "polqf",
+				repo: "FillableLoaders",
+				description: "Completely customizable progress based loaders drawn using custom CGPaths written in Swift",
+				imgs: [
+					"https://github.com/polqf/FillableLoaders/raw/master/Images/waves.gif"
+				]
 			}
 
           ]
