@@ -151,6 +151,11 @@ data_github: [
 		],
 	},
 	{
+		user: "sergdort",
+		repo: "CleanArchitectureRxSwift",
+		description: "Example of Clean Architecture of iOS app using RxSwift"
+	},
+	{
 		user: "BoltsFramework",
 		repo: "Bolts-iOS",
 		description: "NSOperation，任务，队列，task，AppLink，URL解析",
@@ -437,10 +442,15 @@ data_github: [
 		repo: "realm-cocoa",
 		wiki: [
 		{
-			title: "Realm数据库基础教程",
-			link: "http://www.cocoachina.com/ios/20150505/11756.html"
+			title: "Realm 数据库 从入门到“放弃”",
+			link: "https://halfrost.com/realm_ios/"
 		},
 		],
+	},
+	{
+		user: "JohnEstropia",
+		repo: "CoreStore",
+		description: "Unleashing the real power of Core Data with the elegance and safety of Swift"
 	},
 	{
 		user: "soffes",
@@ -1577,6 +1587,15 @@ data_github: [
 		user: "realm",
 		repo: "SwiftLint",
 		description: "A tool to enforce Swift style and conventions. https://realm.io",
+	},
+	{
+		user: "ProjectDent",
+		repo: "ARKit-CoreLocation",
+		description: "Combines the high accuracy of AR with the scale of GPS data.",
+		imgs: [
+		"https://github.com/ProjectDent/ARKit-CoreLocation/raw/master/giphy-1.gif",
+		"https://github.com/ProjectDent/ARKit-CoreLocation/raw/master/giphy-2.gif"
+		]
 	}
 	]
 },
