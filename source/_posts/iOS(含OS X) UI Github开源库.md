@@ -1644,6 +1644,13 @@ data_github: [
 					"https://camo.githubusercontent.com/8f96b99dffc042f83b4bd7bf54f9d9578ffe1d38/68747470733a2f2f7261772e6769746875622e636f6d2f69626972656d652f59594b6579626f6172644d616e616765722f6d61737465722f44656d6f2f736e617073686f742e676966",
 				]
 			},
+			{
+				user: "RxSwiftCommunity",
+				repo: "RxKeyboard",
+				imgs: [
+					"https://cloud.githubusercontent.com/assets/931655/22062707/625eea7a-ddbe-11e6-9984-529abae1bd1a.gif"
+				]
+			}
 		]
 	},
 	{
