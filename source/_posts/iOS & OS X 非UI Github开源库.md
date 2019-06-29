@@ -540,6 +540,10 @@ data_github: [
 	{
 		user: "SwiftyJSON",
 		repo: "SwiftyJSON"
+	},
+	{
+		user: "tristanhimmelman",
+		repo: "ObjectMapper"
 	}
 	]
 },
