@@ -409,6 +409,13 @@ data_github: [
  "https://raw.githubusercontent.com/MortimerGoro/MGSwipeTableCell/master/readme-assets/border.gif",
                               ]
                          },
+                         {
+                              user: "SwipeCellKit",
+                              repo: "SwipeCellKit",
+                              imgs: [
+ "https://raw.githubusercontent.com/jerkoch/SwipeCellKit/develop/Screenshots/Hero.gif",
+                              ]
+                         }
           ]
      },
     {
