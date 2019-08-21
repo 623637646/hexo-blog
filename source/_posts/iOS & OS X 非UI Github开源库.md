@@ -183,6 +183,17 @@ data_github: [
 		user: "google",
 		repo: "promises",
 		description: "Promises is a modern framework that provides a synchronization construct for Swift and Objective-C.",
+	},
+	{
+		user: "yulingtianxia",
+		repo: "MessageThrottle",
+		description: "A lightweight Objective-C message throttle and debounce library.",
+		wiki: [
+		{
+			title: "Objective-C Message Throttle and Debounce",
+			link: "http://yulingtianxia.com/blog/2017/11/05/Objective-C-Message-Throttle-and-Debounce/"
+		}
+		]
 	}
 	]
 },
