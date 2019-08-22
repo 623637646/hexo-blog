@@ -1184,6 +1184,11 @@ data_github: [
                 ]
             },
             {
+                user: "RxSwiftCommunity",
+                repo: "RxDataSources",
+                description: "UITableView and UICollectionView Data Sources for RxSwift (sections, animated updates, editing ...)"
+            },
+            {
                 user: "KelvinJin",
                 repo: "AnimatedCollectionViewLayout",
                 imgs: [
