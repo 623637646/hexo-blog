@@ -1042,6 +1042,11 @@ data_github: [
 		user: "Urinx",
 		repo: "iOSAppHook",
 		description: "专注于非越狱环境下iOS应用逆向研究，从dylib注入，应用重签名到App Hook"
+	},
+	{
+		user: "DanTheMan827",
+		repo: "ios-app-signer",
+		description: "This is an app for OS X that can (re)sign apps and bundle them into ipa files that are ready to be installed on an iOS device."
 	}
 	]
 },
