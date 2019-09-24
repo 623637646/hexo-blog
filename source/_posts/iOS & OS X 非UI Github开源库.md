@@ -1293,6 +1293,11 @@ data_github: [
 		user: "naoty",
 		repo: "Timepiece",
 		description: "Swift 里直观的日期处理。",
+	},
+	{
+		user: "luximetr",
+		repo: "AnyFormatKit",
+		description: "Simple text formatting in Swift",
 	}
 	]
 },
