@@ -415,6 +415,12 @@ data_github: [
                               imgs: [
  "https://raw.githubusercontent.com/jerkoch/SwipeCellKit/develop/Screenshots/Hero.gif",
                               ]
+                         },{
+                              user: "Ramotion",
+                              repo: "folding-cell",
+                              imgs: [
+ "https://github.com/Ramotion/folding-cell/raw/master/Screenshots/foldingCell.gif",
+                              ]
                          }
           ]
      },
