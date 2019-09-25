@@ -1631,6 +1631,11 @@ data_github: [
 		"https://github.com/ProjectDent/ARKit-CoreLocation/raw/master/giphy-1.gif",
 		"https://github.com/ProjectDent/ARKit-CoreLocation/raw/master/giphy-2.gif"
 		]
+	},
+	{
+		user: "raywenderlich",
+		repo: "swift-algorithm-club",
+		description: "Algorithms and data structures in Swift, with explanations!"
 	}
 	]
 },
