@@ -2371,8 +2371,18 @@ data_github: [
 		]
 	},
 	{
-		  keywords: [基础],
+		  keywords: [基础,综合],
 		  projects: [
+		  				{
+							  user: "CosmicMind",
+							  repo: "Material",
+							  description: "A UI/UX framework for creating beautiful applications.",
+							  imgs: [
+								"https://camo.githubusercontent.com/050636f4d1d1ce90fd68a20a098573af3be0ff53/687474703a2f2f7777772e636f736d69636d696e642e636f6d2f6d6f74696f6e2f70726f6a656374732f70686f746f732e676966",
+								"https://camo.githubusercontent.com/cabcd833a008d2ecabf8b056da59a0847410283f/687474703a2f2f7777772e636f736d69636d696e642e636f6d2f676966732f6d61726b6574706c6163652f69636f6e732e706e67",
+								"https://camo.githubusercontent.com/f63f1216cbaaa3233a68541027181c9f7f055dff/687474703a2f2f7777772e636f736d69636d696e642e636f6d2f676966732f7368617265642f636f6c6f72732e676966",
+							]
+						 },
 						 {
 							  user: "Grouper",
 							  repo: "FlatUIKit",
