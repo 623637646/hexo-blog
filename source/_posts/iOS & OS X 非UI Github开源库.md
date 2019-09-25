@@ -1564,6 +1564,11 @@ data_github: [
 	keywords: [其他],
 	projects: [
 	{
+		user: "vsouza",
+		repo: "awesome-ios",
+		description: "A curated list of awesome iOS ecosystem, including Objective-C and Swift Projects",
+	},
+	{
 		user: "marcuswestin",
 		repo: "WebViewJavascriptBridge",
 		description: "object c 与 javascript 通信",
