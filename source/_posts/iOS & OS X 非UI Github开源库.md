@@ -1636,6 +1636,14 @@ data_github: [
 		user: "raywenderlich",
 		repo: "swift-algorithm-club",
 		description: "Algorithms and data structures in Swift, with explanations!"
+	},
+	{
+		user: "krzysztofzablocki",
+		repo: "Bootstrap",
+		description: "iOS project bootstrap aimed at high quality coding.",
+		imgs: [
+			"https://github.com/krzysztofzablocki/Bootstrap/raw/master/Screenshots/Configurations.png?raw=true"
+		]
 	}
 	]
 },
