@@ -1558,6 +1558,11 @@ data_github: [
 		repo: "YYCategories",
 		"description": "很多没有前缀，不推荐"
 	},
+	{
+		user: "SwifterSwift",
+		repo: "SwifterSwift",
+		"description": "A handy collection of more than 500 native Swift extensions to boost your productivity. "
+	}
 	]
 },
 {
@@ -1644,6 +1649,11 @@ data_github: [
 		imgs: [
 			"https://github.com/krzysztofzablocki/Bootstrap/raw/master/Screenshots/Configurations.png?raw=true"
 		]
+	},
+	{
+		user: "draveness",
+		repo: "analyze",
+		description: "Draven's Blog https://draveness.me"
 	}
 	]
 },
