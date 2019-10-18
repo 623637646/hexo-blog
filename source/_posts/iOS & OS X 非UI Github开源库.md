@@ -919,6 +919,17 @@ data_github: [
 		],
 	},
 	{
+		user: "rpetrich",
+		repo: "CaptainHook",
+		description: "Common hooking/monkey patching headers for Objective-C on Mac OS X and iPhone OS. MIT licensed",
+		wiki: [
+		{
+			title: "wiki",
+			link: "https://github.com/rpetrich/CaptainHook/wiki"
+		}
+		],
+	},
+	{
 		user: "mikeash",
 		repo: "MABlockClosure",
 		description: "ObjC block -> C function pointer using libffi",
