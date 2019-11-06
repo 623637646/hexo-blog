@@ -947,17 +947,17 @@ data_github: [
 	{
 		user: "rentzsch",
 		repo: "jrswizzle",
-		description: "Mach-O，Method Swizzle，runtime，运行时，hook，方法替换，函数替换，钩子",
+		description: "Not safe actually",
 	},
 	{
 		user: "rabovik",
 		repo: "RSSwizzle",
-		description: "Safe Method Swizzling, 真正安全的swizzling",
+		description: "Most Safe Method Swizzling",
 	},
 	{
 		user: "facebook",
 		repo: "fishhook",
-		description: "Mach-O，Method Swizzle，runtime，运行时，hook，方法替换，函数替换，钩子",
+		description: "Hook C function",
 	},
 	{
 		user: "libffi",
