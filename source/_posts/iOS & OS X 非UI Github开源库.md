@@ -950,6 +950,11 @@ data_github: [
 		description: "Mach-O，Method Swizzle，runtime，运行时，hook，方法替换，函数替换，钩子",
 	},
 	{
+		user: "rabovik",
+		repo: "RSSwizzle",
+		description: "Safe Method Swizzling, 真正安全的swizzling",
+	},
+	{
 		user: "facebook",
 		repo: "fishhook",
 		description: "Mach-O，Method Swizzle，runtime，运行时，hook，方法替换，函数替换，钩子",
