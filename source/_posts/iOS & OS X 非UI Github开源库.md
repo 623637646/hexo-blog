@@ -1426,6 +1426,11 @@ data_github: [
 		repo: "libqrencode",
 		description: "生成二维码",
 	},
+	{
+		user: "EFPrefix",
+		repo: "EFQRCode",
+		description: "A better way to operate QR Code in Swift, support iOS, macOS, watchOS and tvOS. http://cocoapods.org/pods/EFQRCode",
+	}
 	]
 },
 {
