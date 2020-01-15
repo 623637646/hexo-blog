@@ -952,7 +952,7 @@ data_github: [
 		{
 			title: "RSSwizzle源码解析",
 			link: "https://www.jianshu.com/p/c3444f64439f"
-		}
+		}]
 	},
 	{
 		user: "rabovik",
