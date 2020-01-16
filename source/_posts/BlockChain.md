@@ -111,6 +111,11 @@ data_github: [
 		user: "bitpay",
 		repo: "bitcore",
 		description: "A full stack for bitcoin and blockchain-based applications https://bitcore.io/"
+	},
+	{
+		user: "iancoleman",
+		repo: "bip39",
+		description: "A web tool for converting BIP39 mnemonic codes https://iancoleman.io/bip39/"
 	}
 	]
 }
