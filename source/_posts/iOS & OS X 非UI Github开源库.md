@@ -1068,6 +1068,11 @@ data_github: [
 		user: "DanTheMan827",
 		repo: "ios-app-signer",
 		description: "This is an app for OS X that can (re)sign apps and bundle them into ipa files that are ready to be installed on an iOS device."
+	},
+	{
+		user: "ebf",
+		repo: "CTObjectiveCRuntimeAdditions",
+		description: "Objc runtime additions."
 	}
 	]
 },
