@@ -908,6 +908,20 @@ data_github: [
 		description: "aop，拦截器，面向切面编程，钩子，hook，动态修改对象和类",
 	},
 	{
+		user: "eleme",
+		repo: "Stinger",
+		wiki: [
+		{
+			title: "Stinger--实践实现特定实例对象的AOP",
+			link: "https://juejin.im/post/5c84d4e0f265da2dda6981b4"
+		},
+		{
+			title: "亮剑: Stinger到底能比Aspects快多少",
+			link: "https://juejin.im/post/5df5dcbc6fb9a0166138ff23"
+		}
+		]
+	},
+	{
 		user: "orta",
 		repo: "ARAnalytics",
 		description: "aop，拦截器，面向切面编程，钩子，hook，动态修改对象和类",
@@ -989,6 +1003,10 @@ data_github: [
 			title: "【libffi】动态调用&定义C函数",
 			link: "https://www.jianshu.com/p/92d4c06223e7"
 		},
+		{
+			title: "使用 libffi 实现 AOP",
+			link: "https://juejin.im/post/5ae28acd6fb9a07ac55fdac0"
+		}
 		],
 	},
 	{
