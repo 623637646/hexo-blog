@@ -1596,6 +1596,16 @@ data_github: [
 	]
 },
 {
+	keywords: [Tracking, 埋点, 曝光, 用户追踪],
+	projects: [
+	{
+		user: "alibaba",
+		repo: "TMViewTrackerSDK",
+		description: "ViewTracker is a sdk can help Developers to collect exposure and click events automatically. ",
+	}
+	]
+},
+{
 	keywords: [Category,Categories],
 	projects: [
 	{
