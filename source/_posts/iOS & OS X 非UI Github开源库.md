@@ -1091,6 +1091,17 @@ data_github: [
 		user: "ebf",
 		repo: "CTObjectiveCRuntimeAdditions",
 		description: "Objc runtime additions."
+	},
+	{
+		user: "tobefuturer",
+		repo: "restore-symbol",
+		wiki: [
+		{
+			title: "iOS符号表恢复&逆向支付宝",
+			link: "http://blog.imjun.net/posts/restore-symbol-of-iOS-app/"
+		}
+		],
+		description: "A reverse engineering tool to restore stripped symbol table for iOS app. 导出符号表"
 	}
 	]
 },
