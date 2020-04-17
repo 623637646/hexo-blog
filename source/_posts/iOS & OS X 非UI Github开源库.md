@@ -1095,7 +1095,7 @@ data_github: [
 	]
 },
 {
-	keywords: [安全],
+	keywords: [安全,加密,混淆],
 	projects: [
 	{
 		user: "Polidea",
@@ -1129,6 +1129,11 @@ data_github: [
 			link: "https://danleechina.github.io/ios-app-security-reinforce/"
 		}
 		],
+	},
+	{
+		user: "lyzz0612",
+		repo: "iosMixTools",
+		description: "ios混淆脚本工具"
 	}
 	]
 },
