@@ -487,6 +487,17 @@ data_github: [
 		user: "kishikawakatsumi",
 		repo: "KeychainAccess",
 		description: "Simple Swift wrapper for Keychain that works on iOS, watchOS, tvOS and macOS.",
+	},
+	{
+		user: "terhechte",
+		repo: "corevalue",
+		description: "Lightweight Framework for using Core Data with Value Types",
+		wiki: [
+		{
+			title: "Swift 反射 API 及用法",
+			link: "https://swift.gg/2015/11/23/swift-reflection-api-what-you-can-do/"
+		}
+		]
 	}
 	]
 },
