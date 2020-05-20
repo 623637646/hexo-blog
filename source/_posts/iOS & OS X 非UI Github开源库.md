@@ -325,6 +325,17 @@ data_github: [
 		}
 		],
 	},
+	{
+		user: "Yeatse",
+		repo: "NSURLProtocol-WebKitSupport",
+		description: "Make your WKWebView happy with NSURLProtocol",
+		wiki: [
+		{
+			title: "让 WKWebView 支持 NSURLProtocol",
+			link: "https://blog.moecoder.com/2016/10/26/support-nsurlprotocol-in-wkwebview/"
+		}
+		]
+	}
 	]
 },
 {
