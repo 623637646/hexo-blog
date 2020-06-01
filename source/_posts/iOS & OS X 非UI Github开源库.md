@@ -906,6 +906,11 @@ data_github: [
 		repo: "KIF",
 		description: "用户界面测试"
 	},
+	{
+		user: "nst",
+		repo: "objc_dep",
+		description: "Graph the import dependancies in an Objective-C project"
+	}
 	]
 },
 {
@@ -1779,9 +1784,9 @@ data_github: [
 		description: "Draven's Blog https://draveness.me"
 	},
 	{
-		user: "nst",
-		repo: "objc_dep",
-		description: "Graph the import dependancies in an Objective-C project"
+		user: "rockbruno",
+		repo: "SwiftInfo",
+		description: "Extract and analyze the evolution of an iOS app's code. "
 	}
 	]
 },
