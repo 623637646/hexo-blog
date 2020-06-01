@@ -936,9 +936,19 @@ data_github: [
 	keywords: [runtime,object-c,宏,逆向],
 	projects: [
 	{
+		user: "623637646",
+		repo: "SwiftHook",
+		description: "A framework to hook object’s methods in iOS",
+	},
+	{
 		user: "steipete",
 		repo: "Aspects",
 		description: "aop，拦截器，面向切面编程，钩子，hook，动态修改对象和类",
+	},
+	{
+		user: "steipete",
+		repo: "InterposeKit",
+		description: "A modern library to swizzle elegantly in Swift.",
 	},
 	{
 		user: "eleme",
