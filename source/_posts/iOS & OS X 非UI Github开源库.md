@@ -194,6 +194,11 @@ data_github: [
 			link: "http://yulingtianxia.com/blog/2017/11/05/Objective-C-Message-Throttle-and-Debounce/"
 		}
 		]
+	},
+	{
+		user: "alibaba",
+		repo: "coobjc",
+		description: "coobjc provides coroutine support for Objective-C and Swift. We added await method、generator and actor model like C#、Javascript and Kotlin. For convenience, we added coroutine categories for some Foundation and UIKit API in cokit framework like NSFileManager, JSON, NSData, UIImage etc. We also add tuple support in coobjc."
 	}
 	]
 },
@@ -910,6 +915,26 @@ data_github: [
 		user: "nst",
 		repo: "objc_dep",
 		description: "Graph the import dependancies in an Objective-C project"
+	},
+	{
+		user: "Tencent",
+		repo: "GT",
+		description: "GT (Great Tit) is a portable debugging tool for bug hunting and performance tuning on smartphones anytime and anywhere just as listening music with Walkman. GT can act as the Integrated Debug Environment by directly running on smartphones."
+	},
+	{
+		user: "everettjf",
+		repo: "AppleTrace",
+		description: "🍎Objective C Method Tracing Call Chart"
+	},
+	{
+		user: "maniackk",
+		repo: "TimeProfiler",
+		description: "Recording all OC methods in the main thread takes time"
+	},
+	{
+		user: "QiShare",
+		repo: "Qi_ObjcMsgHook",
+		description: "QiLagMonitor is an iOS performance detection tool, which can monitor method time and method call stack through hook objc_msgsend."
 	}
 	]
 },
