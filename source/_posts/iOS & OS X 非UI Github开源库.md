@@ -868,6 +868,11 @@ data_github: [
 		description: "推送测试，push",
 	},
 	{
+		user: "tsif",
+		repo: "pu.sh",
+		description: "A bash script to send iOS push notifications with the Apple Push Notification service (APNs)",
+	},
+	{
 		user: "nomad",
 		repo: "houston",
 		description: "Apple Push Notifications; No Dirigible Required",
