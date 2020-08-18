@@ -864,7 +864,7 @@ data_github: [
 	},
 	{
 		user: "KnuffApp",
-		repo: "APNS-Pusher",
+		repo: "Knuff",
 		description: "推送测试，push",
 	},
 	{
