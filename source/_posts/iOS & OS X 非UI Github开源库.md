@@ -1264,6 +1264,11 @@ data_github: [
 		repo: "QYCrashProtector",
 		description: "iOS crash保护，unrecognized selector、NSTimer、Container 、NSNotification、NSString 、KVO、KVC等crash保护。",
 	},
+	{
+		user: "jezzmemo",
+		repo: "JJException",
+		description: "Protect the objective-c application(保护App不闪退)"
+	}
 	]
 },
 {
