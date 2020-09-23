@@ -847,6 +847,21 @@ data_github: [
 		description: "检测内存泄漏"
 	},
 	{
+		user: "facebook",
+		repo: "FBMemoryProfiler",
+		description: "iOS tool that helps with profiling iOS Memory usage."
+	},
+	{
+		user: "facebookarchive",
+		repo: "FBAllocationTracker",
+		description: "iOS library that helps tracking all allocated Objective-C objects"
+	},
+	{
+		user: "Tencent",
+		repo: "OOMDetector",
+		description: "OOMDetector is a memory monitoring component for iOS which provides you with OOM monitoring, memory allocation monitoring, memory leak detection and other functions."
+	},
+	{
 		user: "square",
 		repo: "PonyDebugger",
 		description: "视图层级，网络请求监听，Core Data 数据浏览",
@@ -890,10 +905,15 @@ data_github: [
 	{
 		user: "johnno1962",
 		repo: "Xtrace",
-		description: "跟踪调试，代码运行顺序",
+		description: "跟踪调试，代码运行顺序, 基于iOS runtime",
 		imgs: [
 		"https://camo.githubusercontent.com/e48918f46c7e90257e3e2467e9c54ee14424b5f8/687474703a2f2f696e6a656374696f6e666f7278636f64652e6a6f686e686f6c6473776f7274682e636f6d2f73746574686f73636f70652e676966",
 		]
+	},
+	{
+		user: "johnno1962",
+		repo: "SwiftTrace",
+		description: "Trace Swift and Objective-C method invocations, 基于iOS runtime"
 	},
 	{
 		user: "erikdoe",
@@ -968,7 +988,7 @@ data_github: [
 	]
 },
 {
-	keywords: [runtime,object-c,宏,逆向],
+	keywords: [runtime,Hook],
 	projects: [
 	{
 		user: "623637646",
@@ -998,17 +1018,6 @@ data_github: [
 			link: "https://juejin.im/post/5df5dcbc6fb9a0166138ff23"
 		}
 		]
-	},
-	{
-		user: "orta",
-		repo: "ARAnalytics",
-		description: "aop，拦截器，面向切面编程，钩子，hook，动态修改对象和类",
-		wiki: [
-		{
-			title: "iOS统计服务的集大成者--ARAnalytics",
-			link: "http://www.jianshu.com/p/c9ef82b3d91c"
-		}
-		],
 	},
 	{
 		user: "rpetrich",
@@ -1116,11 +1125,6 @@ data_github: [
 		]
 	},
 	{
-		user: "nygard",
-		repo: "class-dump",
-		description: "Generate Objective-C headers from Mach-O files"
-	},
-	{
 		user: "nst",
 		repo: "RuntimeBrowser",
 		description: "runtime的头文件浏览器",
@@ -1156,6 +1160,46 @@ data_github: [
 		],
 	},
 	{
+		user: "ebf",
+		repo: "CTObjectiveCRuntimeAdditions",
+		description: "Objc runtime additions."
+	},
+	{
+		user: "wickwirew",
+		repo: "Runtime",
+		description: "A Swift Runtime library for viewing type info, and the dynamic getting and setting of properties."
+	},
+	{
+		user: "frida",
+		repo: "frida",
+		description: "Dynamic instrumentation toolkit for developers, reverse-engineers, and security researchers."
+	},
+	{
+		user: "maniackk",
+		repo: "KKMagicHook",
+		description: "TimeProfiler的进阶库，可以可视化特定模块的OC方法耗时。静态插桩的方式来实现Hook Method."
+	},
+	{
+		user: "jmpews",
+		repo: "Dobby",
+		description: "a lightweight, multi-platform, multi-architecture hook framework. (Dynamic instrumentation, inline hook)"
+	},
+	{
+		user: "johnno1962",
+		repo: "InjectionIII",
+		description: "Re-write of Injection for Xcode in (mostly) Swift. 动态库patch的方式来实现动态修改逻辑."
+	}
+	]
+},
+{
+	keywords: [逆向],
+	projects: [
+	{
+		user: "nygard",
+		repo: "class-dump",
+		description: "Generate Objective-C headers from Mach-O files"
+	},
+	{
 		user: "Urinx",
 		repo: "iOSAppHook",
 		description: "专注于非越狱环境下iOS应用逆向研究，从dylib注入，应用重签名到App Hook"
@@ -1164,11 +1208,6 @@ data_github: [
 		user: "DanTheMan827",
 		repo: "ios-app-signer",
 		description: "This is an app for OS X that can (re)sign apps and bundle them into ipa files that are ready to be installed on an iOS device."
-	},
-	{
-		user: "ebf",
-		repo: "CTObjectiveCRuntimeAdditions",
-		description: "Objc runtime additions."
 	},
 	{
 		user: "tobefuturer",
@@ -1182,9 +1221,9 @@ data_github: [
 		description: "A reverse engineering tool to restore stripped symbol table for iOS app. 导出符号表"
 	},
 	{
-		user: "wickwirew",
-		repo: "Runtime",
-		description: "A Swift Runtime library for viewing type info, and the dynamic getting and setting of properties."
+		user: "AloneMonkey",
+		repo: "MonkeyDev",
+		description: "CaptainHook Tweak、Logos Tweak and Command-line Tool、Patch iOS Apps, Without Jailbreak."
 	}
 	]
 },
