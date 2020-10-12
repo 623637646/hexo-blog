@@ -1768,6 +1768,22 @@ data_github: [
 	]
 },
 {
+	keywords: [元编程, Meta-programming],
+	projects: [
+	{
+		user: "krzysztofzablocki",
+		repo: "Sourcery",
+		"description": "Meta-programming for Swift, stop writing boilerplate code.",
+		wiki: [
+		{
+			title: "不同角度看问题 - 从 Codable 到 Swift 元编程",
+			link: "https://mp.weixin.qq.com/s/4sT8K-woPgWXx6EJQvYudg"
+		}
+		]
+	}
+	]
+},
+{
 	keywords: [其他, Others],
 	projects: [
 	{
