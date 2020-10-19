@@ -1,0 +1,35 @@
+---
+title: node Github开源库
+categories:
+  - node
+tags:
+  - node
+  - github
+  - 开源
+  - nodejs
+  - js
+date: 2016-08-25 00:00:00
+---
+
+[{
+	"category": "node",
+	"repos": ["https://github.com/nodejs/node", "https://github.com/creationix/nvm", "https://github.com/socketio/socket.io"]
+}, {
+	"category": "框架",
+	"repos": ["https://github.com/expressjs/express", "https://github.com/sahat/hackathon-starter", "https://github.com/balderdashy/sails", "https://github.com/meteor/meteor"]
+}, {
+	"category": "服务器",
+	"repos": ["https://github.com/Unitech/pm2", "https://github.com/foreverjs/forever", "https://github.com/remy/nodemon"]
+}, {
+	"category": "debug",
+	"repos": ["https://github.com/node-inspector/node-inspector"]
+}, {
+	"category": "工具",
+	"repos": ["https://github.com/bower/bower", "https://github.com/gruntjs/grunt", "https://github.com/webpack/webpack"]
+}, {
+	"category": "桌面应用",
+	"repos": ["https://github.com/nwjs/nw.js", "https://github.com/electron/electron"]
+}, {
+	"category": "其他",
+	"repos": ["https://github.com/bluesmoon/node-geoip"]
+}]

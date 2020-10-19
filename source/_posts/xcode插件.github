@@ -1,0 +1,18 @@
+---
+title: xcode插件
+categories:
+  - plugin
+tags:
+  - iOS
+  - xcode
+  - plugin
+date: 2015-11-28 00:00:00
+---
+
+[{
+	"category": "插件",
+	"repos": ["https://github.com/alcatraz/Alcatraz", "https://github.com/FuzzyAutocomplete/FuzzyAutocompletePlugin", "https://github.com/trawor/XToDo", "https://github.com/robbiehanson/XcodeColors", "https://github.com/johnno1962/GitDiff", "https://github.com/kattrali/cocoapods-xcode-plugin", "https://github.com/ksuther/KSImageNamed-Xcode", "https://github.com/omz/ColorSense-for-Xcode", "https://github.com/macoscope/CodePilot", "https://github.com/stefanceriu/SCXcodeMiniMap", "https://github.com/onevcat/VVDocumenter-Xcode", "https://github.com/qfish/XAlign", "https://github.com/yeahdongcn/RSImageOptimPlugin", "https://github.com/holtwick/HOStringSense-for-Xcode", "https://github.com/questbeat/Lin-Xcode5", "https://github.com/questbeat/Lin", "https://github.com/kimsungwhee/KSHObjcUML", "https://github.com/vampirewalk/ObjectGraph-Xcode", "https://github.com/rickytan/RTImageAssets", "https://github.com/citrusbyte/Auto-Importer-for-Xcode", "https://github.com/stefanceriu/SCXcodeSwitchExpander", "https://github.com/johnno1962/injectionforxcode"]
+}, {
+	"category": "独立于Xcode的工具",
+	"repos": ["https://github.com/jeffhodnett/Unused", "https://github.com/ChristianKienle/Core-Data-Editor"]
+}]
