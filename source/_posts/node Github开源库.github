@@ -29,6 +29,10 @@ date: 2016-08-25 00:00:00
 }, {
 	"category": "桌面应用",
 	"repos": ["https://github.com/nwjs/nw.js", "https://github.com/electron/electron"]
+},
+{
+	"category": "爬虫, 无头浏览器,Headless,crawler,spider",
+	"repos": ["https://github.com/bda-research/node-crawler","https://github.com/TryGhost/Ghost"]
 }, {
 	"category": "其他",
 	"repos": ["https://github.com/bluesmoon/node-geoip"]
