@@ -399,6 +399,12 @@ date: 2015-11-28 00:00:00
         ]
     },
     {
+        "category": "爬虫, 无头浏览器,Headless,crawler,spider",
+        "repos": [
+            "https://github.com/mkoehnke/WKZombie"
+        ]
+    },
+    {
         "category": "其他,Others",
         "repos": [
             "https://github.com/vsouza/awesome-ios",
