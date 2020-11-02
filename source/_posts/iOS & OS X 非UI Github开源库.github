@@ -34,7 +34,8 @@ date: 2015-11-28 00:00:00
             "https://github.com/zwaldowski/BlocksKit",
             "https://github.com/google/promises",
             "https://github.com/yulingtianxia/MessageThrottle",
-            "https://github.com/alibaba/coobjc"
+            "https://github.com/alibaba/coobjc",
+            "https://github.com/belozierov/SwiftCoroutine"
         ]
     },
     {
