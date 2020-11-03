@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "outDir": "scripts",
+    "inlineSourceMap": true,
+    "strict": true,
+  }
+}
