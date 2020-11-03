@@ -12,6 +12,7 @@
     "version": "6.2.0"
   },
   "dependencies": {
+    "axios": "^0.27.2",
     "hexo": "^6.0.0",
     "hexo-deployer-git": "^3.0.0",
     "hexo-generator-archive": "^1.0.0",
@@ -19,10 +20,17 @@
     "hexo-generator-index": "^2.0.0",
     "hexo-generator-tag": "^1.0.0",
     "hexo-renderer-ejs": "^2.0.0",
-    "hexo-renderer-github-repos": "^1.4.9",
     "hexo-renderer-marked": "^5.0.0",
     "hexo-renderer-stylus": "^2.0.0",
     "hexo-server": "^3.0.0",
-    "hexo-theme-fluid": "*"
+    "hexo-theme-fluid": "*",
+    "keyv": "^4.0.3",
+    "keyv-file": "^0.2.0",
+    "probe-image-size": "^7.0.1"
+  },
+  "devDependencies": {
+    "@types/hexo": "^3.8.5",
+    "@types/keyv": "^3.1.1",
+    "@types/probe-image-size": "^5.0.1"
   }
 }
