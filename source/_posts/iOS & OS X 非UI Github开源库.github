@@ -390,7 +390,8 @@ sticky: 80
         "repos": [
             "https://github.com/shaojiankui/JKCategories",
             "https://github.com/ibireme/YYCategories",
-            "https://github.com/SwifterSwift/SwifterSwift"
+            "https://github.com/SwifterSwift/SwifterSwift",
+            "https://github.com/lianchengjiang/LcCategoryProperty"
         ]
     },
     {
