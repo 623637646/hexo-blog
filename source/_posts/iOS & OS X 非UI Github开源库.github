@@ -156,7 +156,7 @@ sticky: 80
         ]
     },
     {
-        "category": "调试,Debug,测试",
+        "category": "调试,Debug,测试,APM",
         "repos": [
             "https://github.com/AliSoftware/OHHTTPStubs",
             "https://github.com/netguru/ResponseDetective",
@@ -188,7 +188,9 @@ sticky: 80
             "https://github.com/Tencent/GT",
             "https://github.com/everettjf/AppleTrace",
             "https://github.com/maniackk/TimeProfiler",
-            "https://github.com/QiShare/Qi_ObjcMsgHook"
+            "https://github.com/QiShare/Qi_ObjcMsgHook",
+            "https://github.com/Tencent/matrix",
+            "https://github.com/meitu/MTHawkeye"
         ]
     },
     {
