@@ -359,6 +359,12 @@ sticky: 80
         ]
     },
     {
+        "category": "文件，IO，File",
+        "repos": [
+            "https://github.com/krzysztofzablocki/KZFileWatchers"
+        ]
+    },
+    {
         "category": "国际化",
         "repos": [
             "https://github.com/marmelroy/Localize-Swift",
