@@ -356,7 +356,8 @@ sticky: 80
         "category": "文件，IO，File",
         "repos": [
             "https://github.com/krzysztofzablocki/KZFileWatchers",
-            "https://github.com/njdehoog/Witness"
+            "https://github.com/njdehoog/Witness",
+            "https://github.com/daniel-pedersen/SKQueue"
         ]
     },
     {
