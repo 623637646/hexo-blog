@@ -184,7 +184,8 @@ sticky: 80
             "https://github.com/QiShare/Qi_ObjcMsgHook",
             "https://github.com/Tencent/matrix",
             "https://github.com/meitu/MTHawkeye",
-            "https://github.com/wojteklu/Watchdog"
+            "https://github.com/wojteklu/Watchdog",
+            "https://github.com/aozhimin/iOS-Monitor-Platform"
         ]
     },
     {
