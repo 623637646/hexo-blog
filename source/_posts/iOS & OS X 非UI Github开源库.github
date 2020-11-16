@@ -40,7 +40,7 @@ sticky: 80
         ]
     },
     {
-        "category": "架构",
+        "category": "依赖注入，控制反转，dependency injection",
         "repos": [
             "https://github.com/Swinject/Swinject",
             "https://github.com/appsquickly/Typhoon",
@@ -48,7 +48,7 @@ sticky: 80
         ]
     },
     {
-        "category": "通信,网络",
+        "category": "网络，Networking",
         "repos": [
             "https://github.com/AFNetworking/AFNetworking",
             "https://github.com/yuantiku/YTKNetwork",
@@ -67,7 +67,7 @@ sticky: 80
         ]
     },
     {
-        "category": "图片网络请求",
+        "category": "图片请求缓存",
         "repos": [
             "https://github.com/rs/SDWebImage",
             "https://github.com/Alamofire/AlamofireImage",
@@ -144,19 +144,12 @@ sticky: 80
             "https://github.com/ibireme/YYCache",
             "https://github.com/pinterest/PINCache",
             "https://github.com/kean/Nuke",
-            "https://github.com/kean/DFImageManager"
-        ]
-    },
-    {
-        "category": "性能,优化",
-        "repos": [
-            "https://github.com/facebook/AsyncDisplayKit",
-            "https://github.com/facebook/componentkit",
+            "https://github.com/kean/DFImageManager",
             "https://github.com/path/FastImageCache"
         ]
     },
     {
-        "category": "调试,Debug,测试,APM",
+        "category": "调试,Debug,性能,APM",
         "repos": [
             "https://github.com/AliSoftware/OHHTTPStubs",
             "https://github.com/netguru/ResponseDetective",
