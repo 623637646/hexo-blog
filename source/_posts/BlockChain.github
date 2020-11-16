@@ -22,5 +22,5 @@ date: 2018-10-05 00:00:00
 	"repos": ["https://github.com/ccxt/ccxt"]
 }, {
 	"category": "Others",
-	"repos": ["https://github.com/bitcoinjs/bitcoinjs-lib", "https://github.com/yenom/BitcoinKit", "https://github.com/consenlabs/token-core-ios", "https://github.com/bcoin-org/bcoin", "https://github.com/ethereum/web3.js", "https://github.com/bitpay/bitcore", "https://github.com/iancoleman/bip39"]
+	"repos": ["https://github.com/bitcoinjs/bitcoinjs-lib", "https://github.com/yenom/BitcoinKit", "https://github.com/consenlabs/token-core-ios", "https://github.com/bcoin-org/bcoin", "https://github.com/ethereum/web3.js", "https://github.com/bitpay/bitcore", "https://github.com/iancoleman/bip39", "https://github.com/horizontalsystems/bitcoin-kit-ios"]
 }]
