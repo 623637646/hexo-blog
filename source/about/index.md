@@ -10,6 +10,8 @@ layout: about
 - 技术博客：http://623637646.github.io/
 - Github：https://github.com/623637646
 
+[![Yanni's github stats](https://github-readme-stats.vercel.app/api?username=623637646)](https://github.com/anuraghazra/github-readme-stats)
+
 ---
 
 # 恩，靠谱
