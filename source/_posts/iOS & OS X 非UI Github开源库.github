@@ -211,6 +211,7 @@ sticky: 80
             "https://github.com/rabovik/RSSwizzle",
             "https://github.com/facebook/fishhook",
             "https://github.com/libffi/libffi",
+            "https://github.com/SatanWoo/TrampolineHook",
             "https://github.com/rentzsch/mach_override",
             "https://github.com/richardjrossiii/mach_override_example",
             "https://github.com/bang590/JSPatch",
