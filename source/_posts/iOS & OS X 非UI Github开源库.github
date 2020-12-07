@@ -151,6 +151,7 @@ sticky: 80
     {
         "category": "调试,Debug,性能,APM",
         "repos": [
+            "https://github.com/didi/DiDiPrism",
             "https://github.com/AliSoftware/OHHTTPStubs",
             "https://github.com/netguru/ResponseDetective",
             "https://github.com/Flipboard/FLEX",
