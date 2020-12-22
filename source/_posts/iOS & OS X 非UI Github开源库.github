@@ -417,6 +417,14 @@ sticky: 80
         ]
     },
     {
+        "category": "Property Wrappers",
+        "repos": [
+            "https://github.com/guillermomuntaner/Burritos",
+            "https://github.com/SvenTiigi/ValidatedPropertyKit",
+            "https://github.com/dreymonde/Delegated"
+        ]
+    },
+    {
         "category": "其他,Others",
         "repos": [
             "https://github.com/vsouza/awesome-ios",
