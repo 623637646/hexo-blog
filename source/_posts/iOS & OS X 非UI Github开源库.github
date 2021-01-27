@@ -199,7 +199,7 @@ sticky: 80
         ]
     },
     {
-        "category": "runtime,Hook",
+        "category": "runtime, Hook, 热修复, hot fix",
         "repos": [
             "https://github.com/623637646/SwiftHook",
             "https://github.com/steipete/Aspects",
@@ -230,7 +230,13 @@ sticky: 80
             "https://github.com/maniackk/KKMagicHook",
             "https://github.com/jmpews/Dobby",
             "https://github.com/johnno1962/InjectionIII",
-            "https://github.com/marmelroy/ObjectiveKit"
+            "https://github.com/marmelroy/ObjectiveKit",
+            "https://github.com/yangyangFeng/TTPatch",
+            "https://github.com/lilidan/OCEval",
+            "https://github.com/YPLiang19/Mango",
+            "https://github.com/SilverFruity/OCRunner",
+            "https://github.com/mmin18/WaxPatch",
+            "https://github.com/letqingbin/DynamicOC"
         ]
     },
     {
