@@ -16,7 +16,7 @@ date: 2018-10-05 00:00:00
 	"repos": ["https://github.com/bitcoin/bips", "https://github.com/chaozh/awesome-blockchain-cn", "https://github.com/bitcoinbook/bitcoinbook", "https://github.com/yeasy/blockchain_guide"]
 }, {
 	"category": "Wallets",
-	"repos": ["https://github.com/breadwallet/breadwallet-ios", "https://github.com/bither/bither-ios"]
+	"repos": ["https://github.com/breadwallet/breadwallet-ios", "https://github.com/bither/bither-ios", "https://github.com/horizontalsystems/unstoppable-wallet-ios", "https://github.com/breez/breezmobile"]
 }, {
 	"category": "Exchanges",
 	"repos": ["https://github.com/ccxt/ccxt"]
