@@ -20,4 +20,7 @@ date: 2021-02-26 00:00:00
 }, {
 	"category": "architecture",
 	"repos": ["https://github.com/alibaba/fish-redux"]
+}, {
+	"category": "Demos",
+	"repos": ["https://github.com/appditto/natrium_wallet_flutter"]
 }]
