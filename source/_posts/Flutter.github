@@ -19,7 +19,7 @@ date: 2021-02-26 00:00:00
 	"repos": ["https://github.com/flutterchina/dio"]
 }, {
 	"category": "architecture",
-	"repos": ["https://github.com/alibaba/fish-redux"]
+	"repos": ["https://github.com/alibaba/fish-redux", "https://github.com/ReactiveX/rxdart", "https://github.com/felangel/bloc", "https://github.com/jonataslaw/getx"]
 }, {
 	"category": "JS engine",
 	"repos": ["https://github.com/abner/flutter_js", "https://github.com/xuelongqy/flutter_jscore"]
@@ -27,6 +27,6 @@ date: 2021-02-26 00:00:00
 	"category": "store",
 	"repos": ["https://github.com/jeroentrappers/flutter_keychain"]
 }, {
-	"category": "Demos",
-	"repos": ["https://github.com/appditto/natrium_wallet_flutter"]
+	"category": "Others",
+	"repos": ["https://github.com/Solido/awesome-flutter","https://github.com/appditto/natrium_wallet_flutter","https://github.com/mitesh77/Best-Flutter-UI-Templates"]
 }]
