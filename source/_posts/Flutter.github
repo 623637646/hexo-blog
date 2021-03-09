@@ -24,8 +24,11 @@ date: 2021-02-26 00:00:00
 	"category": "JS engine",
 	"repos": ["https://github.com/abner/flutter_js", "https://github.com/xuelongqy/flutter_jscore"]
 }, {
-	"category": "store",
-	"repos": ["https://github.com/jeroentrappers/flutter_keychain"]
+	"category": "store, database",
+	"repos": ["https://github.com/jeroentrappers/flutter_keychain", "https://github.com/hivedb/hive"]
+}, {
+	"category": "router",
+	"repos": ["https://github.com/lukepighetti/fluro"]
 }, {
 	"category": "Others",
 	"repos": ["https://github.com/Solido/awesome-flutter","https://github.com/appditto/natrium_wallet_flutter","https://github.com/mitesh77/Best-Flutter-UI-Templates"]
