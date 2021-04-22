@@ -246,7 +246,9 @@ sticky: 80
             "https://github.com/Urinx/iOSAppHook",
             "https://github.com/DanTheMan827/ios-app-signer",
             "https://github.com/tobefuturer/restore-symbol",
-            "https://github.com/AloneMonkey/MonkeyDev"
+            "https://github.com/AloneMonkey/MonkeyDev",
+            "https://github.com/Naituw/IPAPatch",
+            "https://github.com/alexzielenski/optool"
         ]
     },
     {
