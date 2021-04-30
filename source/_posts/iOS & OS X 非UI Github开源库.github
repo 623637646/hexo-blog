@@ -202,6 +202,7 @@ sticky: 80
         "category": "runtime, Hook, 热修复, hot fix",
         "repos": [
             "https://github.com/623637646/SwiftHook",
+            "https://github.com/623637646/libffi",
             "https://github.com/steipete/Aspects",
             "https://github.com/steipete/InterposeKit",
             "https://github.com/eleme/Stinger",
