@@ -401,7 +401,8 @@ sticky: 80
     {
         "category": "Tracking,埋点,曝光,用户追踪",
         "repos": [
-            "https://github.com/alibaba/TMViewTrackerSDK"
+            "https://github.com/alibaba/TMViewTrackerSDK",
+            "https://github.com/623637646/ExposureKit"
         ]
     },
     {
