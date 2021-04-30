@@ -26,11 +26,17 @@ jobs:
       - name: remove cache
         run: rm cache/keyv-file.json
         
-      - name: clean
-        run: node_modules/hexo/bin/hexo clean
-        
-      - name: deploy
-        run: node_modules/hexo/bin/hexo d -g
+      # Deploy hexo blog website.
+      - name: Deploy
+        id: deploy
+        uses: sma11black/hexo-action@v1.0.3
+        with:
+          deploy_key: ${{ secrets.DEPLOY_KEY }}
+          
+      # Use the output from the `deploy` step(use for test action)
+      - name: Get the output
+        run: |
+          echo "${{ steps.deploy.outputs.notify }}"
         
       - name: Commit files
         run: |
