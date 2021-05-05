@@ -70,7 +70,7 @@ sticky: 90
 	"repos": ["https://github.com/piemonte/PBJVision", "https://github.com/rFlex/SCRecorder", "https://github.com/danielebogo/DBCamera", "https://github.com/IFTTT/FASTTTcamera", "https://github.com/dzenbot/DZNPhotoPickerController"]
 }, {
 	"category": "图片,编辑,滤镜",
-	"repos": ["https://github.com/yackle/CLImageEditor", "https://github.com/kishikawakatsumi/PEPhotoCropEditor", "https://github.com/ruslanskorb/RSKImageCropper"]
+	"repos": ["https://github.com/muukii/Brightroom", "https://github.com/yackle/CLImageEditor", "https://github.com/kishikawakatsumi/PEPhotoCropEditor", "https://github.com/ruslanskorb/RSKImageCropper"]
 }, {
 	"category": "图表,表格,chart",
 	"repos": ["https://github.com/danielgindi/ios-charts", "https://github.com/kevinzhow/PNChart", "https://github.com/Jawbone/JBChartView", "https://github.com/xhacker/TEAChart", "https://github.com/Boris-Em/BEMSimpleLineGraph", "https://github.com/honcheng/iOSPlot", "https://github.com/ZhipingYang/UUChartView", "https://github.com/AAChartModel/AAChartKit"]
