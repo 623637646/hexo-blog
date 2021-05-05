@@ -304,7 +304,8 @@ sticky: 80
         "category": "图片处理",
         "repos": [
             "https://github.com/BradLarson/GPUImage",
-            "https://github.com/Nyx0uf/NYXImagesKit"
+            "https://github.com/Nyx0uf/NYXImagesKit",
+            "https://github.com/pixelogik/ColorCube"
         ]
     },
     {
