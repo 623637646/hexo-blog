@@ -310,7 +310,8 @@ sticky: 80
             "https://github.com/Nyx0uf/NYXImagesKit",
             "https://github.com/pixelogik/ColorCube",
             "https://github.com/jathu/UIImageColors",
-            "https://github.com/yamoridon/ColorThiefSwift"
+            "https://github.com/yamoridon/ColorThiefSwift",
+            "https://github.com/koher/swift-image"
         ]
     },
     {
