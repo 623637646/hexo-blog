@@ -16,7 +16,7 @@ sticky: 90
 
 [{
 	"category": "菊花,进度条,加载,等待",
-	"repos": ["https://github.com/jdg/MBProgressHUD", "https://github.com/TransitApp/SVProgressHUD", "https://github.com/mrackwitz/MRProgress", "https://github.com/Marxon13/M13ProgressSuite", "https://github.com/ninjaprox/NVActivityIndicatorView", "https://github.com/yoavlt/LiquidLoader", "https://github.com/kishikawakatsumi/UCZProgressView", "https://github.com/Juanpe/SkeletonView", "https://github.com/polqf/FillableLoaders"]
+	"repos": ["https://github.com/relatedcode/ProgressHUD", "https://github.com/jdg/MBProgressHUD", "https://github.com/TransitApp/SVProgressHUD", "https://github.com/mrackwitz/MRProgress", "https://github.com/Marxon13/M13ProgressSuite", "https://github.com/ninjaprox/NVActivityIndicatorView", "https://github.com/yoavlt/LiquidLoader", "https://github.com/kishikawakatsumi/UCZProgressView", "https://github.com/Juanpe/SkeletonView", "https://github.com/polqf/FillableLoaders"]
 }, {
 	"category": "提示,通知,消息",
 	"repos": ["https://github.com/KrauseFx/TSMessages", "https://github.com/Orderella/PopupDialog", "https://github.com/cruffenach/CRToast", "https://github.com/jaydee3/JDStatusBarNotification", "https://github.com/terryworona/TWMessageBarManager", "https://github.com/AlvaroFranco/AFDropdownNotification"]
