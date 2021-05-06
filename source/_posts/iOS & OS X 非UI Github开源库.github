@@ -312,7 +312,8 @@ sticky: 80
             "https://github.com/pixelogik/ColorCube",
             "https://github.com/jathu/UIImageColors",
             "https://github.com/yamoridon/ColorThiefSwift",
-            "https://github.com/koher/swift-image"
+            "https://github.com/koher/swift-image",
+            "https://github.com/skyfe79/SwiftImageProcessing"
         ]
     },
     {
