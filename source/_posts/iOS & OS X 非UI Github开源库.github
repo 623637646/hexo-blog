@@ -63,7 +63,8 @@ sticky: 80
             "https://github.com/tonymillion/Reachability",
             "https://github.com/ashleymills/Reachability.swift",
             "https://github.com/dustturtle/RealReachability",
-            "https://github.com/Yeatse/NSURLProtocol-WebKitSupport"
+            "https://github.com/Yeatse/NSURLProtocol-WebKitSupport",
+            "https://github.com/kaishin/ImageScout"
         ]
     },
     {
