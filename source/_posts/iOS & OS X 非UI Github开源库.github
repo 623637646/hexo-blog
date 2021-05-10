@@ -36,7 +36,8 @@ sticky: 80
             "https://github.com/google/promises",
             "https://github.com/yulingtianxia/MessageThrottle",
             "https://github.com/alibaba/coobjc",
-            "https://github.com/belozierov/SwiftCoroutine"
+            "https://github.com/belozierov/SwiftCoroutine",
+            "https://github.com/ReSwift/ReSwift"
         ]
     },
     {
