@@ -10,7 +10,7 @@ date: 2017-09-15 00:00:00
 
 [{
 	"category": "架构",
-	"repos": ["https://github.com/reduxjs/redux"]
+	"repos": ["https://github.com/reduxjs/redux", "https://github.com/mobxjs/mobx"]
 }, {
 	"category": "语法",
 	"repos": ["https://github.com/jashkenas/underscore", "https://github.com/petkaantonov/bluebird", "https://github.com/kriskowal/q", "https://github.com/caolan/async"]
