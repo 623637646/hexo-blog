@@ -117,7 +117,9 @@ sticky: 80
             "https://github.com/SwiftyJSON/SwiftyJSON",
             "https://github.com/tristanhimmelman/ObjectMapper",
             "https://github.com/alibaba/HandyJSON",
-            "https://github.com/marksands/BetterCodable"
+            "https://github.com/marksands/BetterCodable",
+            "https://github.com/Flight-School/AnyCodable",
+            "https://github.com/JohnSundell/Codextended"
         ]
     },
     {
