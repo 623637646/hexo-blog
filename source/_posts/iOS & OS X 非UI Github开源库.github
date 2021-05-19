@@ -388,10 +388,11 @@ sticky: 80
         ]
     },
     {
-        "category": "国际化",
+        "category": "国际化, 多语言, Localization",
         "repos": [
             "https://github.com/marmelroy/Localize-Swift",
-            "https://github.com/AlexanderZaytsev/react-native-i18n"
+            "https://github.com/AlexanderZaytsev/react-native-i18n",
+            "https://github.com/willpowell8/LocalizationKit_iOS"
         ]
     },
     {
