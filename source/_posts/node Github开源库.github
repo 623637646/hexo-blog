@@ -13,7 +13,7 @@ date: 2016-08-25 00:00:00
 
 [{
 	"category": "node",
-	"repos": ["https://github.com/nodejs/node", "https://github.com/creationix/nvm", "https://github.com/socketio/socket.io"]
+	"repos": ["https://github.com/nodejs/node", "https://github.com/creationix/nvm", "https://github.com/socketio/socket.io", "https://github.com/LiquidPlayer/LiquidCore"]
 }, {
 	"category": "框架",
 	"repos": ["https://github.com/expressjs/express", "https://github.com/sahat/hackathon-starter", "https://github.com/balderdashy/sails", "https://github.com/meteor/meteor"]
