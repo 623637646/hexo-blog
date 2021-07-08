@@ -16,7 +16,7 @@ date: 2021-02-26 00:00:00
 	"repos": ["https://github.com/rrousselGit/flutter_hooks", "https://github.com/alibaba-flutter/aspectd"]
 }, {
 	"category": "Network",
-	"repos": ["https://github.com/flutterchina/dio"]
+	"repos": ["https://github.com/flutterchina/dio", "https://github.com/pichillilorenzo/flutter_inappwebview"]
 }, {
 	"category": "JSON",
 	"repos": ["https://github.com/google/json_serializable.dart", "https://github.com/javiercbk/json_to_dart", "https://github.com/google/built_value.dart"]
