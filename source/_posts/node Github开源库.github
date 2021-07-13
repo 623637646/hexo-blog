@@ -31,8 +31,8 @@ date: 2016-08-25 00:00:00
 	"repos": ["https://github.com/nwjs/nw.js", "https://github.com/electron/electron"]
 },
 {
-	"category": "爬虫, 无头浏览器,Headless,crawler,spider",
-	"repos": ["https://github.com/bda-research/node-crawler","https://github.com/TryGhost/Ghost"]
+	"category": "爬虫, 反爬虫, 无头浏览器,Headless,crawler,spider",
+	"repos": ["https://github.com/bda-research/node-crawler","https://github.com/TryGhost/Ghost", "https://github.com/FantasticLBP/Anti-WebSpider"]
 }, {
 	"category": "其他",
 	"repos": ["https://github.com/bluesmoon/node-geoip"]
