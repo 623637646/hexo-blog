@@ -241,7 +241,8 @@ sticky: 80
             "https://github.com/SilverFruity/OCRunner",
             "https://github.com/mmin18/WaxPatch",
             "https://github.com/letqingbin/DynamicOC",
-            "https://github.com/mhdhejazi/Dynamic"
+            "https://github.com/mhdhejazi/Dynamic",
+            "https://github.com/czqasngit/objc_msgSend_hook"
         ]
     },
     {
