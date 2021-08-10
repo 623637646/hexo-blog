@@ -22,7 +22,7 @@ date: 2021-02-26 00:00:00
 	"repos": ["https://github.com/google/json_serializable.dart", "https://github.com/javiercbk/json_to_dart", "https://github.com/google/built_value.dart"]
 }, {
 	"category": "architecture",
-	"repos": ["https://github.com/alibaba/fish-redux", "https://github.com/ReactiveX/rxdart", "https://github.com/felangel/bloc", "https://github.com/jonataslaw/getx", "https://github.com/mobxjs/mobx.dart"]
+	"repos": ["https://github.com/fluttercommunity/get_it", "https://github.com/alibaba/fish-redux", "https://github.com/ReactiveX/rxdart", "https://github.com/felangel/bloc", "https://github.com/jonataslaw/getx", "https://github.com/mobxjs/mobx.dart"]
 }, {
 	"category": "JS engine",
 	"repos": ["https://github.com/abner/flutter_js", "https://github.com/xuelongqy/flutter_jscore"]
