@@ -182,6 +182,7 @@ sticky: 80
             "https://github.com/johnno1962/SwiftTrace",
             "https://github.com/erikdoe/ocmock",
             "https://github.com/google/earlgrey",
+            "https://github.com/MobileNativeFoundation/bluepill",
             "https://github.com/kif-framework/KIF",
             "https://github.com/nst/objc_dep",
             "https://github.com/Tencent/GT",
