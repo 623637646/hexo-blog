@@ -36,6 +36,14 @@ date: 2021-02-26 00:00:00
 	"category": "Debug",
 	"repos": ["https://github.com/jhomlala/alice", "https://github.com/bytedance/flutter_ume"]
 }, {
+	"category": "Test",
+	"repos": ["https://github.com/dart-lang/mockito"]
+}, {
 	"category": "UIs",
-	"repos": ["https://github.com/kherel/animated_theme_switcher", "https://github.com/google/flutter.widgets", "https://github.com/sla-000/flutter_debouncer", "https://github.com/fluttercandies/flutter_interactional_widget", "https://github.com/akshathjain/sliding_up_panel", "https://github.com/Solido/awesome-flutter","https://github.com/appditto/natrium_wallet_flutter","https://github.com/mitesh77/Best-Flutter-UI-Templates", "https://github.com/best-flutter/flutter_swiper", "https://github.com/iamSahdeep/liquid_swipe_flutter", "https://github.com/letsar/flutter_slidable", "https://github.com/hnvn/flutter_shimmer", "https://github.com/rvamsikrishna/inview_notifier_list", "https://github.com/danvick/flutter_form_builder"]
+	"repos": ["https://github.com/kherel/animated_theme_switcher", "https://github.com/google/flutter.widgets", "https://github.com/sla-000/flutter_debouncer", "https://github.com/fluttercandies/flutter_interactional_widget", "https://github.com/akshathjain/sliding_up_panel", "https://github.com/Solido/awesome-flutter","https://github.com/appditto/natrium_wallet_flutter","https://github.com/mitesh77/Best-Flutter-UI-Templates", "https://github.com/best-flutter/flutter_swiper", "https://github.com/iamSahdeep/liquid_swipe_flutter", "https://github.com/letsar/flutter_slidable", "https://github.com/hnvn/flutter_shimmer", "https://github.com/rvamsikrishna/inview_notifier_list", "https://github.com/danvick/flutter_form_builder", 
+	"https://github.com/xuelongqy/flutter_easyrefresh", 
+	"https://github.com/MMMzq/bot_toast", 
+	"https://github.com/dnfield/flutter_svg",
+	"https://github.com/rive-app/rive-flutter"
+	]
 }]

@@ -196,6 +196,12 @@ sticky: 80
         ]
     },
     {
+        "category": "测试, test",
+        "repos": [
+            "https://github.com/Brightify/Cuckoo"
+        ]
+    },
+    {
         "category": "库管理,开源代码管理",
         "repos": [
             "https://github.com/CocoaPods/CocoaPods",
