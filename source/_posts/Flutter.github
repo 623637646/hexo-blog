@@ -31,7 +31,7 @@ date: 2021-02-26 00:00:00
 	"repos": ["https://github.com/jeroentrappers/flutter_keychain", "https://github.com/hivedb/hive", "https://github.com/mogol/flutter_secure_storage"]
 }, {
 	"category": "router",
-	"repos": ["https://github.com/lukepighetti/fluro"]
+	"repos": ["https://github.com/lukepighetti/fluro", "https://github.com/Milad-Akarie/auto_route_library"]
 }, {
 	"category": "Debug",
 	"repos": ["https://github.com/jhomlala/alice", "https://github.com/bytedance/flutter_ume"]
