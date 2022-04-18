@@ -34,7 +34,7 @@ date: 2021-02-26 00:00:00
 	"repos": ["https://github.com/lukepighetti/fluro", "https://github.com/Milad-Akarie/auto_route_library"]
 }, {
 	"category": "Debug",
-	"repos": ["https://github.com/jhomlala/alice", "https://github.com/bytedance/flutter_ume"]
+	"repos": ["https://github.com/jhomlala/alice", "https://github.com/bytedance/flutter_ume", "https://github.com/leisim/logger"]
 }, {
 	"category": "Test",
 	"repos": ["https://github.com/dart-lang/mockito"]
