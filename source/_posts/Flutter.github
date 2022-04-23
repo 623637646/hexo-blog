@@ -52,6 +52,7 @@ date: 2021-02-26 00:00:00
 	"https://github.com/dnfield/flutter_svg",
 	"https://github.com/rive-app/rive-flutter",
 	"https://github.com/fluttercandies/extended_nested_scroll_view",
-	"https://github.com/ifgyong/flutter_easyHub"
+	"https://github.com/ifgyong/flutter_easyHub",
+	"https://github.com/fluttercommunity/flutter_blurhash"
 	]
 }]
