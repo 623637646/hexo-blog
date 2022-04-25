@@ -10,7 +10,7 @@ date: 2021-02-26 00:00:00
 
 [{
 	"category": "Function",
-	"repos": ["https://github.com/felangel/equatable"]
+	"repos": ["https://github.com/felangel/equatable", "https://github.com/creativecreatorormaybenot/wakelock"]
 }, {
 	"category": "Hook & AOP & Mirror & Reflection",
 	"repos": ["https://github.com/rrousselGit/flutter_hooks", "https://github.com/alibaba-flutter/aspectd", "https://github.com/google/reflectable.dart", "https://github.com/k-paxian/dart-json-mapper"]
