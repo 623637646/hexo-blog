@@ -9,9 +9,6 @@ date: 2021-02-26 00:00:00
 ---
 
 [{
-	"category": "Function",
-	"repos": ["https://github.com/felangel/equatable", "https://github.com/creativecreatorormaybenot/wakelock"]
-}, {
 	"category": "Hook & AOP & Mirror & Reflection",
 	"repos": ["https://github.com/rrousselGit/flutter_hooks", "https://github.com/alibaba-flutter/aspectd", "https://github.com/google/reflectable.dart", "https://github.com/k-paxian/dart-json-mapper"]
 }, {
@@ -52,7 +49,7 @@ date: 2021-02-26 00:00:00
 		"https://github.com/nailgilaziev/messagepack",
 		"https://github.com/mongo-dart/bson"
 	]
-},  {
+}, {
 	"category": "UIs",
 	"repos": ["https://github.com/kherel/animated_theme_switcher", "https://github.com/google/flutter.widgets", "https://github.com/sla-000/flutter_debouncer", "https://github.com/fluttercandies/flutter_interactional_widget", "https://github.com/akshathjain/sliding_up_panel", "https://github.com/Solido/awesome-flutter","https://github.com/appditto/natrium_wallet_flutter","https://github.com/mitesh77/Best-Flutter-UI-Templates", "https://github.com/best-flutter/flutter_swiper", "https://github.com/iamSahdeep/liquid_swipe_flutter", "https://github.com/letsar/flutter_slidable", "https://github.com/hnvn/flutter_shimmer", "https://github.com/rvamsikrishna/inview_notifier_list", "https://github.com/danvick/flutter_form_builder", 
 	"https://github.com/xuelongqy/flutter_easyrefresh", 
@@ -64,4 +61,7 @@ date: 2021-02-26 00:00:00
 	"https://github.com/fluttercommunity/flutter_blurhash",
 	"https://github.com/Cretezy/flutter_linkify"
 	]
+}, {
+	"category": "Others",
+	"repos": ["https://github.com/felangel/equatable", "https://github.com/creativecreatorormaybenot/wakelock", "https://github.com/xsahil03x/super_enum"]
 }]
