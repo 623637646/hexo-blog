@@ -63,5 +63,5 @@ date: 2021-02-26 00:00:00
 	]
 }, {
 	"category": "Others",
-	"repos": ["https://github.com/felangel/equatable", "https://github.com/creativecreatorormaybenot/wakelock", "https://github.com/xsahil03x/super_enum"]
+	"repos": ["https://github.com/felangel/equatable", "https://github.com/creativecreatorormaybenot/wakelock", "https://github.com/xsahil03x/super_enum", "https://github.com/mobiten/flutter_phoenix"]
 }]
