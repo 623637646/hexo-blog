@@ -59,7 +59,8 @@ date: 2021-02-26 00:00:00
 	"https://github.com/fluttercandies/extended_nested_scroll_view",
 	"https://github.com/ifgyong/flutter_easyHub",
 	"https://github.com/fluttercommunity/flutter_blurhash",
-	"https://github.com/Cretezy/flutter_linkify"
+	"https://github.com/Cretezy/flutter_linkify",
+	"https://github.com/AbdulRahmanAlHamali/flutter_typeahead"
 	]
 }, {
 	"category": "Others",
