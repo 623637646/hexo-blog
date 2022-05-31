@@ -60,7 +60,11 @@ date: 2021-02-26 00:00:00
 	"https://github.com/ifgyong/flutter_easyHub",
 	"https://github.com/fluttercommunity/flutter_blurhash",
 	"https://github.com/Cretezy/flutter_linkify",
-	"https://github.com/AbdulRahmanAlHamali/flutter_typeahead"
+	"https://github.com/AbdulRahmanAlHamali/flutter_typeahead",
+	"https://github.com/Smueez/floating_animated_widget",
+	"https://github.com/LvKang-insist/flutter_floating",
+	"https://github.com/adar2378/draggable_widget",
+	"https://github.com/shadabunique/flutter_draggable_fab"
 	]
 }, {
 	"category": "Others",
