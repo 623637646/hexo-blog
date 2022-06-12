@@ -14,7 +14,11 @@ date: 2021-02-26 00:00:00
 	"repos": [
 		"https://github.com/hnvn/flutter_shimmer", 
 		"https://github.com/MMMzq/bot_toast", 
-		"https://github.com/ifgyong/flutter_easyHub"
+		"https://github.com/ifgyong/flutter_easyHub",
+		"https://github.com/jogboms/flutter_spinkit",
+		"https://github.com/nslogx/flutter_easyloading",
+		"https://github.com/ponnamkarthik/FlutterToast",
+		"https://github.com/diegoveloper/flutter_percent_indicator"
 	]
 }, {
 	"category": "Translation, Animation, Theme",
@@ -23,7 +27,8 @@ date: 2021-02-26 00:00:00
 		"https://github.com/iamSahdeep/liquid_swipe_flutter", 
 		"https://github.com/rive-app/rive-flutter",
 		"https://github.com/kherel/animated_theme_switcher",
-		"https://github.com/fluttercandies/flutter_interactional_widget"
+		"https://github.com/fluttercandies/flutter_interactional_widget",
+		"https://github.com/Milad-Akarie/smooth_page_indicator"
 	]
 }, {
 	"category": "List, Scroll",
@@ -40,7 +45,9 @@ date: 2021-02-26 00:00:00
 }, {
 	"category": "Refresh, Load more, Pull to refresh",
 	"repos": [
-		"https://github.com/xuelongqy/flutter_easyrefresh"
+		"https://github.com/xuelongqy/flutter_easyrefresh",
+		"https://github.com/peng8350/flutter_pulltorefresh",
+		"https://github.com/aagarwal1012/Liquid-Pull-To-Refresh"
 	]
 }, {
 	"category": "Carousel, Swiper",
@@ -74,6 +81,8 @@ date: 2021-02-26 00:00:00
 		"https://github.com/Solido/awesome-flutter",
 		"https://github.com/mitesh77/Best-Flutter-UI-Templates",
 		"https://github.com/google/flutter.widgets",
-		"https://github.com/appditto/natrium_wallet_flutter"
+		"https://github.com/appditto/natrium_wallet_flutter",
+		"https://github.com/fluttercommunity/flutter_launcher_icons",
+		"https://github.com/Rannie/flui"
 	]
 }]
