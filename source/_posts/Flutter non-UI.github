@@ -30,11 +30,15 @@ date: 2021-02-26 00:00:00
 	"category": "router",
 	"repos": ["https://github.com/lukepighetti/fluro", "https://github.com/Milad-Akarie/auto_route_library"]
 }, {
-	"category": "Debug",
-	"repos": ["https://github.com/jhomlala/alice", 
-	"https://github.com/bytedance/flutter_ume", 
-	"https://github.com/leisim/logger", 
-	"https://github.com/Milad-Akarie/pretty_dio_logger"]
+	"category": "Debug, logs, logger",
+	"repos": [
+		"https://github.com/jhomlala/alice", 
+		"https://github.com/bytedance/flutter_ume", 
+		"https://github.com/leisim/logger", 
+		"https://github.com/Milad-Akarie/pretty_dio_logger",
+		"https://github.com/Frezyx/talker",
+		"https://github.com/yungzhu/let_log"
+	]
 }, {
 	"category": "Test",
 	"repos": ["https://github.com/dart-lang/mockito"]
