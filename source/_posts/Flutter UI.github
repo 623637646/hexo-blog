@@ -52,7 +52,8 @@ date: 2021-02-26 00:00:00
 }, {
 	"category": "Carousel, Swiper",
 	"repos": [
-		"https://github.com/best-flutter/flutter_swiper"
+		"https://github.com/best-flutter/flutter_swiper",
+		"https://github.com/serenader2014/flutter_carousel_slider"
 	]
 }, {
 	"category": "Swipe menu, Slide menu, Cell",
