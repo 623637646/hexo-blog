@@ -28,7 +28,8 @@ date: 2021-02-26 00:00:00
 		"https://github.com/rive-app/rive-flutter",
 		"https://github.com/kherel/animated_theme_switcher",
 		"https://github.com/fluttercandies/flutter_interactional_widget",
-		"https://github.com/Milad-Akarie/smooth_page_indicator"
+		"https://github.com/Milad-Akarie/smooth_page_indicator",
+		"https://github.com/mobiten/flutter_staggered_animations"
 	]
 }, {
 	"category": "List, Scroll",
