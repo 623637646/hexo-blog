@@ -13,7 +13,12 @@ date: 2021-02-26 00:00:00
 	"repos": ["https://github.com/rrousselGit/flutter_hooks", "https://github.com/alibaba-flutter/aspectd", "https://github.com/google/reflectable.dart", "https://github.com/k-paxian/dart-json-mapper"]
 }, {
 	"category": "Network",
-	"repos": ["https://github.com/flutterchina/dio", "https://github.com/pichillilorenzo/flutter_inappwebview", "https://github.com/trevorwang/retrofit.dart"]
+	"repos": ["https://github.com/flutterchina/dio", 
+	"https://github.com/pichillilorenzo/flutter_inappwebview", 
+	"https://github.com/trevorwang/retrofit.dart",
+	"https://github.com/hurshi/dio-http-cache",
+	"https://github.com/llfbandit/dio_cache_interceptor"
+	]
 }, {
 	"category": "JSON, Models",
 	"repos": ["https://github.com/google/json_serializable.dart", "https://github.com/javiercbk/json_to_dart", "https://github.com/google/built_value.dart", "https://github.com/rrousselGit/freezed"]
