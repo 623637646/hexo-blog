@@ -17,7 +17,8 @@ date: 2021-02-26 00:00:00
 	"https://github.com/pichillilorenzo/flutter_inappwebview", 
 	"https://github.com/trevorwang/retrofit.dart",
 	"https://github.com/hurshi/dio-http-cache",
-	"https://github.com/llfbandit/dio_cache_interceptor"
+	"https://github.com/llfbandit/dio_cache_interceptor",
+	"https://github.com/fryette/webview_cookie_manager"
 	]
 }, {
 	"category": "JSON, Models",
