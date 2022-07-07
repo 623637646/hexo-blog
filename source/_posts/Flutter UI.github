@@ -50,7 +50,8 @@ date: 2021-02-26 00:00:00
 		"https://github.com/peng8350/flutter_pulltorefresh",
 		"https://github.com/aagarwal1012/Liquid-Pull-To-Refresh",
 		"https://github.com/fluttercandies/loading_more_list",
-		"https://github.com/fluttercandies/pull_to_refresh_notification"
+		"https://github.com/fluttercandies/pull_to_refresh_notification",
+		"https://github.com/gonuit/flutter-custom-refresh-indicator"
 	]
 }, {
 	"category": "Carousel, Swiper",
