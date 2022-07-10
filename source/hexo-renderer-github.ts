@@ -29,50 +29,120 @@ const keyv = new Keyv({
     })
 })
 
-async function fetchImageSize(URL: string, from: string): Promise<[number, number]> {
+async function fetchImageSize(URL: string, repo: string): Promise<[number, number]> {
+    let dataInCache = await keyv.get(URL) as [number, number] | null
+    if (dataInCache != null) {
+        console.log(`[FromCache] Image: ${URL}`);
+        return dataInCache
+    }
+    let size: [number, number]
     try {
         let result = await probe(URL)
-        // console.log(`FetchImageSize success [${[result.width, result.height]}]. repo: ${from} , image: ${URL}`);
-        return [result.width, result.height]
+        size = [result.width, result.height]
     } catch (err) {
-        console.log(`FetchImageSize error. repo: ${from} , image: ${URL} , error: ${err}`);
-        return [0, 0]
+        console.log(`[FetchImageSize] error. image: ${URL} , repo: ${repo} , error: ${err}`);
+        size = [0, 0]
     }
+    let saved = await keyv.set(URL, size, 365 * 24 * 60 * 60) // 1 year
+    if (!saved) {
+        throw '[Internal] saved error'
+    }
+    return size
 }
 
 async function httpGet(URL: string) {
-    return await got(URL, {
-        headers: {
-            "Authorization": "Basic dXNlcm5hbWU6Z2hwX21qd2hFeFNNaFVTTEpPMHJsNVQycXM4TzJMTkVacDNoMDBubA=="
-        }
-    })
+    try {
+        let response = await got(URL, {
+            headers: {
+                "Authorization": "Basic dXNlcm5hbWU6Z2hwX21qd2hFeFNNaFVTTEpPMHJsNVQycXM4TzJMTkVacDNoMDBubA=="
+            }
+        })
+        console.log(`[${response.headers['x-ratelimit-remaining']}] Got: ${URL}`);
+        return JSON.parse(response.body);
+    } catch (error) {
+        throw `[API] eror! URL: ${URL} , error: ${error}`
+    }
+}
+
+// seconds
+function cacheExpiry(repoData: any) {
+    let update = (new Date(repoData['pushed_at'])).getTime()
+    let now = Date.now()
+    let months = (now - update) / 1000 / 60 / 60 / 24 / 30
+    if (months < 1) {
+        return 1 * 24 * 60 * 60 // 1 day
+    } else if (months < 12) {
+        return 30 * 24 * 60 * 60 // 30 day
+    } else if (months < 24) {
+        return 365 / 2 * 24 * 60 * 60 // half year
+    } else {
+        return 365 * 24 * 60 * 60 // 1 year
+    }
+}
+
+async function getFromCache(key: string) {
+    let dataInCache = await keyv.get(key) as any
+    if (dataInCache != null) {
+        console.log(`[FromCache] Got: ${key}`);
+        return dataInCache
+    }
+    return null
+}
+
+async function cache(key: string, value: any, repoData: any) {
+    let seconds = cacheExpiry(repoData)
+    let saved = await keyv.set(key, value, seconds * 1000)
+    if (!saved) {
+        throw '[Internal] saved error'
+    }
+    console.log(`[SaveCache][${seconds / 60 / 60 / 24}] ${key}`);
 }
 
 async function repoAPI(user: string, repoName: string) {
     let URL = `https://api.github.com/repos/${user}/${repoName}`
-    let response = await httpGet(URL)
-    console.log(`[${response.headers['x-ratelimit-remaining']}]Got Repo: https://github.com/${user}/${repoName}`);
-    return JSON.parse(response.body)
+    let dataInCache = await getFromCache(URL)
+    if (dataInCache != null) {
+        return dataInCache
+    }
+    let data = await httpGet(URL)
+    await cache(URL, data, data)
+    return data
 }
 
-async function repoReadmeAPI(user: string, repoName: string) {
+async function repoReadmeAPI(user: string, repoName: string, repoData: any) {
     let URL = `https://api.github.com/repos/${user}/${repoName}/readme`
-    let response = await httpGet(URL)
-    console.log(`[${response.headers['x-ratelimit-remaining']}]Got Readme: ${repoName}`);
-    return JSON.parse(response.body)
+    let dataInCache = await getFromCache(URL)
+    if (dataInCache != null) {
+        return dataInCache
+    }
+
+    let data: any
+    try {
+        data = await httpGet(URL)
+    } catch (error) {
+        console.log(`[API] Readme API error: ${error}`);
+        data = null
+    }
+
+    if (data != null) {
+        await cache(URL, data, repoData)
+        return data
+    } else {
+        return null
+    }
 }
 
 async function fetchRepo(URL: string): Promise<Repo> {
     const repoURLRegExp = RegExp('^https:\/\/github\.com\/(.+?)\/(.+?)$')
     var match = URL.match(repoURLRegExp);
     if (match == null || match.length != 3) {
-        throw `URL is wrong ${URL}`
+        throw `[Internal] URL is wrong ${URL}`
     }
     let user = match[1]
     let repoName = match[2]
     let repoData = await repoAPI(user, repoName)
-    let readmeData = await repoReadmeAPI(user, repoName)
-    let readmeContent = Buffer.from(readmeData['content'], 'base64').toString('utf8')
+    let readmeData = await repoReadmeAPI(user, repoName, repoData)
+    let readmeContent = readmeData == null ? "" : Buffer.from(readmeData['content'], 'base64').toString('utf8')
 
     // get images
     var imageURLs: string[] = []
@@ -93,18 +163,24 @@ async function fetchRepo(URL: string): Promise<Repo> {
 
     // convert
     imageURLs = imageURLs.map(imageURL => {
+        let originalURL = imageURL
         if (!imageURL.startsWith('http')) {
             let htmlURL: string = readmeData['html_url']
             const masterBranchRegExp = RegExp(/\/blob\/([^\/]+?)\/[^\/]+$/)
             let matched = htmlURL.match(masterBranchRegExp);
             if (matched == null || matched.length != 2) {
-                throw `htmlURL is wrong ${htmlURL}`
+                throw `[Internal] htmlURL is wrong ${htmlURL}`
             }
             let branchName = matched[1]
             imageURL = `https://github.com/${user}/${repoName}/raw/${branchName}${imageURL.startsWith('/') ? '' : '/'}` + imageURL
         }
-        if (!imageURL.includes('%')) {
-            imageURL = encodeURI(imageURL)
+        const regExpURLTransferBlobToRaw = RegExp(/(https:\/\/github\.com\/.*?\/.*?\/)blob/)
+        if (imageURL.match(regExpURLTransferBlobToRaw)) {
+            imageURL = imageURL.replace(regExpURLTransferBlobToRaw, "$1raw")
+        }
+        imageURL = encodeURI(imageURL)
+        if (originalURL != imageURL) {
+            console.log(`[Image Transfer] Change image URL from ${originalURL} to ${imageURL}`)
         }
         return imageURL
     })
@@ -115,7 +191,7 @@ async function fetchRepo(URL: string): Promise<Repo> {
             imageURL => fetchImageSize(imageURL, URL).then(size => [imageURL, size])
         )
     )
-    imagesURLAndSize = imagesURLAndSize.filter(e => e[1] != null)
+    imagesURLAndSize = imagesURLAndSize.filter(e => e[1][0] > 50 && e[1][1] > 50)
     imagesURLAndSize.sort((a, b) => {
         return b[1][0] * b[1][1] - a[1][0] * a[1][1]
     })
@@ -133,30 +209,13 @@ async function fetchRepo(URL: string): Promise<Repo> {
     return repo
 }
 
-async function generateRepo(URL: string) {
-    let repoInCache = await keyv.get(URL) as Repo
-    if (repoInCache) {
-        return repoInCache
-    }
-    let repo = await fetchRepo(URL)
-    let saved = await keyv.set(URL, repo)
-    if (!saved) {
-        throw 'saved error'
-    }
-    return repo
-}
-
 async function generateCategories(categoryConfigs: CategoryConfig[]) {
     var categories: Category[] = []
     for (let categoryConfig of categoryConfigs) {
         var repos: Repo[] = []
         for (const URL of categoryConfig.repos) {
-            try {
-                let repo = await generateRepo(URL);
-                repos.push(repo)
-            } catch (error) {
-                console.log(`Github API. Repo: ${URL} error: ${error}`)
-            }
+            let repo = await fetchRepo(URL);
+            repos.push(repo)
         }
         repos = repos.sort(function (a, b) {
             return b.stars - a.stars;
@@ -170,15 +229,11 @@ async function generateCategories(categoryConfigs: CategoryConfig[]) {
     return categories
 }
 
-function getRepoURL(user: string, name: string) {
-    return `https://github.com/${user}/${name}`
-}
-
 function getMarkdownWithRepo(repo: Repo) {
     let markdown = ""
 
     // name
-    markdown += `### [${repo.name}](${getRepoURL(repo.user, repo.name)})\n\n`
+    markdown += `### [${repo.name}](https://github.com/${repo.user}/${repo.name})\n\n`
 
     // stars and tags
     let starsAndTags = `stars: ${nFormatter(repo.stars, 1)}`
@@ -245,7 +300,6 @@ hexo.extend.renderer.register('github', 'html', async function (data, options) {
         let categoryConfigs: CategoryConfig[] = JSON.parse(json);
         let categories = await generateCategories(categoryConfigs)
         let markdown = getMarkdownWithCategories(categories)
-        // console.log(`\n[hexo-renderer-github] markdown log:\n/**\n\n${markdown}\n\n**/\n[hexo-renderer-github] markdown end\n`)
 
         let htmlPromise: Promise<string> = (hexo.extend.renderer as any).get('md').call(hexo, {
             text: markdown,
@@ -255,9 +309,10 @@ hexo.extend.renderer.register('github', 'html', async function (data, options) {
         let html = await htmlPromise
         // image lazy load
         html = '<script src="https://afarkas.github.io/lazysizes/lazysizes.min.js" async=""></script>\n' + html
+        console.log(`Done!`)
         return html
     } catch (error) {
-        console.log(`Fatal: ${error}`)
+        console.log(`[Internal] exit: ${error}`)
         process.exit(1)
     }
 
