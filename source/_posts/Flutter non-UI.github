@@ -75,6 +75,7 @@ date: 2021-02-26 00:00:00
 	"https://github.com/xsahil03x/super_enum", 
 	"https://github.com/mobiten/flutter_phoenix",
 	"https://github.com/marcglasberg/back_button_interceptor",
-	"https://github.com/Daegalus/dart-uuid"
+	"https://github.com/Daegalus/dart-uuid",
+	"https://github.com/baseflow/flutter-permission-handler"
 	]
 }]
