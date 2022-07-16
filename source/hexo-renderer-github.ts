@@ -22,6 +22,65 @@ interface Category {
     repos: Repo[]
 }
 
+interface ImageSource {
+    repo: string
+    originalURL: string
+    URL: string
+}
+
+class ImageSizeResult {
+    image: ImageSource
+    error: string | null
+    size: [number, number] | null
+
+    constructor(image: ImageSource, error: string | null, size: [number, number] | null) {
+        this.image = image
+        this.error = error
+        this.size = size
+    }
+
+    static fromError(image: ImageSource, error: string): ImageSizeResult {
+        return new ImageSizeResult(image, error, null)
+    }
+
+    static fromSize(image: ImageSource, size: [number, number]): ImageSizeResult {
+        return new ImageSizeResult(image, null, size)
+    }
+}
+
+class Analyzer {
+    // repo
+    numberOfRepoFromAPI: number = 0
+    numberOfRepoFromCache: number = 0
+    get numberOfRepo() { return this.numberOfRepoFromAPI + this.numberOfRepoFromCache }
+
+    // readme
+    numberOfSucceedReadmeFromAPI: number = 0
+    failedReadmeAPI: {
+        repo: string
+        readmeURL: string
+    }[] = []
+    get numberOfFailedReadmeFromAPI() { return this.failedReadmeAPI.length }
+    get numberOfReadmeFromAPI() { return this.numberOfSucceedReadmeFromAPI + this.numberOfFailedReadmeFromAPI }
+    numberOfReadmeFromCache: number = 0
+    get numberOfReadme() { return this.numberOfReadmeFromAPI + this.numberOfReadmeFromCache }
+
+    // images
+    numberOfSucceedImagesFromNetwork: number = 0
+    failedImagesFromNetwork: Map<string, ImageSource[]> = new Map()
+    get numberOfFailedImagesFromNetwork() { return Array.from(this.failedImagesFromNetwork.values()).reduce((previousValue, currentValue) => previousValue + currentValue.length, 0) }
+    get numberOfImagesFromNetwork() { return this.numberOfSucceedImagesFromNetwork + this.numberOfFailedImagesFromNetwork }
+
+    numberOfSucceedImagesFromCache: number = 0
+    failedImagesFromCache: Map<string, ImageSource[]> = new Map()
+    get numberOfFailedImagesFromCache() { return Array.from(this.failedImagesFromCache.values()).reduce((previousValue, currentValue) => previousValue + currentValue.length, 0) }
+    get numberOfImagesFromCache() { return this.numberOfSucceedImagesFromCache + this.numberOfFailedImagesFromCache }
+
+    get numberOfImages() { return this.numberOfImagesFromNetwork + this.numberOfImagesFromCache }
+}
+
+const analyzer = new Analyzer()
+
 const keyv = new Keyv({
     store: new KeyvFile({
         expiredCheckDelay: 0,
@@ -29,39 +88,50 @@ const keyv = new Keyv({
     })
 })
 
-async function fetchImageSize(URL: string, repo: string): Promise<[number, number]> {
-    let dataInCache = await keyv.get(URL) as [number, number] | null
+async function fetchImageSize(imageSource: ImageSource): Promise<ImageSizeResult> {
+    let dataInCache = await keyv.get(imageSource.URL) as ImageSizeResult | null
     if (dataInCache != null) {
-        console.log(`[FromCache] Image: ${URL}`);
+        if (dataInCache.error != null) {
+            let array = analyzer.failedImagesFromCache.get(dataInCache.error)
+            if (array == null) {
+                array = []
+                analyzer.failedImagesFromCache.set(dataInCache.error, array)
+            }
+            array.push(imageSource)
+        } else {
+            analyzer.numberOfSucceedImagesFromCache += 1
+        }
         return dataInCache
     }
-    let size: [number, number]
+    let size: ImageSizeResult
     try {
-        let result = await probe(URL)
-        size = [result.width, result.height]
+        let result = await probe(imageSource.URL)
+        size = ImageSizeResult.fromSize(imageSource, [result.width, result.height])
+        analyzer.numberOfSucceedImagesFromNetwork += 1
     } catch (err) {
-        console.log(`[FetchImageSize] error. image: ${URL} , repo: ${repo} , error: ${err}`);
-        size = [0, 0]
+        let array = analyzer.failedImagesFromNetwork.get(`${err}`)
+        if (array == null) {
+            array = []
+            analyzer.failedImagesFromNetwork.set(`${err}`, array)
+        }
+        array.push(imageSource)
+        size = ImageSizeResult.fromError(imageSource, `${err}`)
     }
-    let saved = await keyv.set(URL, size, 365 * 24 * 60 * 60) // 1 year
+    let saved = await keyv.set(imageSource.URL, size, 365 * 24 * 60 * 60) // 1 year
     if (!saved) {
-        throw '[Internal] saved error'
+        exit('keyv save error')
     }
     return size
 }
 
 async function httpGet(URL: string) {
-    try {
-        let response = await got(URL, {
-            headers: {
-                "Authorization": "Basic dXNlcm5hbWU6Z2hwX21qd2hFeFNNaFVTTEpPMHJsNVQycXM4TzJMTkVacDNoMDBubA=="
-            }
-        })
-        console.log(`[${response.headers['x-ratelimit-remaining']}] Got: ${URL}`);
-        return JSON.parse(response.body);
-    } catch (error) {
-        throw `[API] eror! URL: ${URL} , error: ${error}`
-    }
+    let response = await got(URL, {
+        headers: {
+            "Authorization": "Basic dXNlcm5hbWU6Z2hwX21qd2hFeFNNaFVTTEpPMHJsNVQycXM4TzJMTkVacDNoMDBubA=="
+        }
+    })
+    console.log(`[${response.headers['x-ratelimit-remaining']}] Got: ${URL}`);
+    return JSON.parse(response.body);
 }
 
 // seconds
@@ -80,59 +150,60 @@ function cacheExpiry(repoData: any) {
     }
 }
 
-async function getFromCache(key: string) {
-    let dataInCache = await keyv.get(key) as any
-    if (dataInCache != null) {
-        console.log(`[FromCache] Got: ${key}`);
-        return dataInCache
-    }
-    return null
-}
-
 async function cache(key: string, value: any, repoData: any) {
     let seconds = cacheExpiry(repoData)
     let saved = await keyv.set(key, value, seconds * 1000)
     if (!saved) {
-        throw '[Internal] saved error'
+        exit('keyv save error')
     }
-    console.log(`[SaveCache][${seconds / 60 / 60 / 24}] ${key}`);
 }
 
 async function repoAPI(user: string, repoName: string) {
     let URL = `https://api.github.com/repos/${user}/${repoName}`
-    let dataInCache = await getFromCache(URL)
+    let dataInCache = await keyv.get(URL)
     if (dataInCache != null) {
+        analyzer.numberOfRepoFromCache += 1
         return dataInCache
     }
-    let data = await httpGet(URL)
-    await cache(URL, data, data)
-    return data
+    try {
+        let data = await httpGet(URL)
+        analyzer.numberOfRepoFromAPI += 1
+        await cache(URL, data, data)
+        return data
+    } catch (error) {
+        exit(error)
+    }
 }
 
 async function repoReadmeAPI(user: string, repoName: string, repoData: any) {
     let URL = `https://api.github.com/repos/${user}/${repoName}/readme`
-    let dataInCache = await getFromCache(URL)
+    let dataInCache = await keyv.get(URL)
     if (dataInCache != null) {
+        analyzer.numberOfReadmeFromCache += 1
         return dataInCache
     }
 
-    let data: any
     try {
-        data = await httpGet(URL)
-    } catch (error) {
-        console.log(`[API] Readme API error: ${error}`);
-        data = null
-    }
-
-    if (data != null) {
+        let data = await httpGet(URL)
+        analyzer.numberOfSucceedReadmeFromAPI += 1
         await cache(URL, data, repoData)
         return data
-    } else {
+    } catch (error) {
+        analyzer.failedReadmeAPI.push({
+            repo: `https://github.com/${user}/${repoName}`,
+            readmeURL: URL
+        })
         return null
     }
 }
 
+var fetchedRepo: string[] = []
+
 async function fetchRepo(URL: string): Promise<Repo> {
+    if (fetchedRepo.includes(URL)) {
+        throw new Error(`Duplicated repo: ${URL}`);
+    }
+    fetchedRepo.push(URL)
     const repoURLRegExp = RegExp('^https:\/\/github\.com\/(.+?)\/(.+?)$')
     var match = URL.match(repoURLRegExp);
     if (match == null || match.length != 3) {
@@ -145,7 +216,7 @@ async function fetchRepo(URL: string): Promise<Repo> {
     let readmeContent = readmeData == null ? "" : Buffer.from(readmeData['content'], 'base64').toString('utf8')
 
     // get images
-    var imageURLs: string[] = []
+    const imageURLs: string[] = []
     const markdownImageRegExp = RegExp(/!\[[^\]]*\]\((?<filename>.*?)(?=\"|\))(?<optionalpart>\".*\")?\)/gm)
     match = markdownImageRegExp.exec(readmeContent);
     while (match != null) {
@@ -162,7 +233,7 @@ async function fetchRepo(URL: string): Promise<Repo> {
     }
 
     // convert
-    imageURLs = imageURLs.map(imageURL => {
+    const imageSources = imageURLs.map(imageURL => {
         let originalURL = imageURL
         if (!imageURL.startsWith('http')) {
             let htmlURL: string = readmeData['html_url']
@@ -178,26 +249,24 @@ async function fetchRepo(URL: string): Promise<Repo> {
         if (imageURL.match(regExpURLTransferBlobToRaw)) {
             imageURL = imageURL.replace(regExpURLTransferBlobToRaw, "$1raw")
         }
-        imageURL = encodeURI(imageURL)
-        if (originalURL != imageURL) {
-            console.log(`[Image Transfer] Change image URL from ${originalURL} to ${imageURL}`)
-        }
-        return imageURL
+        imageURL = encodeURI(decodeURI(imageURL))
+        const imageSource = { originalURL: originalURL, URL: imageURL, repo: URL } as ImageSource
+        return imageSource
     })
 
     // size sort
-    var imagesURLAndSize = await Promise.all<[string, [number, number]]>(
-        imageURLs.map<Promise<[string, [number, number]]>>(
-            imageURL => fetchImageSize(imageURL, URL).then(size => [imageURL, size])
+    var imageSizeResult = await Promise.all<ImageSizeResult>(
+        imageSources.map(
+            imageSource => fetchImageSize(imageSource)
         )
     )
-    imagesURLAndSize = imagesURLAndSize.filter(e => e[1][0] > 50 && e[1][1] > 50)
-    imagesURLAndSize.sort((a, b) => {
-        return b[1][0] * b[1][1] - a[1][0] * a[1][1]
+    imageSizeResult = imageSizeResult.filter(e => e.error == null && e.size![0] > 50 && e.size![1] > 50)
+    imageSizeResult.sort((a, b) => {
+        return b.size![0] * b.size![1] - a.size![0] * a.size![1]
     })
 
     // model
-    let images = imagesURLAndSize.slice(0, 3).map(e => e[0])
+    let images = imageSizeResult.slice(0, 3).map(e => e.image.URL)
     let repo: Repo = {
         user: repoData['owner']['login'],
         name: repoData['name'],
@@ -294,7 +363,30 @@ function getMarkdownWithCategories(categories: Category[]) {
     return markdown
 }
 
+function exit(error: any): never {
+    console.log(`[Internal] exit: ${error}`)
+    process.exit(1)
+}
+
+function logAnalyzer() {
+    console.log(`\n////////////////  BEGIN Analyzer:  ////////////////`)
+    console.log(`Repos total: ${analyzer.numberOfRepo}, from API: ${analyzer.numberOfRepoFromAPI}, from cache: ${analyzer.numberOfRepoFromCache}`)
+    console.log(`Readme total: ${analyzer.numberOfReadme}, from API: ${analyzer.numberOfReadmeFromAPI}, from cache: ${analyzer.numberOfReadmeFromCache}, API success: ${analyzer.numberOfSucceedReadmeFromAPI}, API failed: ${analyzer.numberOfFailedReadmeFromAPI}`)
+    console.log(`Failed readme: \n${analyzer.failedReadmeAPI.map(e => `  repo: ${e.repo}, readme: ${e.readmeURL}`).join('\n')}`)
+    console.log(`Image total: ${analyzer.numberOfImages}, from network: ${analyzer.numberOfImagesFromNetwork} (successful: ${analyzer.numberOfSucceedImagesFromNetwork}, failed: ${analyzer.numberOfFailedImagesFromNetwork}), from cache: ${analyzer.numberOfImagesFromCache} (successful: ${analyzer.numberOfSucceedImagesFromCache}, failed: ${analyzer.numberOfFailedImagesFromCache})`)
+    if (analyzer.failedImagesFromNetwork.size > 0) {
+        console.log(`Failed images from Network: \n${Array.from(analyzer.failedImagesFromNetwork.entries()).map(e => `  ${e[0]}\n${e[1].map(e => `    repo: ${e.repo}, Url: ${e.URL}${e.originalURL == e.URL ? '' : `, originalURL: ${e.originalURL}`}`).join('\n')}`).join('\n')}`)
+    }
+    if (analyzer.failedImagesFromCache.size > 0) {
+        console.log(`Failed images from Cache: \n${Array.from(analyzer.failedImagesFromCache.entries()).map(e => `  ${e[0]}\n${e[1].map(e => `    repo: ${e.repo}, Url: ${e.URL}${e.originalURL == e.URL ? '' : `, originalURL: ${e.originalURL}`}`).join('\n')}`).join('\n')}`)
+    }
+    console.log(`////////////////  END Analyzer:  ////////////////\n`)
+}
+
+var taskCount = 0
+
 hexo.extend.renderer.register('github', 'html', async function (data, options) {
+    taskCount += 1
     try {
         let json = data.text.replace(/---.*?---/s, "")
         let categoryConfigs: CategoryConfig[] = JSON.parse(json);
@@ -309,11 +401,12 @@ hexo.extend.renderer.register('github', 'html', async function (data, options) {
         let html = await htmlPromise
         // image lazy load
         html = '<script src="https://afarkas.github.io/lazysizes/lazysizes.min.js" async=""></script>\n' + html
-        console.log(`Done!`)
+        taskCount -= 1
+        if (taskCount == 0) {
+            logAnalyzer()
+        }
         return html
     } catch (error) {
-        console.log(`[Internal] exit: ${error}`)
-        process.exit(1)
+        exit(error)
     }
-
 })

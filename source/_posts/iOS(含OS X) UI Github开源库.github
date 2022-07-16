@@ -97,7 +97,7 @@ sticky: 90
 	"repos": ["https://github.com/tristanhimmelman/THContactPicker", "https://github.com/Citrrus/MBContactPicker"]
 }, {
 	"category": "动态图",
-	"repos": ["https://github.com/Flipboard/FLAnimatedImage", "https://github.com/liyong03/YLGIFImage", "https://github.com/kean/Nuke", "https://github.com/ibireme/YYImage", "https://github.com/airbnb/lottie-ios"]
+	"repos": ["https://github.com/Flipboard/FLAnimatedImage", "https://github.com/liyong03/YLGIFImage", "https://github.com/ibireme/YYImage", "https://github.com/airbnb/lottie-ios"]
 }, {
 	"category": "浏览器,browser,web,UIWebView,WKWebView",
 	"repos": ["https://github.com/TransitApp/SVWebViewController", "https://github.com/TimOliver/TOWebViewController", "https://github.com/dzenbot/DZNWebViewController", "https://github.com/Roxasora/RxWebViewController", "https://github.com/ninjinkun/NJKWebViewProgress"]

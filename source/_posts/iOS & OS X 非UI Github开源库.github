@@ -75,7 +75,8 @@ sticky: 80
             "https://github.com/Alamofire/AlamofireImage",
             "https://github.com/ibireme/YYWebImage",
             "https://github.com/pinterest/PINRemoteImage",
-            "https://github.com/onevcat/Kingfisher"
+            "https://github.com/onevcat/Kingfisher",
+            "https://github.com/kean/Nuke"
         ]
     },
     {
@@ -148,7 +149,6 @@ sticky: 80
             "https://github.com/enormego/EGOCache",
             "https://github.com/ibireme/YYCache",
             "https://github.com/pinterest/PINCache",
-            "https://github.com/kean/Nuke",
             "https://github.com/kean/DFImageManager",
             "https://github.com/path/FastImageCache"
         ]
