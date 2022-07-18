@@ -109,6 +109,12 @@ async function fetchImageSize(imageSource: ImageSource): Promise<ImageSizeResult
         size = ImageSizeResult.fromSize(imageSource, [result.width, result.height])
         analyzer.numberOfSucceedImagesFromNetwork += 1
     } catch (err) {
+        if (imageSource.URL != imageSource.originalURL) {
+            try {
+                await probe(imageSource.originalURL)
+                exit(`Original image URL (${imageSource.originalURL}) works but transformed URL (${imageSource.URL}) is wrong. repo: ${imageSource.repo}`)
+            } catch (error) { }
+        }
         let array = analyzer.failedImagesFromNetwork.get(`${err}`)
         if (array == null) {
             array = []
@@ -216,24 +222,24 @@ async function fetchRepo(URL: string): Promise<Repo> {
     let readmeContent = readmeData == null ? "" : Buffer.from(readmeData['content'], 'base64').toString('utf8')
 
     // get images
-    const imageURLs: string[] = []
+    const imageURLs = new Set<string>()
     const markdownImageRegExp = RegExp(/!\[[^\]]*\]\((?<filename>.*?)(?=\"|\))(?<optionalpart>\".*\")?\)/gm)
     match = markdownImageRegExp.exec(readmeContent);
     while (match != null) {
         let imageURL = match[1].trim()
-        imageURLs.push(imageURL)
+        imageURLs.add(imageURL)
         match = markdownImageRegExp.exec(readmeContent);
     }
     const htmlImageRegExp = RegExp(/<img[^>]+src *= *["|']([^">']+)["|']/gm)
     match = htmlImageRegExp.exec(readmeContent);
     while (match != null) {
         let imageURL = match[1].trim()
-        imageURLs.push(imageURL)
+        imageURLs.add(imageURL)
         match = htmlImageRegExp.exec(readmeContent);
     }
 
     // convert
-    const imageSources = imageURLs.map(imageURL => {
+    const imageSources = Array.from(imageURLs).map(imageURL => {
         let originalURL = imageURL
         if (!imageURL.startsWith('http')) {
             let htmlURL: string = readmeData['html_url']
@@ -249,7 +255,6 @@ async function fetchRepo(URL: string): Promise<Repo> {
         if (imageURL.match(regExpURLTransferBlobToRaw)) {
             imageURL = imageURL.replace(regExpURLTransferBlobToRaw, "$1raw")
         }
-        imageURL = encodeURI(decodeURI(imageURL))
         const imageSource = { originalURL: originalURL, URL: imageURL, repo: URL } as ImageSource
         return imageSource
     })

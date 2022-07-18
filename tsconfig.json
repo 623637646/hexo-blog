@@ -6,5 +6,8 @@
     "outDir": "scripts",
     "inlineSourceMap": true,
     "strict": true,
-  }
+  },
+  "include": [
+    "source/hexo-renderer-github.ts"
+  ]
 }
