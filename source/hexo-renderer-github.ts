@@ -123,7 +123,7 @@ async function fetchImageSize(imageSource: ImageSource): Promise<ImageSizeResult
         array.push(imageSource)
         size = ImageSizeResult.fromError(imageSource, `${err}`)
     }
-    let saved = await keyv.set(imageSource.URL, size, 365 * 24 * 60 * 60) // 1 year
+    let saved = await keyv.set(imageSource.URL, size, 30 * 24 * 60 * 60 * 1000) // 1 month
     if (!saved) {
         exit('keyv save error')
     }
