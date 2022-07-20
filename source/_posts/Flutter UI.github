@@ -60,9 +60,10 @@ date: 2021-02-26 00:00:00
 		"https://github.com/serenader2014/flutter_carousel_slider"
 	]
 }, {
-	"category": "Swipe menu, Slide menu, Cell",
+	"category": "Menu, Swipe menu, Slide menu, Cell",
 	"repos": [
-		"https://github.com/letsar/flutter_slidable"
+		"https://github.com/letsar/flutter_slidable",
+		"https://github.com/chinabrant/popup_menu"
 	]
 }, {
 	"category": "Form, Input, Text, Rich text, Button",
