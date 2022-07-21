@@ -90,6 +90,7 @@ date: 2021-02-26 00:00:00
 		"https://github.com/appditto/natrium_wallet_flutter",
 		"https://github.com/fluttercommunity/flutter_launcher_icons",
 		"https://github.com/Rannie/flui",
-		"https://github.com/flutterchina/flukit"
+		"https://github.com/flutterchina/flukit",
+		"https://github.com/fleaflet/flutter_map"
 	]
 }]
