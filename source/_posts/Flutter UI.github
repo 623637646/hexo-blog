@@ -41,7 +41,8 @@ date: 2021-02-26 00:00:00
 	"category": "Images, Blur",
 	"repos": [
 		"https://github.com/dnfield/flutter_svg",
-		"https://github.com/fluttercommunity/flutter_blurhash"
+		"https://github.com/fluttercommunity/flutter_blurhash",
+		"https://github.com/bluefireteam/photo_view"
 	]
 }, {
 	"category": "Refresh, Load more, Pull to refresh",
