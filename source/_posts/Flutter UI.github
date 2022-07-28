@@ -67,12 +67,19 @@ date: 2021-02-26 00:00:00
 		"https://github.com/chinabrant/popup_menu"
 	]
 }, {
-	"category": "Form, Input, Text, Rich text, Button",
+	"category": "Form, Input, Text, Rich text",
 	"repos": [
 		"https://github.com/danvick/flutter_form_builder",  
 		"https://github.com/AbdulRahmanAlHamali/flutter_typeahead",
-		"https://github.com/Cretezy/flutter_linkify",
-		"https://github.com/sla-000/flutter_debouncer"
+		"https://github.com/Cretezy/flutter_linkify"
+	]
+}, {
+	"category": "Button",
+	"repos": [
+		"https://github.com/sla-000/flutter_debouncer",
+		"https://github.com/malikwang/expand_tap_area",
+		"https://github.com/gskinnerTeam/flutter-defer-pointer",
+		"https://github.com/fluttercandies/extra_hittest_area"
 	]
 }, {
 	"category": "Draggable",
