@@ -9,8 +9,14 @@ date: 2021-02-26 00:00:00
 ---
 
 [{
-	"category": "Hook & AOP & Mirror & Reflection",
-	"repos": ["https://github.com/rrousselGit/flutter_hooks", "https://github.com/alibaba-flutter/aspectd", "https://github.com/google/reflectable.dart", "https://github.com/k-paxian/dart-json-mapper"]
+	"category": "Hook & AOP & Mirror & Reflection & runtime",
+	"repos": ["https://github.com/rrousselGit/flutter_hooks",
+	 "https://github.com/alibaba-flutter/aspectd", 
+	 "https://github.com/google/reflectable.dart", 
+	 "https://github.com/k-paxian/dart-json-mapper",
+	 "https://github.com/hydro-sdk/hydro-sdk",
+	 "https://github.com/ChimeraFlutter/Chimera-Flutter-Code-Push"
+	 ]
 }, {
 	"category": "Network",
 	"repos": ["https://github.com/flutterchina/dio", 
