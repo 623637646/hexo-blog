@@ -32,11 +32,12 @@ date: 2021-02-26 00:00:00
 		"https://github.com/mobiten/flutter_staggered_animations"
 	]
 }, {
-	"category": "List, Scroll",
+	"category": "List, Scroll, Grid",
 	"repos": [
 		"https://github.com/rvamsikrishna/inview_notifier_list", 
 		"https://github.com/fluttercandies/extended_nested_scroll_view",
-		"https://github.com/Mindinventory/flutter_draggable_gridview"
+		"https://github.com/Mindinventory/flutter_draggable_gridview",
+		"https://github.com/letsar/flutter_staggered_grid_view"
 	]
 }, {
 	"category": "Images, Blur",
