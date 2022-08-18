@@ -35,7 +35,8 @@ date: 2021-02-26 00:00:00
 	"category": "List, Scroll",
 	"repos": [
 		"https://github.com/rvamsikrishna/inview_notifier_list", 
-		"https://github.com/fluttercandies/extended_nested_scroll_view"
+		"https://github.com/fluttercandies/extended_nested_scroll_view",
+		"https://github.com/Mindinventory/flutter_draggable_gridview"
 	]
 }, {
 	"category": "Images, Blur",
