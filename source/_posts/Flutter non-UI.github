@@ -27,7 +27,8 @@ date: 2021-02-26 00:00:00
 	"https://github.com/fryette/webview_cookie_manager",
 	"https://github.com/flutterchina/cookie_jar",
 	"https://github.com/fluttercommunity/flutter_uploader",
-	"https://github.com/fluttercommunity/flutter_downloader"
+	"https://github.com/fluttercommunity/flutter_downloader",
+	"https://github.com/full-of-fire/flutter_reachability"
 	]
 }, {
 	"category": "JSON, Models",
