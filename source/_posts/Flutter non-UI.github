@@ -65,8 +65,7 @@ date: 2021-02-26 00:00:00
 		"https://github.com/Milad-Akarie/pretty_dio_logger",
 		"https://github.com/Frezyx/talker",
 		"https://github.com/yungzhu/let_log",
-		"https://github.com/aloisdeniel/flutter_device_preview",
-		"https://github.com/MaikuB/flutter_local_notifications"
+		"https://github.com/aloisdeniel/flutter_device_preview"
 	]
 }, {
 	"category": "Test",
@@ -99,6 +98,7 @@ date: 2021-02-26 00:00:00
 	"https://github.com/marcglasberg/back_button_interceptor",
 	"https://github.com/Daegalus/dart-uuid",
 	"https://github.com/baseflow/flutter-permission-handler",
-	"https://github.com/EdsonBueno/focus_detector"
+	"https://github.com/EdsonBueno/focus_detector",
+	"https://github.com/MaikuB/flutter_local_notifications"
 	]
 }]
