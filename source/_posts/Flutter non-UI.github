@@ -35,17 +35,23 @@ date: 2021-02-26 00:00:00
 	"repos": ["https://github.com/google/json_serializable.dart", "https://github.com/javiercbk/json_to_dart", "https://github.com/google/built_value.dart", "https://github.com/rrousselGit/freezed"]
 }, {
 	"category": "State management",
-	"repos": ["https://github.com/fluttercommunity/get_it", 
-	"https://github.com/alibaba/fish-redux", 
-	"https://github.com/ReactiveX/rxdart", 
-	"https://github.com/felangel/bloc", 
-	"https://github.com/jonataslaw/getx", 
-	"https://github.com/mobxjs/mobx.dart", 
-	"https://github.com/FlutterGen/flutter_gen", 
-	"https://github.com/rrousselGit/provider", 
-	"https://github.com/rrousselGit/river_pod", 
-	"https://github.com/brianegan/flutter_redux", 
-	"https://github.com/marcojakob/dart-event-bus"
+	"repos": [
+		"https://github.com/alibaba/fish-redux", 
+		"https://github.com/ReactiveX/rxdart", 
+		"https://github.com/felangel/bloc", 
+		"https://github.com/jonataslaw/getx", 
+		"https://github.com/mobxjs/mobx.dart", 
+		"https://github.com/FlutterGen/flutter_gen", 
+		"https://github.com/rrousselGit/provider", 
+		"https://github.com/rrousselGit/river_pod", 
+		"https://github.com/brianegan/flutter_redux", 
+		"https://github.com/marcojakob/dart-event-bus"
+	]
+},  {
+	"category": "IoC, dependency injection, service locator",
+	"repos": [
+		"https://github.com/fluttercommunity/get_it", 
+		"https://github.com/vanlooverenkoen/kiwi"
 	]
 }, {
 	"category": "JS engine",
