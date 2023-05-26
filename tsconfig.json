@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "es2022",
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "outDir": "scripts",
+    "inlineSourceMap": true,
+    "strict": true,
+  },
+  "include": [
+    "source/hexo-renderer-github.ts"
+  ]
+}

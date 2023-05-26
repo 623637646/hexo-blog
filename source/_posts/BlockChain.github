@@ -1,0 +1,41 @@
+---
+title: BlockChain
+categories:
+- BlockChain
+tags:
+- BlockChain
+- Bitcoin
+date: 2018-10-05 00:00:00
+---
+
+[{
+	"category": "Money",
+	"repos": ["https://github.com/bitcoin/bitcoin", "https://github.com/ethereum/go-ethereum"]
+}, {
+	"category": "Documents",
+	"repos": ["https://github.com/bitcoin/bips", "https://github.com/chaozh/awesome-blockchain-cn", "https://github.com/bitcoinbook/bitcoinbook", "https://github.com/yeasy/blockchain_guide"]
+}, {
+	"category": "Wallets",
+	"repos": ["https://github.com/mappum/webcoin", "https://github.com/breadwallet/breadwallet-ios", "https://github.com/bither/bither-ios", "https://github.com/horizontalsystems/unstoppable-wallet-ios", "https://github.com/breez/breezmobile",
+	"https://github.com/bitpay/wallet"]
+}, {
+	"category": "Exchanges",
+	"repos": ["https://github.com/ccxt/ccxt"]
+}, {
+	"category": "Library, SDK",
+	"repos": ["https://github.com/bitcoinjs/bitcoinjs-lib", 
+	"https://github.com/yenom/BitcoinKit",
+	"https://github.com/consenlabs/token-core-ios",
+	"https://github.com/bcoin-org/bcoin", 
+	"https://github.com/ethereum/web3.js", 
+	"https://github.com/bitpay/bitcore", 
+	"https://github.com/iancoleman/bip39", 
+	"https://github.com/horizontalsystems/bitcoin-kit-ios", 
+	"https://github.com/dart-bitcoin/bitcoin_flutter", 
+	"https://github.com/dart-bitcoin/bip39", 
+	"https://github.com/twostack/dartsv", 
+	"https://github.com/summa-tx/bitcoin-spv",
+	"https://github.com/bitcoinj/bitcoinj",
+	"https://github.com/rust-bitcoin/rust-bitcoin",
+	"https://github.com/bitcoindevkit/bdk"]
+}]

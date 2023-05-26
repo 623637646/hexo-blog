@@ -1,0 +1,27 @@
+---
+title: OS X Github开源库
+categories:
+  - OS X
+tags:
+  - OS X
+  - github
+  - 开源
+  - UI
+  - object-c
+  - swift
+date: 2016-11-7 00:00:00
+---
+
+[{
+	"category": "UI",
+	"repos": ["https://github.com/twitter/twui", "https://github.com/github/Rebel", "https://github.com/BigZaphod/Chameleon", "https://github.com/ButterKit/Butter", "https://github.com/Perspx/PXSourceList", "https://github.com/indragiek/INAppStoreWindow"]
+}, {
+	"category": "列表",
+	"repos": ["https://github.com/jwilling/JNWCollectionView", "https://github.com/iluuu1994/ITPullToRefreshScrollView", "https://github.com/adib/RefreshableScrollView"]
+}, {
+	"category": "进度条,菊花",
+	"repos": ["https://github.com/kaunteya/ProgressKit", "https://github.com/Foxnolds/MBProgressHUD-OSX", "https://github.com/iluuu1994/ITProgressIndicator", "https://github.com/iluuu1994/ITProgressBar"]
+}, {
+	"category": "其他",
+	"repos": ["https://github.com/sparkle-project/Sparkle"]
+}]

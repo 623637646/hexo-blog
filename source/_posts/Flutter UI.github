@@ -1,0 +1,107 @@
+---
+title: Flutter UI libraries
+categories:
+  - Flutter
+tags:
+  - Flutter
+  - dart
+  - UI
+date: 2021-02-26 00:00:00
+---
+
+[{
+	"category": "Loading, Shimmer, Skeleton, Toast, Hub",
+	"repos": [
+		"https://github.com/hnvn/flutter_shimmer", 
+		"https://github.com/MMMzq/bot_toast", 
+		"https://github.com/ifgyong/flutter_easyHub",
+		"https://github.com/jogboms/flutter_spinkit",
+		"https://github.com/nslogx/flutter_easyloading",
+		"https://github.com/ponnamkarthik/FlutterToast",
+		"https://github.com/diegoveloper/flutter_percent_indicator"
+	]
+}, {
+	"category": "Translation, Animation, Theme",
+	"repos": [
+		"https://github.com/akshathjain/sliding_up_panel", 
+		"https://github.com/iamSahdeep/liquid_swipe_flutter", 
+		"https://github.com/rive-app/rive-flutter",
+		"https://github.com/kherel/animated_theme_switcher",
+		"https://github.com/fluttercandies/flutter_interactional_widget",
+		"https://github.com/Milad-Akarie/smooth_page_indicator",
+		"https://github.com/mobiten/flutter_staggered_animations",
+		"https://github.com/BilalShahid13/PersistentBottomNavBar"
+	]
+}, {
+	"category": "List, Scroll, Grid",
+	"repos": [
+		"https://github.com/rvamsikrishna/inview_notifier_list", 
+		"https://github.com/fluttercandies/extended_nested_scroll_view",
+		"https://github.com/Mindinventory/flutter_draggable_gridview",
+		"https://github.com/letsar/flutter_staggered_grid_view"
+	]
+}, {
+	"category": "Images, Blur",
+	"repos": [
+		"https://github.com/dnfield/flutter_svg",
+		"https://github.com/fluttercommunity/flutter_blurhash",
+		"https://github.com/bluefireteam/photo_view"
+	]
+}, {
+	"category": "Refresh, Load more, Pull to refresh",
+	"repos": [
+		"https://github.com/xuelongqy/flutter_easyrefresh",
+		"https://github.com/peng8350/flutter_pulltorefresh",
+		"https://github.com/aagarwal1012/Liquid-Pull-To-Refresh",
+		"https://github.com/fluttercandies/loading_more_list",
+		"https://github.com/fluttercandies/pull_to_refresh_notification",
+		"https://github.com/gonuit/flutter-custom-refresh-indicator"
+	]
+}, {
+	"category": "Carousel, Swiper",
+	"repos": [
+		"https://github.com/best-flutter/flutter_swiper",
+		"https://github.com/serenader2014/flutter_carousel_slider"
+	]
+}, {
+	"category": "Menu, Swipe menu, Slide menu, Cell",
+	"repos": [
+		"https://github.com/letsar/flutter_slidable",
+		"https://github.com/chinabrant/popup_menu"
+	]
+}, {
+	"category": "Form, Input, Text, Rich text",
+	"repos": [
+		"https://github.com/danvick/flutter_form_builder",  
+		"https://github.com/AbdulRahmanAlHamali/flutter_typeahead",
+		"https://github.com/Cretezy/flutter_linkify"
+	]
+}, {
+	"category": "Button",
+	"repos": [
+		"https://github.com/sla-000/flutter_debouncer",
+		"https://github.com/malikwang/expand_tap_area",
+		"https://github.com/gskinnerTeam/flutter-defer-pointer",
+		"https://github.com/fluttercandies/extra_hittest_area"
+	]
+}, {
+	"category": "Draggable",
+	"repos": [
+		"https://github.com/adar2378/draggable_widget",
+		"https://github.com/LvKang-insist/flutter_floating",
+		"https://github.com/shadabunique/flutter_draggable_fab",
+		"https://github.com/Smueez/floating_animated_widget"
+	]
+}, {
+	"category": "Others",
+	"repos": [
+		"https://github.com/Solido/awesome-flutter",
+		"https://github.com/mitesh77/Best-Flutter-UI-Templates",
+		"https://github.com/google/flutter.widgets",
+		"https://github.com/appditto/natrium_wallet_flutter",
+		"https://github.com/fluttercommunity/flutter_launcher_icons",
+		"https://github.com/Rannie/flui",
+		"https://github.com/flutterchina/flukit",
+		"https://github.com/fleaflet/flutter_map"
+	]
+}]

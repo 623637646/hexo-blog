@@ -1,0 +1,134 @@
+---
+title: iOS(含OS X) UI Github开源库
+categories:
+  - iOS
+tags:
+  - iOS
+  - OS X
+  - github
+  - 开源
+  - UI
+  - object-c
+  - swift
+date: 2015-11-28 00:00:00
+sticky: 90
+---
+
+[{
+	"category": "菊花,进度条,加载,等待",
+	"repos": ["https://github.com/relatedcode/ProgressHUD", "https://github.com/jdg/MBProgressHUD", "https://github.com/TransitApp/SVProgressHUD", "https://github.com/mrackwitz/MRProgress", "https://github.com/Marxon13/M13ProgressSuite", "https://github.com/ninjaprox/NVActivityIndicatorView", "https://github.com/yoavlt/LiquidLoader", "https://github.com/kishikawakatsumi/UCZProgressView", "https://github.com/Juanpe/SkeletonView", "https://github.com/polqf/FillableLoaders"]
+}, {
+	"category": "提示,通知,消息",
+	"repos": ["https://github.com/KrauseFx/TSMessages", "https://github.com/Orderella/PopupDialog", "https://github.com/cruffenach/CRToast", "https://github.com/jaydee3/JDStatusBarNotification", "https://github.com/terryworona/TWMessageBarManager", "https://github.com/AlvaroFranco/AFDropdownNotification"]
+}, {
+	"category": "弹框,对话框",
+	"repos": ["https://github.com/m1entus/MZFormSheetController", "https://github.com/m1entus/MZFormSheetPresentationController", "https://github.com/kevin0571/STPopup", "https://github.com/Sumi-Interactive/SIAlertView", "https://github.com/sberrevoets/SDCAlertView", "https://github.com/alexanderjarvis/PXAlertView", "https://github.com/lmcd/LMAlertView", "https://github.com/steipete/PSTAlertController"]
+}, {
+	"category": "菜单,pop,ActionSheet",
+	"repos": ["https://github.com/applidium/OverlayContainer", "https://github.com/chrismiles/CMPopTipView", "https://github.com/andreamazz/AMPopTip", "https://github.com/romaonthego/REMenu", "https://github.com/lminhtm/LMDropdownView", "https://github.com/fastred/AHKActionSheet", "https://github.com/JonasGessner/JGActionSheet", "https://github.com/Yalantis/Context-Menu.iOS", "https://github.com/Yalantis/Side-Menu.iOS", "https://github.com/yoavlt/LiquidFloatingActionButton", "https://github.com/GnosisHub/GHContextMenu", "https://github.com/itouch2/SphereMenu", "https://github.com/carsonperrotti/CNPGridMenu", "https://github.com/xhzengAIB/PopMenu", "https://github.com/rnystrom/RNFrostedSidebar", "https://github.com/Yalantis/GuillotineMenu"]
+}, {
+	"category": "侧边栏,抽屉",
+	"repos": ["https://github.com/romaonthego/RESideMenu", "https://github.com/mutualmobile/MMDrawerController", "https://github.com/erichoracek/MSDynamicsDrawerViewController", "https://github.com/romaonthego/REFrostedViewController", "https://github.com/JVillella/JVFloatingDrawer", "https://github.com/pkluz/PKRevealController"]
+}, {
+	"category": "cell,滑动操作",
+	"repos": ["https://github.com/CEWendel/SWTableViewCell", "https://github.com/alikaragoz/MCSwipeTableViewCell", "https://github.com/MortimerGoro/MGSwipeTableCell", "https://github.com/SwipeCellKit/SwipeCellKit", "https://github.com/Ramotion/folding-cell"]
+}, {
+	"category": "聊天,即时通讯",
+	"repos": ["https://github.com/jessesquires/JSQMessagesViewController", "https://github.com/relatedcode/EncryptedChat", "https://github.com/xhzengAIB/MessageDisplayKit", "https://github.com/ZhipingYang/UUChatTableView", "https://github.com/slackhq/SlackTextViewController"]
+}, {
+	"category": "下拉刷新",
+	"repos": ["https://github.com/CoderMJLee/MJRefresh", "https://github.com/coolbeet/CBStoreHouseRefreshControl", "https://github.com/gontovnik/DGElasticPullToRefresh", "https://github.com/entotsu/PullToBounce", "https://github.com/uzysjung/UzysAnimatedGifPullToRefresh", "https://github.com/Yalantis/Pull-to-Refresh.Rentals-iOS", "https://github.com/Yalantis/PullToMakeSoup", "https://github.com/Yalantis/PullToMakeFlight", "https://github.com/andreamazz/GearRefreshControl", "https://github.com/samvermette/SVPullToRefresh", "https://github.com/enormego/EGOTableViewPullRefresh"]
+}, {
+	"category": "富文本,文本效果,文字",
+	"repos": ["https://github.com/TTTAttributedLabel/TTTAttributedLabel", "https://github.com/Cocoanetics/DTCoreText", "https://github.com/nnhubbard/ZSSRichTextEditor", "https://github.com/ibireme/YYText", "https://github.com/facebook/Shimmer", "https://github.com/lexrus/LTMorphingLabel", "https://github.com/TomKnig/TOMSMorphingLabel", "https://github.com/Yalantis/Preloader.Ophiuchus", "https://github.com/MuscleRumble/THLabel", "https://github.com/zipme/RQShineLabel", "https://github.com/itouch2/LazyFadeInView", "https://github.com/lyokato/FBDigitalFont", "https://github.com/mineschan/MZTimerLabel", "https://github.com/michaeljbishop/NGAParallaxMotion", "https://github.com/PrideChung/FontAwesomeKit"]
+}, {
+	"category": "输入框,textfield",
+	"repos": ["https://github.com/jverdi/JVFloatLabeledTextField", "https://github.com/raulriera/TextFieldEffects", "https://github.com/hoteltonight/HTAutocompleteTextField", "https://github.com/lexrus/LTBouncyPlaceholder", "https://github.com/glaszig/SZTextView"]
+}, {
+	"category": "引导页",
+	"repos": ["https://github.com/IFTTT/JazzHands", "https://github.com/IFTTT/RazzleDazzle", "https://github.com/hyperoslo/Presentation", "https://github.com/likedan/KDIntroView", "https://github.com/ealeksandrov/EAIntroView", "https://github.com/mamaral/Onboard", "https://github.com/callumboddy/CBZSplashView", "https://github.com/rounak/TwitterBirdAnimation"]
+}, {
+	"category": "图片视频浏览",
+	"repos": ["https://github.com/mwaterfall/MWPhotoBrowser", "https://github.com/EddyBorja/EBPhotoPages", "https://github.com/ideaismobile/IDMPhotoBrowser", "https://github.com/jaredsinclair/JTSImageViewController", "https://github.com/DroidsOnRoids/MPParallaxView", "https://github.com/u10int/URBMediaFocusViewController", "https://github.com/autresphere/ASMediaFocusManager", "https://github.com/mariohahn/MHVideoPhotoGallery"]
+}, {
+	"category": "过渡效果,视图切换",
+	"repos": ["https://github.com/lkzhao/ElasticTransition", "https://github.com/zhxnlai/ZLSwipeableView", "https://github.com/modocache/MDCSwipeToChoose", "https://github.com/Yalantis/Koloda", "https://github.com/zhxnlai/ZLSwipeableViewSwift", "https://github.com/andreamazz/AMWaveTransition", "https://github.com/ColinEberhardt/VCTransitionsLibrary", "https://github.com/Yalantis/StarWars.iOS", "https://github.com/shu223/AnimatedTransitionGallery", "https://github.com/applidium/ADTransitionController", "https://github.com/andresbrun/ABCustomUINavigationController", "https://github.com/Raizlabs/RZTransitions", "https://github.com/CezaryKopacz/CKWaveCollectionViewTransition", "https://github.com/andreamazz/BubbleTransition", "https://github.com/entotsu/TKSubmitTransition", "https://github.com/jonathantribouharet/JTMaterialTransition", "https://github.com/zoonooz/ZFDragableModalTransition", "https://github.com/recruit-mp/RMPZoomTransitionAnimator", "https://github.com/nathanwhy/HYAwesomeTransition", "https://github.com/mathcarignani/MCMHeaderAnimated"]
+}, {
+	"category": "分页,page,tab,Segmented",
+	"repos": ["https://github.com/xmartlabs/XLPagerTabStrip", "https://github.com/StefanLage/SLPagingView", "https://github.com/TomThorpe/UIScrollSlidingPages", "https://github.com/HeshamMegid/HMSegmentedControl", "https://github.com/pujiaxin33/JXCategoryView", "https://github.com/Yalantis/Persei", "https://github.com/dzenbot/DZNSegmentedControl", "https://github.com/Ramotion/animated-tab-bar", "https://github.com/leichunfeng/WXTabBarController", "https://github.com/Yalantis/FoldingTabBar.iOS", "https://github.com/gmarm/BetterSegmentedControl"]
+}, {
+	"category": "导航栏,Nav",
+	"repos": ["https://github.com/ltebean/LTNavigationBar", "https://github.com/andreamazz/AMScrollingNavbar", "https://github.com/bryankeller/BLKFlexibleHeightBar", "https://github.com/ninjinkun/NJKScrollFullScreen", "https://github.com/forkingdog/FDFullscreenPopGesture", "https://github.com/JazysYu/JZNavigationExtension"]
+}, {
+	"category": "列表,Collection,Table,grid",
+	"repos": ["https://github.com/facebook/AsyncDisplayKit", "https://github.com/facebook/componentkit", "https://github.com/Instagram/IGListKit", "https://github.com/RxSwiftCommunity/RxDataSources", "https://github.com/KelvinJin/AnimatedCollectionViewLayout", "https://github.com/chiahsien/CHTCollectionViewWaterfallLayout", "https://github.com/njdehoog/NHBalancedFlowLayout", "https://github.com/lxcid/LXReorderableCollectionViewFlowLayout", "https://github.com/ra1028/RACollectionViewReorderableTripletLayout", "https://github.com/DeveloperLx/LxGridView", "https://github.com/norsez/BDDynamicGridViewController", "https://github.com/ra1028/RAReorderableLayout", "https://github.com/nshintio/uicollectionview-reordering", "https://github.com/Yalantis/DisplaySwitcher", "https://github.com/nicklockwood/iCarousel", "https://github.com/gleue/TGLStackedViewController", "https://github.com/brocoo/BRFlabbyTable", "https://github.com/tristanhimmelman/THSpringyCollectionView", "https://github.com/onevcat/VVSpringCollectionViewFlowLayout", "https://github.com/TomThorpe/UITableViewZoomController", "https://github.com/jamztang/CSStickyHeaderFlowLayout", "https://github.com/mayuur/MJParallaxCollectionView", "https://github.com/fdzsergio/SFFocusViewLayout", "https://github.com/RobotsAndPencils/RPSlidingMenu", "https://github.com/jberlana/JBParallaxCell", "https://github.com/cyndibaby905/TwitterCover", "https://github.com/Vinodh-G/ParallaxTableViewHeader", "https://github.com/stoprocent/VGParallaxHeader", "https://github.com/modocache/MDCParallaxView", "https://github.com/AlanQuatermain/AQGridView", "https://github.com/lukescott/DraggableCollectionView", "https://github.com/lmmenge/WatchSpringboard-Prototype", "https://github.com/heikomaass/HMLauncherView", "https://github.com/gsdios/SDCycleScrollView", "https://github.com/WenchaoD/FSPagerView", "https://github.com/mark4ever/ETTEmbedScrollView", "https://github.com/623637646/EmbeddedScrollView", "https://github.com/Jiar/SegementSlide", "https://github.com/ArchLL/HGPersonalCenterExtend"]
+}, {
+	"category": "相册选择",
+	"repos": ["https://github.com/banchichen/TZImagePickerController", "https://github.com/chiunam/CTAssetsPickerController", "https://github.com/uzysjung/UzysAssetsPickerController", "https://github.com/larcus94/ImagePickerSheetController"]
+}, {
+	"category": "相机",
+	"repos": ["https://github.com/piemonte/PBJVision", "https://github.com/rFlex/SCRecorder", "https://github.com/danielebogo/DBCamera", "https://github.com/IFTTT/FASTTTcamera", "https://github.com/dzenbot/DZNPhotoPickerController"]
+}, {
+	"category": "图片,编辑,滤镜",
+	"repos": ["https://github.com/muukii/Brightroom", "https://github.com/yackle/CLImageEditor", "https://github.com/kishikawakatsumi/PEPhotoCropEditor", "https://github.com/ruslanskorb/RSKImageCropper"]
+}, {
+	"category": "图表,表格,chart",
+	"repos": ["https://github.com/danielgindi/ios-charts", "https://github.com/kevinzhow/PNChart", "https://github.com/Jawbone/JBChartView", "https://github.com/xhacker/TEAChart", "https://github.com/Boris-Em/BEMSimpleLineGraph", "https://github.com/honcheng/iOSPlot", "https://github.com/ZhipingYang/UUChartView", "https://github.com/AAChartModel/AAChartKit"]
+}, {
+	"category": "键盘,keyboard",
+	"repos": ["https://github.com/michaeltyson/TPKeyboardAvoiding", "https://github.com/hackiftekhar/IQKeyboardManager", "https://github.com/danielamitay/DAKeyboardControl", "https://github.com/ibireme/YYKeyboardManager", "https://github.com/RxSwiftCommunity/RxKeyboard"]
+}, {
+	"category": "日历",
+	"repos": ["https://github.com/WenchaoD/FSCalendar", "https://github.com/jonathantribouharet/JTCalendar", "https://github.com/erichoracek/MSCollectionViewCalendarLayout", "https://github.com/puls/objc-TimesSquare", "https://github.com/k06a/ABCalendarPicker", "https://github.com/klazuka/Kal", "https://github.com/jivesoftware/PDTSimpleCalendar", "https://github.com/Mozharovsky/CVCalendar"]
+}, {
+	"category": "毛玻璃,背景模糊,blur",
+	"repos": ["https://github.com/nicklockwood/FXBlurView", "https://github.com/JagCesar/iOS-blur"]
+}, {
+	"category": "button,switch,Slider,PageControl",
+	"repos": ["https://github.com/victorBaro/VBFPopFlatButton", "https://github.com/robb/hamburger-button", "https://github.com/nghialv/MaterialKit", "https://github.com/zoonooz/ZFRippleButton", "https://github.com/bfeher/BFPaperButton", "https://github.com/ole/OBShapedButton", "https://github.com/nealyoung/NYSegmentedControl", "https://github.com/Ramotion/paper-switch", "https://github.com/andreamazz/ViralSwitch", "https://github.com/alskipp/ASValueTrackingSlider", "https://github.com/TBXark/TKRubberIndicator", "https://github.com/Spaceman-Labs/SMPageControl", "https://github.com/nicklockwood/FXPageControl"]
+}, {
+	"category": "徽章,badge,通知",
+	"repos": ["https://github.com/cwRichardKim/RKNotificationHub", "https://github.com/tmdvs/TDBadgedCell", "https://github.com/TanguyAladenise/BBBadgeBarButtonItem", "https://github.com/JaviSoto/JSBadgeView", "https://github.com/robbdimitrov/RDVTabBarController"]
+}, {
+	"category": "时间选择,datePicker",
+	"repos": ["https://github.com/skywinder/ActionSheetPicker-3.0", "https://github.com/CooperRS/RMDateSelectionViewController"]
+}, {
+	"category": "人脉选择,标签",
+	"repos": ["https://github.com/tristanhimmelman/THContactPicker", "https://github.com/Citrrus/MBContactPicker"]
+}, {
+	"category": "动态图",
+	"repos": ["https://github.com/Flipboard/FLAnimatedImage", "https://github.com/liyong03/YLGIFImage", "https://github.com/ibireme/YYImage", "https://github.com/airbnb/lottie-ios"]
+}, {
+	"category": "浏览器,browser,web,UIWebView,WKWebView",
+	"repos": ["https://github.com/TransitApp/SVWebViewController", "https://github.com/TimOliver/TOWebViewController", "https://github.com/dzenbot/DZNWebViewController", "https://github.com/Roxasora/RxWebViewController", "https://github.com/ninjinkun/NJKWebViewProgress"]
+}, {
+	"category": "地图,map",
+	"repos": ["https://github.com/choefele/CCHMapClusterController", "https://github.com/applidium/ADClusterMapView", "https://github.com/itsbonczek/kingpin", "https://github.com/bigfish24/ABFRealmMapView", "https://github.com/ArthurGuibert/FSInteractiveMap"]
+}, {
+	"category": "布局",
+	"repos": ["https://github.com/vislyhq/stretch", "https://github.com/zhenglibao/FlexLib", "https://github.com/SnapKit/Masonry", "https://github.com/facebook/yoga", "https://github.com/layoutBox/FlexLayout", "https://github.com/linkedin/LayoutKit", "https://github.com/forkingdog/UITableView-FDTemplateLayoutCell", "https://github.com/AugustRush/UICollectionView-ARDynamicHeightLayoutCell", "https://github.com/forkingdog/UIView-FDCollapsibleConstraints", "https://github.com/PureLayout/PureLayout", "https://github.com/SnapKit/SnapKit", "https://github.com/robb/Cartography", "https://github.com/gsdios/SDAutoLayout", "https://github.com/youngsoft/MyLinearLayout"]
+}, {
+	"category": "UIStackView",
+	"repos": ["https://github.com/oarrabi/OAStackView", "https://github.com/forkingdog/FDStackView", "https://github.com/tomvanzummeren/TZStackView"]
+}, {
+	"category": "动画",
+	"repos": ["https://github.com/facebook/pop", "https://github.com/matthewcheok/POP-MCAnimate", "https://github.com/schneiderandre/popping", "https://github.com/hfossli/AGGeometryKit-POP", "https://github.com/lkzhao/Hero", "https://github.com/MengTo/Spring", "https://github.com/jhurray/JHChainableAnimations", "https://github.com/Draveness/DKChainableAnimationKit", "https://github.com/icanzilb/EasyAnimation", "https://github.com/CanvasPod/Canvas", "https://github.com/fastred/MotionBlur", "https://github.com/adad184/MMTweenAnimation", "https://github.com/haaakon/SingleLineShakeAnimation", "https://github.com/marcosgriselli/ViewAnimator"]
+}, {
+	"category": "基础,综合",
+	"repos": ["https://github.com/CosmicMind/Material", "https://github.com/Grouper/FlatUIKit", "https://github.com/youknowone/UI7Kit", "https://github.com/tombenner/nui", "https://github.com/ViccAlexander/Chameleon", "https://github.com/bennyguitar/Colours", "https://github.com/material-components/material-components-ios"]
+}, {
+	"category": "用户指引,聚光灯,提示,浮层,引导,mark",
+	"repos": ["https://github.com/ephread/Instructions", "https://github.com/workshirt/WSCoachMarksView", "https://github.com/leverdeterre/JMHoledView"]
+}, {
+	"category": "表单,form",
+	"repos": ["https://github.com/nicklockwood/FXForms", "https://github.com/xmartlabs/Eureka"]
+}, {
+	"category": "全景,VR",
+	"repos": ["https://github.com/robbykraft/Panorama", "https://github.com/zhudongyong/Panorama", "https://github.com/ashqal/MD360Player4iOS", "https://github.com/hanton/HTY360Player", "https://github.com/chroman/CRMotionView", "https://github.com/subjc/SubjectiveCPhotoPanner"]
+}, {
+	"category": "SVG",
+	"repos": ["https://github.com/exyte/Macaw", "https://github.com/SVGKit/SVGKit", "https://github.com/mchoe/SwiftSVG"]
+}, {
+	"category": "其他",
+	"repos": ["https://github.com/MaximKotliar/Bartinter", "https://github.com/Ideon/SmudgeKit", "https://github.com/Augustyniak/RATreeView", "https://github.com/Ciechan/BCMeshTransformView", "https://github.com/honkmaster/TTOpenInAppActivity", "https://github.com/dzenbot/DZNEmptyDataSet", "https://github.com/erndev/EDStarRating", "https://github.com/nicklockwood/FXImageView", "https://github.com/shu223/iOS7-Sampler", "https://github.com/NJHu/iOSProject", "https://github.com/KMindeguia/movies", "https://github.com/andreamazz/SubtleVolume", "https://github.com/Draveness/DKNightVersion", "https://github.com/unash/BarrageRenderer"]
+}]

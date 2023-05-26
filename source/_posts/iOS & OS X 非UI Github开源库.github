@@ -1,0 +1,480 @@
+---
+title: iOS & OS X 非UI Github开源库
+categories:
+  - iOS
+tags:
+  - iOS
+  - OS X
+  - github
+  - 开源
+  - object-c
+  - swift
+date: 2015-11-28 00:00:00
+sticky: 80
+---
+
+[
+    {
+        "category": "响应式编程&Promise&异步",
+        "repos": [
+            "https://github.com/ReactiveCocoa/ReactiveCocoa",
+            "https://github.com/leichunfeng/MVVMReactiveCocoa",
+            "https://github.com/ashfurrow/C-41",
+            "https://github.com/jspahrsummers/GroceryList",
+            "https://github.com/ashfurrow/FunctionalReactivePixels",
+            "https://github.com/bawn/RAC-Demo",
+            "https://github.com/lzyy/bizhi",
+            "https://github.com/olegam/RACCommandExample",
+            "https://github.com/ReactiveCocoa/ReactiveViewModel",
+            "https://github.com/ReactiveCocoa/ReactiveCocoaLayout",
+            "https://github.com/CodaFi/AFNetworking-RACExtensions",
+            "https://github.com/ReactiveX/RxSwift",
+            "https://github.com/sergdort/CleanArchitectureRxSwift",
+            "https://github.com/BoltsFramework/Bolts-iOS",
+            "https://github.com/mxcl/PromiseKit",
+            "https://github.com/zwaldowski/BlocksKit",
+            "https://github.com/google/promises",
+            "https://github.com/yulingtianxia/MessageThrottle",
+            "https://github.com/alibaba/coobjc",
+            "https://github.com/belozierov/SwiftCoroutine",
+            "https://github.com/ReSwift/ReSwift"
+        ]
+    },
+    {
+        "category": "依赖注入，控制反转，dependency injection",
+        "repos": [
+            "https://github.com/Swinject/Swinject",
+            "https://github.com/appsquickly/Typhoon",
+            "https://github.com/atomicobject/objection"
+        ]
+    },
+    {
+        "category": "网络，Networking",
+        "repos": [
+            "https://github.com/AFNetworking/AFNetworking",
+            "https://github.com/yuantiku/YTKNetwork",
+            "https://github.com/Alamofire/Alamofire",
+            "https://github.com/RxSwiftCommunity/RxAlamofire",
+            "https://github.com/Moya/Moya",
+            "https://github.com/robbiehanson/CocoaAsyncSocket",
+            "https://github.com/square/SocketRocket",
+            "https://github.com/robbiehanson/XMPPFramework",
+            "https://github.com/robbiehanson/CocoaHTTPServer",
+            "https://github.com/octokit/octokit.objc",
+            "https://github.com/tonymillion/Reachability",
+            "https://github.com/ashleymills/Reachability.swift",
+            "https://github.com/dustturtle/RealReachability",
+            "https://github.com/Yeatse/NSURLProtocol-WebKitSupport",
+            "https://github.com/kaishin/ImageScout"
+        ]
+    },
+    {
+        "category": "图片请求缓存",
+        "repos": [
+            "https://github.com/rs/SDWebImage",
+            "https://github.com/Alamofire/AlamofireImage",
+            "https://github.com/ibireme/YYWebImage",
+            "https://github.com/pinterest/PINRemoteImage",
+            "https://github.com/onevcat/Kingfisher",
+            "https://github.com/kean/Nuke"
+        ]
+    },
+    {
+        "category": "蓝牙,Bluetooth",
+        "repos": [
+            "https://github.com/ohwutup/OWUProximityManager",
+            "https://github.com/rasmusth/BluetoothKit",
+            "https://github.com/coolnameismy/BabyBluetooth"
+        ]
+    },
+    {
+        "category": "数据持久化",
+        "repos": [
+            "https://github.com/magicalpanda/MagicalRecord",
+            "https://github.com/gangverk/GVUserDefaults",
+            "https://github.com/radex/SwiftyUserDefaults",
+            "https://github.com/ccgus/fmdb",
+            "https://github.com/stephencelis/SQLite.swift",
+            "https://github.com/yapstudios/YapDatabase",
+            "https://github.com/realm/realm-cocoa",
+            "https://github.com/JohnEstropia/CoreStore",
+            "https://github.com/soffes/sskeychain",
+            "https://github.com/kishikawakatsumi/UICKeyChainStore",
+            "https://github.com/granoff/Lockbox",
+            "https://github.com/square/Valet",
+            "https://github.com/kishikawakatsumi/KeychainAccess",
+            "https://github.com/terhechte/corevalue"
+        ]
+    },
+    {
+        "category": "JSON,Model,转换",
+        "repos": [
+            "https://github.com/Mantle/Mantle",
+            "https://github.com/Mantle/MTLManagedObjectAdapter",
+            "https://github.com/icanzilb/JSONModel",
+            "https://github.com/CoderMJLee/MJExtension",
+            "https://github.com/ibireme/YYModel",
+            "https://github.com/thoughtbot/argo",
+            "https://github.com/SwiftyJSON/SwiftyJSON",
+            "https://github.com/tristanhimmelman/ObjectMapper",
+            "https://github.com/alibaba/HandyJSON",
+            "https://github.com/marksands/BetterCodable",
+            "https://github.com/Flight-School/AnyCodable",
+            "https://github.com/JohnSundell/Codextended"
+        ]
+    },
+    {
+        "category": "XML,HTML,MarkDown,解析",
+        "repos": [
+            "https://github.com/topfunky/hpple",
+            "https://github.com/mattt/Ono",
+            "https://github.com/mdiep/MMMarkdown"
+        ]
+    },
+    {
+        "category": "日志,log",
+        "repos": [
+            "https://github.com/CocoaLumberjack/CocoaLumberjack",
+            "https://github.com/marcoarment/BugshotKit",
+            "https://github.com/fpillet/NSLogger",
+            "https://github.com/bitstadium/QuincyKit",
+            "https://github.com/kstenerud/KSCrash"
+        ]
+    },
+    {
+        "category": "缓存,Cache",
+        "repos": [
+            "https://github.com/tumblr/TMCache",
+            "https://github.com/Haneke/HanekeSwift",
+            "https://github.com/enormego/EGOCache",
+            "https://github.com/ibireme/YYCache",
+            "https://github.com/pinterest/PINCache",
+            "https://github.com/kean/DFImageManager",
+            "https://github.com/path/FastImageCache"
+        ]
+    },
+    {
+        "category": "调试,Debug,性能,APM",
+        "repos": [
+            "https://github.com/didi/DiDiPrism",
+            "https://github.com/AliSoftware/OHHTTPStubs",
+            "https://github.com/netguru/ResponseDetective",
+            "https://github.com/Flipboard/FLEX",
+            "https://github.com/zixun/GodEye",
+            "https://github.com/dani-gavrilov/GDPerformanceView-Swift",
+            "https://github.com/dani-gavrilov/GDPerformanceView",
+            "https://github.com/glock45/iOS-Hierarchy-Viewer",
+            "https://github.com/facebook/Tweaks",
+            "https://github.com/tapwork/HeapInspector-for-iOS",
+            "https://github.com/Zepo/MLeaksFinder",
+            "https://github.com/facebook/FBRetainCycleDetector",
+            "https://github.com/facebook/FBMemoryProfiler",
+            "https://github.com/facebookarchive/FBAllocationTracker",
+            "https://github.com/Tencent/OOMDetector",
+            "https://github.com/square/PonyDebugger",
+            "https://github.com/kiwi-bdd/Kiwi",
+            "https://github.com/KnuffApp/Knuff",
+            "https://github.com/tsif/pu.sh",
+            "https://github.com/nomad/houston",
+            "https://github.com/kconner/KMCGeigerCounter",
+            "https://github.com/RolandasRazma/RRFPSBar",
+            "https://github.com/johnno1962/Xtrace",
+            "https://github.com/johnno1962/SwiftTrace",
+            "https://github.com/erikdoe/ocmock",
+            "https://github.com/google/earlgrey",
+            "https://github.com/MobileNativeFoundation/bluepill",
+            "https://github.com/kif-framework/KIF",
+            "https://github.com/nst/objc_dep",
+            "https://github.com/Tencent/GT",
+            "https://github.com/everettjf/AppleTrace",
+            "https://github.com/maniackk/TimeProfiler",
+            "https://github.com/QiShare/Qi_ObjcMsgHook",
+            "https://github.com/Tencent/matrix",
+            "https://github.com/meitu/MTHawkeye",
+            "https://github.com/wojteklu/Watchdog",
+            "https://github.com/aozhimin/iOS-Monitor-Platform"
+        ]
+    },
+    {
+        "category": "测试, test",
+        "repos": [
+            "https://github.com/Brightify/Cuckoo"
+        ]
+    },
+    {
+        "category": "库管理,开源代码管理",
+        "repos": [
+            "https://github.com/CocoaPods/CocoaPods",
+            "https://github.com/CocoaPods/cocoapods-deintegrate",
+            "https://github.com/Carthage/Carthage"
+        ]
+    },
+    {
+        "category": "runtime, Hook, 热修复, hot fix, Dynamic",
+        "repos": [
+            "https://github.com/623637646/SwiftHook",
+            "https://github.com/steipete/Aspects",
+            "https://github.com/steipete/InterposeKit",
+            "https://github.com/eleme/Stinger",
+            "https://github.com/larksuite/SDMagicHook",
+            "https://github.com/rpetrich/CaptainHook",
+            "https://github.com/mikeash/MABlockClosure",
+            "https://github.com/yulingtianxia/BlockHook",
+            "https://github.com/mikeash/MAObjCRuntime",
+            "https://github.com/rentzsch/jrswizzle",
+            "https://github.com/rabovik/RSSwizzle",
+            "https://github.com/facebook/fishhook",
+            "https://github.com/libffi/libffi",
+            "https://github.com/SatanWoo/TrampolineHook",
+            "https://github.com/rentzsch/mach_override",
+            "https://github.com/richardjrossiii/mach_override_example",
+            "https://github.com/bang590/JSPatch",
+            "https://github.com/alibaba/wax",
+            "https://github.com/nst/iOS-Runtime-Headers",
+            "https://github.com/nst/RuntimeBrowser",
+            "https://github.com/jspahrsummers/libextobjc",
+            "https://github.com/Tricertops/Typed",
+            "https://github.com/rentzsch/mach_inject",
+            "https://github.com/ebf/CTObjectiveCRuntimeAdditions",
+            "https://github.com/wickwirew/Runtime",
+            "https://github.com/frida/frida",
+            "https://github.com/maniackk/KKMagicHook",
+            "https://github.com/jmpews/Dobby",
+            "https://github.com/johnno1962/InjectionIII",
+            "https://github.com/marmelroy/ObjectiveKit",
+            "https://github.com/yangyangFeng/TTPatch",
+            "https://github.com/lilidan/OCEval",
+            "https://github.com/YPLiang19/Mango",
+            "https://github.com/SilverFruity/OCRunner",
+            "https://github.com/mmin18/WaxPatch",
+            "https://github.com/letqingbin/DynamicOC",
+            "https://github.com/mhdhejazi/Dynamic",
+            "https://github.com/czqasngit/objc_msgSend_hook"
+        ]
+    },
+    {
+        "category": "逆向",
+        "repos": [
+            "https://github.com/nygard/class-dump",
+            "https://github.com/Urinx/iOSAppHook",
+            "https://github.com/DanTheMan827/ios-app-signer",
+            "https://github.com/tobefuturer/restore-symbol",
+            "https://github.com/AloneMonkey/MonkeyDev",
+            "https://github.com/Naituw/IPAPatch",
+            "https://github.com/alexzielenski/optool"
+        ]
+    },
+    {
+        "category": "安全,加密,混淆",
+        "repos": [
+            "https://github.com/Polidea/ios-class-guard",
+            "https://github.com/danleechina/mixplaintext",
+            "https://github.com/UrbanApps/UAObfuscatedString",
+            "https://github.com/lyzz0612/iosMixTools"
+        ]
+    },
+    {
+        "category": "crash保护,runtime",
+        "repos": [
+            "https://github.com/chenfanfang/AvoidCrash",
+            "https://github.com/ValiantCat/XXShield",
+            "https://github.com/JJMM/SafeKit",
+            "https://github.com/jasenhuang/NSObjectSafe",
+            "https://github.com/lsmakethebest/LSSafeProtector",
+            "https://github.com/qiyer/QYCrashProtector",
+            "https://github.com/jezzmemo/JJException"
+        ]
+    },
+    {
+        "category": "设备信息",
+        "repos": [
+            "https://github.com/dennisweissmann/DeviceKit",
+            "https://github.com/Shmoopi/iOS-System-Services",
+            "https://github.com/intuit/LocationManager",
+            "https://github.com/erica/uidevice-extension",
+            "https://github.com/andrealufino/ALSystemUtilities",
+            "https://github.com/heardrwt/RHAddressBook"
+        ]
+    },
+    {
+        "category": "应用操作",
+        "repos": [
+            "https://github.com/arashpayan/appirater",
+            "https://github.com/nicklockwood/iRate",
+            "https://github.com/nicklockwood/iVersion",
+            "https://github.com/ArtSabintsev/Harpy",
+            "https://github.com/bitstadium/HockeyKit",
+            "https://github.com/MugunthKumar/MKStoreKit",
+            "https://github.com/bizz84/SwiftyStoreKit",
+            "https://github.com/intentkit/IntentKit",
+            "https://github.com/danielamitay/iHasApp",
+            "https://github.com/clusterinc/ClusterPrePermissions",
+            "https://github.com/nickoneill/PermissionScope",
+            "https://github.com/danielebogo/DBPrivacyHelper"
+        ]
+    },
+    {
+        "category": "图片处理",
+        "repos": [
+            "https://github.com/BradLarson/GPUImage",
+            "https://github.com/BradLarson/GPUImage2",
+            "https://github.com/BradLarson/GPUImage3",
+            "https://github.com/TinyCrayon/TinyCrayon-iOS-SDK",
+            "https://github.com/Nyx0uf/NYXImagesKit",
+            "https://github.com/pixelogik/ColorCube",
+            "https://github.com/jathu/UIImageColors",
+            "https://github.com/yamoridon/ColorThiefSwift",
+            "https://github.com/koher/swift-image",
+            "https://github.com/skyfe79/SwiftImageProcessing"
+        ]
+    },
+    {
+        "category": "日期,格式化",
+        "repos": [
+            "https://github.com/mattt/FormatterKit",
+            "https://github.com/MatthewYork/DateTools",
+            "https://github.com/kevinlawler/NSDate-TimeAgo",
+            "https://github.com/erica/NSDate-Extensions",
+            "https://github.com/naoty/Timepiece",
+            "https://github.com/luximetr/AnyFormatKit"
+        ]
+    },
+    {
+        "category": "声音",
+        "repos": [
+            "https://github.com/TheAmazingAudioEngine/TheAmazingAudioEngine",
+            "https://github.com/syedhali/EZAudio",
+            "https://github.com/douban/DOUAudioStreamer",
+            "https://github.com/Aufree/ESTMusicPlayer",
+            "https://github.com/jessesquires/JSQSystemSoundPlayer",
+            "https://github.com/mattgallagher/AudioStreamer"
+        ]
+    },
+    {
+        "category": "视频",
+        "repos": [
+            "https://github.com/Bilibili/ijkplayer",
+            "https://github.com/36Kr-Mobile/KRVideoPlayer",
+            "https://github.com/kolyvan/kxmovie"
+        ]
+    },
+    {
+        "category": "相机扫描,二维码",
+        "repos": [
+            "https://github.com/mikebuss/MTBBarcodeScanner",
+            "https://github.com/card-io/card.io-iOS-SDK",
+            "https://github.com/fukuchi/libqrencode",
+            "https://github.com/EFPrefix/EFQRCode"
+        ]
+    },
+    {
+        "category": "Hybrid app,混合应用",
+        "repos": [
+            "https://github.com/facebook/react-native",
+            "https://github.com/necolas/react-native-web",
+            "https://github.com/ele828/react-native-guide",
+            "https://github.com/NativeScript/NativeScript",
+            "https://github.com/driftyco/ionic",
+            "https://github.com/gavinkwoe/BeeFramework",
+            "https://github.com/hackers-painters/samurai-native"
+        ]
+    },
+    {
+        "category": "资源文件",
+        "repos": [
+            "https://github.com/mac-cain13/R.swift",
+            "https://github.com/SwiftGen/SwiftGen"
+        ]
+    },
+    {
+        "category": "文件，IO，File",
+        "repos": [
+            "https://github.com/krzysztofzablocki/KZFileWatchers",
+            "https://github.com/njdehoog/Witness",
+            "https://github.com/daniel-pedersen/SKQueue",
+            "https://github.com/tblank555/iMonitorMyFiles"
+        ]
+    },
+    {
+        "category": "国际化, 多语言, Localization",
+        "repos": [
+            "https://github.com/marmelroy/Localize-Swift",
+            "https://github.com/AlexanderZaytsev/react-native-i18n",
+            "https://github.com/willpowell8/LocalizationKit_iOS"
+        ]
+    },
+    {
+        "category": "加密",
+        "repos": [
+            "https://github.com/kelp404/CocoaSecurity",
+            "https://github.com/RNCryptor/RNCryptor",
+            "https://github.com/krzyzanowskim/CryptoSwift"
+        ]
+    },
+    {
+        "category": "路由",
+        "repos": [
+            "https://github.com/Huohua/HHRouter",
+            "https://github.com/joeldev/JLRoutes",
+            "https://github.com/button/DeepLinkKit",
+            "https://github.com/devxoul/URLNavigator"
+        ]
+    },
+    {
+        "category": "Tracking,埋点,曝光,用户追踪",
+        "repos": [
+            "https://github.com/alibaba/TMViewTrackerSDK",
+            "https://github.com/623637646/ExposureKit"
+        ]
+    },
+    {
+        "category": "Category,Categories",
+        "repos": [
+            "https://github.com/shaojiankui/JKCategories",
+            "https://github.com/ibireme/YYCategories",
+            "https://github.com/SwifterSwift/SwifterSwift",
+            "https://github.com/lianchengjiang/LcCategoryProperty"
+        ]
+    },
+    {
+        "category": "元编程,Meta-programming",
+        "repos": [
+            "https://github.com/krzysztofzablocki/Sourcery"
+        ]
+    },
+    {
+        "category": "爬虫, 无头浏览器,Headless,crawler,spider",
+        "repos": [
+            "https://github.com/mkoehnke/WKZombie"
+        ]
+    },
+    {
+        "category": "Property Wrappers",
+        "repos": [
+            "https://github.com/guillermomuntaner/Burritos",
+            "https://github.com/SvenTiigi/ValidatedPropertyKit",
+            "https://github.com/dreymonde/Delegated"
+        ]
+    },
+    {
+        "category": "其他,Others",
+        "repos": [
+            "https://github.com/vsouza/awesome-ios",
+            "https://github.com/marcuswestin/WebViewJavascriptBridge",
+            "https://github.com/bendytree/Objective-C-RegEx-Categories",
+            "https://github.com/leverdeterre/PermissiveResearch",
+            "https://github.com/kimziv/PinYin4Objc",
+            "https://github.com/ibireme/YYKit",
+            "https://github.com/facebook/KVOController",
+            "https://github.com/nvzqz/RandomKit",
+            "https://github.com/realm/SwiftLint",
+            "https://github.com/ProjectDent/ARKit-CoreLocation",
+            "https://github.com/raywenderlich/swift-algorithm-club",
+            "https://github.com/krzysztofzablocki/Bootstrap",
+            "https://github.com/draveness/analyze",
+            "https://github.com/rockbruno/SwiftInfo",
+            "https://github.com/623637646/AppOrderFiles",
+            "https://github.com/utmapp/UTM"
+        ]
+    }
+]
